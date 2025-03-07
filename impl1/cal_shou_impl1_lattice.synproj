@@ -1,0 +1,54 @@
+-a "MachXO2"
+-d LCMXO2-4000HC
+-t CSBGA132
+-s 4
+-frequency 200
+-optimization_goal Balanced
+-bram_utilization 100
+-ramstyle Auto
+-romstyle auto
+-dsp_utilization 100
+-use_dsp 1
+-use_carry_chain 1
+-carry_chain_length 0
+-force_gsr Auto
+-resource_sharing 1
+-propagate_constants 1
+-remove_duplicate_regs 1
+-mux_style Auto
+-max_fanout 1000
+-fsm_encoding_style Auto
+-twr_paths 3
+-fix_gated_clocks 1
+-loop_limit 1950
+
+
+
+
+-use_io_insertion 1
+-resolve_mixed_drivers 0
+-use_io_reg auto
+
+
+-lpf 1
+-p "E:/IDM_download/cal_shou"
+-ver "E:/IDM_download/cal_shou/impl1/source/char_ram.v"
+"E:/IDM_download/cal_shou/impl1/source/char_ram_16x32.v"
+"E:/IDM_download/cal_shou/impl1/source/control.v"
+"E:/IDM_download/cal_shou/impl1/source/lcd_init.v"
+"E:/IDM_download/cal_shou/impl1/source/lcd_show_char.v"
+"E:/IDM_download/cal_shou/impl1/source/lcd_write.v"
+"E:/IDM_download/cal_shou/impl1/source/show_string_number_ctrl.v"
+"E:/IDM_download/cal_shou/impl1/source/spi_lcd.v"
+"E:/IDM_download/cal_shou/impl1/source/calculator.v"
+"E:/IDM_download/cal_shou/impl1/source/command_parser.v"
+"E:/IDM_download/cal_shou/impl1/source/top.v"
+"E:/IDM_download/cal_shou/impl1/source/uart_rx.v"
+"E:/IDM_download/cal_shou/pll.v"
+-top top
+
+
+-p "E:/Diamond_3.13/diamond/3.13/ispfpga/xo2c00/data" "E:/IDM_download/cal_shou/impl1" "E:/IDM_download/cal_shou"
+
+-ngd "cal_shou_impl1.ngd"
+

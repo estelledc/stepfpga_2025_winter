@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "cal_shou_impl1.log"
+-o "cal_shou_impl1.csv"
+-pr "cal_shou_impl1.prf"

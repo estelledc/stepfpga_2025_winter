@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001781</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35901199</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/lcd_init.v(58): </Dynamic>
+            <Dynamic>lcd_init</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/lcd_init.v</Navigation>
+            <Navigation>58</Navigation>
+        </Message>
+        <Message>
+            <ID>35901199</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/lcd_init.v(67): </Dynamic>
+            <Dynamic>lcd_init</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/lcd_init.v</Navigation>
+            <Navigation>67</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/top.v(1): </Dynamic>
+            <Dynamic>top</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/top.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/top.v(19): </Dynamic>
+            <Dynamic>3</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/top.v</Navigation>
+            <Navigation>19</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/top.v(20): </Dynamic>
+            <Dynamic>2</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/top.v</Navigation>
+            <Navigation>20</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/uart_rx.v(1): </Dynamic>
+            <Dynamic>uart_rx</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/uart_rx.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/command_parser.v(1): </Dynamic>
+            <Dynamic>command_parser</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/command_parser.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/top.v(41): </Dynamic>
+            <Dynamic>1</Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>operand1</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/top.v</Navigation>
+            <Navigation>41</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/top.v(42): </Dynamic>
+            <Dynamic>1</Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>operand2</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/top.v</Navigation>
+            <Navigation>42</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/calculator.v(1): </Dynamic>
+            <Dynamic>calculator</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/calculator.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/top.v(51): </Dynamic>
+            <Dynamic>1</Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>operand1</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/top.v</Navigation>
+            <Navigation>51</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/top.v(52): </Dynamic>
+            <Dynamic>1</Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>operand2</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/top.v</Navigation>
+            <Navigation>52</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/spi_lcd.v(6): </Dynamic>
+            <Dynamic>spi_lcd</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/spi_lcd.v</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/idm_download/cal_shou/pll.v(8): </Dynamic>
+            <Dynamic>pll</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/pll.v</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/Diamond_3.13/diamond/3.13/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1124): </Dynamic>
+            <Dynamic>VLO</Dynamic>
+            <Navigation>E:/Diamond_3.13/diamond/3.13/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1124</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/Diamond_3.13/diamond/3.13/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1730): </Dynamic>
+            <Dynamic>EHXPLLJ(CLKFB_DIV=4,CLKOP_DIV=11,CLKOS_DIV=1,CLKOS2_DIV=1,CLKOS3_DIV=1,CLKOS_ENABLE=&quot;DISABLED&quot;,CLKOS2_ENABLE=&quot;DISABLED&quot;,CLKOS3_ENABLE=&quot;DISABLED&quot;,CLKOP_CPHASE=10,CLKOS_TRIM_POL=&quot;FALLING&quot;)</Dynamic>
+            <Navigation>E:/Diamond_3.13/diamond/3.13/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1730</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/lcd_write.v(11): </Dynamic>
+            <Dynamic>lcd_write</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/lcd_write.v</Navigation>
+            <Navigation>11</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/control.v(11): </Dynamic>
+            <Dynamic>control</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/control.v</Navigation>
+            <Navigation>11</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/lcd_init.v(17): </Dynamic>
+            <Dynamic>lcd_init</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/lcd_init.v</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/lcd_show_char.v(11): </Dynamic>
+            <Dynamic>lcd_show_char</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/lcd_show_char.v</Navigation>
+            <Navigation>11</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/char_ram.v(6): </Dynamic>
+            <Dynamic>char_ram</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/char_ram.v</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(1): </Dynamic>
+            <Dynamic>show_string_number_ctrl</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(93): </Dynamic>
+            <Dynamic>16</Dynamic>
+            <Dynamic>7</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v</Navigation>
+            <Navigation>93</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(100): </Dynamic>
+            <Dynamic>16</Dynamic>
+            <Dynamic>7</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v</Navigation>
+            <Navigation>100</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(102): </Dynamic>
+            <Dynamic>16</Dynamic>
+            <Dynamic>7</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v</Navigation>
+            <Navigation>102</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/top.v(65): </Dynamic>
+            <Dynamic>1</Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>num1</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/top.v</Navigation>
+            <Navigation>65</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/top.v(66): </Dynamic>
+            <Dynamic>1</Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>num2</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/top.v</Navigation>
+            <Navigation>66</Navigation>
+        </Message>
+        <Message>
+            <ID>35001714</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>gnd</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931000</ID>
+            <Severity>Error</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/top.v(45): </Dynamic>
+            <Dynamic>gnd</Dynamic>
+            <Dynamic>parser_inst</Dynamic>
+            <Dynamic>operand2[0]</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/top.v</Navigation>
+            <Navigation>45</Navigation>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>clk_c</Dynamic>
+            <Dynamic>Primary</Dynamic>
+            <Dynamic>clk</Dynamic>
+            <Dynamic>C1</Dynamic>
+            <Dynamic>Primary</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Jedecgen">
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION *NOT* controlled by xo2c00.acd ###</Dynamic>
+        </Message>
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION license_securityIP OK</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

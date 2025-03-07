@@ -1,0 +1,18 @@
+
+Lattice Place and Route Report for Design "cal_shou_impl1_map.ncd"
+Fri Mar 07 21:21:19 2025
+
+PAR: Place And Route Diamond (64-bit) 3.13.0.56.2.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF:parASE=1 cal_shou_impl1_map.ncd cal_shou_impl1.dir/5_1.ncd cal_shou_impl1.prf
+Preference file: cal_shou_impl1.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file cal_shou_impl1_map.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: 4
+Loading device for application par from file 'xo2c4000.nph' in environment: E:/Diamond_3.13/diamond/3.13/ispfpga.

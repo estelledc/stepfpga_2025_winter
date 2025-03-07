@@ -1,0 +1,365 @@
+
+Loading design for application trce from file cal_shou_impl1_map.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: 4
+Loading device for application trce from file 'xo2c4000.nph' in environment: E:/Diamond_3.13/diamond/3.13/ispfpga.
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.13.0.56.2
+Fri Mar 07 21:21:19 2025
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o cal_shou_impl1.tw1 -gui cal_shou_impl1_map.ncd cal_shou_impl1.prf 
+Design file:     cal_shou_impl1_map.ncd
+Preference file: cal_shou_impl1.prf
+Device,speed:    LCMXO2-4000HC,4
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "clk_c" 12.000000 MHz ;
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 45.930ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              parser_inst/operand2_i0  (from clk_c +)
+   Destination:    FF         Data in        alu_inst/result__i1  (to clk_c +)
+
+   Delay:              37.237ns  (53.6% logic, 46.4% route), 30 logic levels.
+
+ Constraint Details:
+
+     37.237ns physical path delay SLICE_852 to alu_inst/SLICE_164 meets
+     83.333ns delay constraint less
+      0.166ns DIN_SET requirement (totaling 83.167ns) by 45.930ns
+
+ Physical Path Details:
+
+      Data path SLICE_852 to alu_inst/SLICE_164:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452  SLICE_852.CLK to   SLICE_852.Q0 SLICE_852 (from clk_c)
+ROUTE        34   e 1.234   SLICE_852.Q0 to *t/SLICE_39.A1 operand2_0
+C1TOFCO_DE  ---     0.889 *t/SLICE_39.A1 to */SLICE_39.FCO alu_inst/SLICE_39
+ROUTE         1   e 0.001 */SLICE_39.FCO to */SLICE_38.FCI alu_inst/n12908
+FCITOFCO_D  ---     0.162 */SLICE_38.FCI to */SLICE_38.FCO alu_inst/SLICE_38
+ROUTE         1   e 0.001 */SLICE_38.FCO to */SLICE_37.FCI alu_inst/n12909
+FCITOF0_DE  ---     0.585 */SLICE_37.FCI to *t/SLICE_37.F0 alu_inst/SLICE_37
+ROUTE         9   e 1.234 *t/SLICE_37.F0 to *st/SLICE_3.B0 alu_inst/n99
+C0TOFCO_DE  ---     1.023 *st/SLICE_3.B0 to *t/SLICE_3.FCO alu_inst/SLICE_3
+ROUTE         1   e 0.001 *t/SLICE_3.FCO to *t/SLICE_2.FCI alu_inst/n12862
+FCITOF0_DE  ---     0.585 *t/SLICE_2.FCI to *st/SLICE_2.F0 alu_inst/SLICE_2
+ROUTE         1   e 1.234 *st/SLICE_2.F0 to *st/SLICE_7.C0 alu_inst/n2081
+C0TOFCO_DE  ---     1.023 *st/SLICE_7.C0 to *t/SLICE_7.FCO alu_inst/SLICE_7
+ROUTE         1   e 0.001 *t/SLICE_7.FCO to *t/SLICE_6.FCI alu_inst/n12858
+FCITOF0_DE  ---     0.585 *t/SLICE_6.FCI to *st/SLICE_6.F0 alu_inst/SLICE_6
+ROUTE        11   e 1.234 *st/SLICE_6.F0 to */SLICE_108.A1 alu_inst/n114
+C1TOFCO_DE  ---     0.889 */SLICE_108.A1 to *SLICE_108.FCO alu_inst/SLICE_108
+ROUTE         1   e 0.001 *SLICE_108.FCO to *SLICE_107.FCI alu_inst/n12867
+FCITOF0_DE  ---     0.585 *SLICE_107.FCI to */SLICE_107.F0 alu_inst/SLICE_107
+ROUTE         2   e 1.234 */SLICE_107.F0 to *t/SLICE_29.A1 alu_inst/n2077
+C1TOFCO_DE  ---     0.889 *t/SLICE_29.A1 to */SLICE_29.FCO alu_inst/SLICE_29
+ROUTE         1   e 0.001 */SLICE_29.FCO to */SLICE_28.FCI alu_inst/n12833
+FCITOF0_DE  ---     0.585 */SLICE_28.FCI to *t/SLICE_28.F0 alu_inst/SLICE_28
+ROUTE         1   e 1.234 *t/SLICE_28.F0 to *st/SLICE_8.C0 alu_inst/n1982
+C0TOFCO_DE  ---     1.023 *st/SLICE_8.C0 to *t/SLICE_8.FCO alu_inst/SLICE_8
+ROUTE         1   e 0.001 *t/SLICE_8.FCO to */SLICE_58.FCI alu_inst/n12820
+FCITOF1_DE  ---     0.643 */SLICE_58.FCI to *t/SLICE_58.F1 alu_inst/SLICE_58
+ROUTE         2   e 1.234 *t/SLICE_58.F1 to *t/SLICE_71.A0 alu_inst/n1988
+C0TOFCO_DE  ---     1.023 *t/SLICE_71.A0 to */SLICE_71.FCO alu_inst/SLICE_71
+ROUTE         1   e 0.001 */SLICE_71.FCO to */SLICE_70.FCI alu_inst/n12802
+FCITOF0_DE  ---     0.585 */SLICE_70.FCI to *t/SLICE_70.F0 alu_inst/SLICE_70
+ROUTE         1   e 1.234 *t/SLICE_70.F0 to   SLICE_917.B1 n1945
+CTOF_DEL    ---     0.495   SLICE_917.B1 to   SLICE_917.F1 SLICE_917
+ROUTE        17   e 1.234   SLICE_917.F1 to *t/SLICE_49.B1 n171
+C1TOFCO_DE  ---     0.889 *t/SLICE_49.B1 to */SLICE_49.FCO alu_inst/SLICE_49
+ROUTE         1   e 0.001 */SLICE_49.FCO to */SLICE_48.FCI alu_inst/n12899
+FCITOFCO_D  ---     0.162 */SLICE_48.FCI to */SLICE_48.FCO alu_inst/SLICE_48
+ROUTE         1   e 0.001 */SLICE_48.FCO to */SLICE_47.FCI alu_inst/n12900
+FCITOFCO_D  ---     0.162 */SLICE_47.FCI to */SLICE_47.FCO alu_inst/SLICE_47
+ROUTE         1   e 0.001 */SLICE_47.FCO to */SLICE_46.FCI alu_inst/n12901
+FCITOFCO_D  ---     0.162 */SLICE_46.FCI to */SLICE_46.FCO alu_inst/SLICE_46
+ROUTE         1   e 0.001 */SLICE_46.FCO to */SLICE_45.FCI alu_inst/n12902
+FCITOF0_DE  ---     0.585 */SLICE_45.FCI to *t/SLICE_45.F0 alu_inst/SLICE_45
+ROUTE         2   e 1.234 *t/SLICE_45.F0 to   SLICE_665.B0 n2004
+CTOF_DEL    ---     0.495   SLICE_665.B0 to   SLICE_665.F0 SLICE_665
+ROUTE        16   e 1.234   SLICE_665.F0 to *t/SLICE_75.B1 n16771
+C1TOFCO_DE  ---     0.889 *t/SLICE_75.B1 to */SLICE_75.FCO alu_inst/SLICE_75
+ROUTE         1   e 0.001 */SLICE_75.FCO to */SLICE_74.FCI alu_inst/n12886
+FCITOF0_DE  ---     0.585 */SLICE_74.FCI to *t/SLICE_74.F0 alu_inst/SLICE_74
+ROUTE         1   e 1.234 *t/SLICE_74.F0 to *t/SLICE_79.C0 alu_inst/n2047
+C0TOFCO_DE  ---     1.023 *t/SLICE_79.C0 to */SLICE_79.FCO alu_inst/SLICE_79
+ROUTE         1   e 0.001 */SLICE_79.FCO to */SLICE_78.FCI alu_inst/n12882
+FCITOF1_DE  ---     0.643 */SLICE_78.FCI to *t/SLICE_78.F1 alu_inst/SLICE_78
+ROUTE         2   e 1.234 *t/SLICE_78.F1 to *t/SLICE_59.A0 alu_inst/n2053
+C0TOFCO_DE  ---     1.023 *t/SLICE_59.A0 to */SLICE_59.FCO alu_inst/SLICE_59
+ROUTE         1   e 0.001 */SLICE_59.FCO to */SLICE_56.FCI alu_inst/n12893
+FCITOF0_DE  ---     0.585 */SLICE_56.FCI to *t/SLICE_56.F0 alu_inst/SLICE_56
+ROUTE         1   e 1.234 *t/SLICE_56.F0 to */SLICE_164.B1 n2023
+CTOOFX_DEL  ---     0.721 */SLICE_164.B1 to *LICE_164.OFX0 alu_inst/SLICE_164
+ROUTE         1   e 0.001 *LICE_164.OFX0 to *SLICE_164.DI0 alu_inst/n3949 (to clk_c)
+                  --------
+                   37.237   (53.6% logic, 46.4% route), 30 logic levels.
+
+Report:   26.736MHz is the maximum frequency for this preference.
+
+
+================================================================================
+Preference: FREQUENCY NET "spi_lcd_inst/sys_clk_50MHz" 48.000000 MHz ;
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 5.688ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              spi_lcd_inst/lcd_show_char_inst/rom_addr_i0_i1  (from spi_lcd_inst/sys_clk_50MHz +)
+   Destination:    FF         Data in        spi_lcd_inst/lcd_show_char_inst/temp_i3  (to spi_lcd_inst/sys_clk_50MHz +)
+
+   Delay:              14.979ns  (34.1% logic, 65.9% route), 10 logic levels.
+
+ Constraint Details:
+
+     14.979ns physical path delay spi_lcd_inst/lcd_show_char_inst/SLICE_117 to spi_lcd_inst/lcd_show_char_inst/SLICE_245 meets
+     20.833ns delay constraint less
+      0.166ns DIN_SET requirement (totaling 20.667ns) by 5.688ns
+
+ Physical Path Details:
+
+      Data path spi_lcd_inst/lcd_show_char_inst/SLICE_117 to spi_lcd_inst/lcd_show_char_inst/SLICE_245:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452 *SLICE_117.CLK to */SLICE_117.Q0 spi_lcd_inst/lcd_show_char_inst/SLICE_117 (from spi_lcd_inst/sys_clk_50MHz)
+ROUTE       370   e 1.234 */SLICE_117.Q0 to */SLICE_650.B1 spi_lcd_inst/lcd_show_char_inst/rom_addr_1
+CTOF_DEL    ---     0.495 */SLICE_650.B1 to */SLICE_650.F1 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/SLICE_650
+ROUTE        14   e 1.234 */SLICE_650.F1 to */SLICE_740.D0 spi_lcd_inst/lcd_show_char_inst/n16975
+CTOF_DEL    ---     0.495 */SLICE_740.D0 to */SLICE_740.F0 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/SLICE_740
+ROUTE         2   e 1.234 */SLICE_740.F0 to */SLICE_723.B1 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/n475
+CTOF_DEL    ---     0.495 */SLICE_723.B1 to */SLICE_723.F1 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/SLICE_723
+ROUTE         1   e 1.234 */SLICE_723.F1 to */SLICE_439.B1 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/n476_adj_1013
+CTOOFX_DEL  ---     0.721 */SLICE_439.B1 to *LICE_439.OFX0 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/i13557/SLICE_439
+ROUTE         1   e 1.234 *LICE_439.OFX0 to */SLICE_946.B1 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/n14901
+CTOF_DEL    ---     0.495 */SLICE_946.B1 to */SLICE_946.F1 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/SLICE_946
+ROUTE         1   e 1.234 */SLICE_946.F1 to */SLICE_381.B0 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/n14915
+CTOOFX_DEL  ---     0.721 */SLICE_381.B0 to *LICE_381.OFX0 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/i13582/SLICE_381
+ROUTE         1   e 0.001 *LICE_381.OFX0 to *SLICE_363.FXA spi_lcd_inst/lcd_show_char_inst/char_ram_inst/n14926
+FXTOOFX_DE  ---     0.241 *SLICE_363.FXA to *LICE_363.OFX1 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/i13583/SLICE_363
+ROUTE         1   e 1.234 *LICE_363.OFX1 to   SLICE_591.D1 spi_lcd_inst/lcd_show_char_inst/n14928
+CTOF_DEL    ---     0.495   SLICE_591.D1 to   SLICE_591.F1 SLICE_591
+ROUTE         1   e 1.234   SLICE_591.F1 to */SLICE_245.A1 spi_lcd_inst/lcd_show_char_inst/rom_q_3
+CTOF_DEL    ---     0.495 */SLICE_245.A1 to */SLICE_245.F1 spi_lcd_inst/lcd_show_char_inst/SLICE_245
+ROUTE         1   e 0.001 */SLICE_245.F1 to *SLICE_245.DI1 spi_lcd_inst/lcd_show_char_inst/temp_7_N_590_3 (to spi_lcd_inst/sys_clk_50MHz)
+                  --------
+                   14.979   (34.1% logic, 65.9% route), 10 logic levels.
+
+Report:   66.028MHz is the maximum frequency for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "clk_c" 12.000000 MHz ;   |   12.000 MHz|   26.736 MHz|  30  
+                                        |             |             |
+FREQUENCY NET                           |             |             |
+"spi_lcd_inst/sys_clk_50MHz" 48.000000  |             |             |
+MHz ;                                   |   48.000 MHz|   66.028 MHz|  10  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 2 clocks:
+
+Clock Domain: spi_lcd_inst/sys_clk_50MHz   Source: spi_lcd_inst/pll_u1/PLLInst_0.CLKOP   Loads: 131
+   Covered under: FREQUENCY NET "spi_lcd_inst/sys_clk_50MHz" 48.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: clk_c   Source: clk.PAD
+      Covered under: FREQUENCY NET "spi_lcd_inst/sys_clk_50MHz" 48.000000 MHz ;   Transfers: 29
+
+Clock Domain: clk_c   Source: clk.PAD   Loads: 54
+   Covered under: FREQUENCY NET "clk_c" 12.000000 MHz ;
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 2147483647 paths, 2 nets, and 7051 connections (97.75% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.13.0.56.2
+Fri Mar 07 21:21:19 2025
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o cal_shou_impl1.tw1 -gui cal_shou_impl1_map.ncd cal_shou_impl1.prf 
+Design file:     cal_shou_impl1_map.ncd
+Preference file: cal_shou_impl1.prf
+Device,speed:    LCMXO2-4000HC,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "clk_c" 12.000000 MHz ;
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.351ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              uart_rx_inst/rx_data_i0_i5  (from clk_c +)
+   Destination:    FF         Data in        uart_rx_inst/rx_data_i0_i4  (to clk_c +)
+
+   Delay:               0.332ns  (40.1% logic, 59.9% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.332ns physical path delay SLICE_300 to SLICE_300 meets
+     -0.019ns M_HLD and
+      0.000ns delay constraint requirement (totaling -0.019ns) by 0.351ns
+
+ Physical Path Details:
+
+      Data path SLICE_300 to SLICE_300:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133  SLICE_300.CLK to   SLICE_300.Q0 SLICE_300 (from clk_c)
+ROUTE         2   e 0.199   SLICE_300.Q0 to   SLICE_300.M1 uart_rx_inst/rx_data_5_adj_801 (to clk_c)
+                  --------
+                    0.332   (40.1% logic, 59.9% route), 1 logic levels.
+
+
+================================================================================
+Preference: FREQUENCY NET "spi_lcd_inst/sys_clk_50MHz" 48.000000 MHz ;
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.351ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num_FSM_i6  (from spi_lcd_inst/sys_clk_50MHz +)
+   Destination:    FF         Data in        spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num_FSM_i7  (to spi_lcd_inst/sys_clk_50MHz +)
+
+   Delay:               0.332ns  (40.1% logic, 59.9% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.332ns physical path delay spi_lcd_inst/show_string_number_ctrl_inst/SLICE_671 to spi_lcd_inst/show_string_number_ctrl_inst/SLICE_671 meets
+     -0.019ns M_HLD and
+      0.000ns delay constraint requirement (totaling -0.019ns) by 0.351ns
+
+ Physical Path Details:
+
+      Data path spi_lcd_inst/show_string_number_ctrl_inst/SLICE_671 to spi_lcd_inst/show_string_number_ctrl_inst/SLICE_671:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133 *SLICE_671.CLK to */SLICE_671.Q0 spi_lcd_inst/show_string_number_ctrl_inst/SLICE_671 (from spi_lcd_inst/sys_clk_50MHz)
+ROUTE         1   e 0.199 */SLICE_671.Q0 to */SLICE_671.M1 spi_lcd_inst/show_string_number_ctrl_inst/n746 (to spi_lcd_inst/sys_clk_50MHz)
+                  --------
+                    0.332   (40.1% logic, 59.9% route), 1 logic levels.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "clk_c" 12.000000 MHz ;   |     0.000 ns|     0.351 ns|   1  
+                                        |             |             |
+FREQUENCY NET                           |             |             |
+"spi_lcd_inst/sys_clk_50MHz" 48.000000  |             |             |
+MHz ;                                   |     0.000 ns|     0.351 ns|   1  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 2 clocks:
+
+Clock Domain: spi_lcd_inst/sys_clk_50MHz   Source: spi_lcd_inst/pll_u1/PLLInst_0.CLKOP   Loads: 131
+   Covered under: FREQUENCY NET "spi_lcd_inst/sys_clk_50MHz" 48.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: clk_c   Source: clk.PAD
+      Covered under: FREQUENCY NET "spi_lcd_inst/sys_clk_50MHz" 48.000000 MHz ;   Transfers: 29
+
+Clock Domain: clk_c   Source: clk.PAD   Loads: 54
+   Covered under: FREQUENCY NET "clk_c" 12.000000 MHz ;
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 2147483647 paths, 2 nets, and 7206 connections (99.90% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,441 @@
+synthesis:  version Diamond (64-bit) 3.13.0.56.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+Fri Mar 07 21:21:12 2025
+
+
+Command Line:  synthesis -f cal_shou_impl1_lattice.synproj -gui 
+
+Synthesis options:
+The -a option is MachXO2.
+The -s option is 4.
+The -t option is CSBGA132.
+The -d option is LCMXO2-4000HC.
+Using package CSBGA132.
+Using performance grade 4.
+                                                          
+
+##########################################################
+
+### Lattice Family : MachXO2
+
+### Device  : LCMXO2-4000HC
+
+### Package : CSBGA132
+
+### Speed   : 4
+
+##########################################################
+
+                                                          
+
+INFO - synthesis: User-Selected Strategy Settings
+Optimization goal = Balanced
+Top-level module name = top.
+Target frequency = 200.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p E:/IDM_download/cal_shou (searchpath added)
+-p E:/Diamond_3.13/diamond/3.13/ispfpga/xo2c00/data (searchpath added)
+-p E:/IDM_download/cal_shou/impl1 (searchpath added)
+-p E:/IDM_download/cal_shou (searchpath added)
+Verilog design file = E:/IDM_download/cal_shou/impl1/source/char_ram.v
+Verilog design file = E:/IDM_download/cal_shou/impl1/source/char_ram_16x32.v
+Verilog design file = E:/IDM_download/cal_shou/impl1/source/control.v
+Verilog design file = E:/IDM_download/cal_shou/impl1/source/lcd_init.v
+Verilog design file = E:/IDM_download/cal_shou/impl1/source/lcd_show_char.v
+Verilog design file = E:/IDM_download/cal_shou/impl1/source/lcd_write.v
+Verilog design file = E:/IDM_download/cal_shou/impl1/source/show_string_number_ctrl.v
+Verilog design file = E:/IDM_download/cal_shou/impl1/source/spi_lcd.v
+Verilog design file = E:/IDM_download/cal_shou/impl1/source/calculator.v
+Verilog design file = E:/IDM_download/cal_shou/impl1/source/command_parser.v
+Verilog design file = E:/IDM_download/cal_shou/impl1/source/top.v
+Verilog design file = E:/IDM_download/cal_shou/impl1/source/uart_rx.v
+Verilog design file = E:/IDM_download/cal_shou/pll.v
+NGD file = cal_shou_impl1.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file E:/Diamond_3.13/diamond/3.13/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file e:/idm_download/cal_shou/impl1/source/char_ram.v. VERI-1482
+Analyzing Verilog file e:/idm_download/cal_shou/impl1/source/char_ram_16x32.v. VERI-1482
+Analyzing Verilog file e:/idm_download/cal_shou/impl1/source/control.v. VERI-1482
+Analyzing Verilog file e:/idm_download/cal_shou/impl1/source/lcd_init.v. VERI-1482
+WARNING - synthesis: e:/idm_download/cal_shou/impl1/source/lcd_init.v(58): parameter declaration becomes local in lcd_init with formal parameter declaration list. VERI-1199
+WARNING - synthesis: e:/idm_download/cal_shou/impl1/source/lcd_init.v(67): parameter declaration becomes local in lcd_init with formal parameter declaration list. VERI-1199
+Analyzing Verilog file e:/idm_download/cal_shou/impl1/source/lcd_show_char.v. VERI-1482
+Analyzing Verilog file e:/idm_download/cal_shou/impl1/source/lcd_write.v. VERI-1482
+Analyzing Verilog file e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v. VERI-1482
+Analyzing Verilog file e:/idm_download/cal_shou/impl1/source/spi_lcd.v. VERI-1482
+Analyzing Verilog file e:/idm_download/cal_shou/impl1/source/calculator.v. VERI-1482
+Analyzing Verilog file e:/idm_download/cal_shou/impl1/source/command_parser.v. VERI-1482
+Analyzing Verilog file e:/idm_download/cal_shou/impl1/source/top.v. VERI-1482
+Analyzing Verilog file e:/idm_download/cal_shou/impl1/source/uart_rx.v. VERI-1482
+Analyzing Verilog file e:/idm_download/cal_shou/pll.v. VERI-1482
+Analyzing Verilog file E:/Diamond_3.13/diamond/3.13/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Top module name (Verilog): top
+INFO - synthesis: e:/idm_download/cal_shou/impl1/source/top.v(1): compiling module top. VERI-1018
+INFO - synthesis: e:/idm_download/cal_shou/impl1/source/uart_rx.v(1): compiling module uart_rx. VERI-1018
+INFO - synthesis: e:/idm_download/cal_shou/impl1/source/command_parser.v(1): compiling module command_parser. VERI-1018
+INFO - synthesis: e:/idm_download/cal_shou/impl1/source/calculator.v(1): compiling module calculator. VERI-1018
+INFO - synthesis: e:/idm_download/cal_shou/impl1/source/spi_lcd.v(6): compiling module spi_lcd. VERI-1018
+INFO - synthesis: e:/idm_download/cal_shou/pll.v(8): compiling module pll. VERI-1018
+INFO - synthesis: E:/Diamond_3.13/diamond/3.13/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1124): compiling module VLO. VERI-1018
+INFO - synthesis: E:/Diamond_3.13/diamond/3.13/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1730): compiling module EHXPLLJ(CLKFB_DIV=4,CLKOP_DIV=11,CLKOS_DIV=1,CLKOS2_DIV=1,CLKOS3_DIV=1,CLKOS_ENABLE="DISABLED",CLKOS2_ENABLE="DISABLED",CLKOS3_ENABLE="DISABLED",CLKOP_CPHASE=10,CLKOS_TRIM_POL="FALLING"). VERI-1018
+INFO - synthesis: e:/idm_download/cal_shou/impl1/source/lcd_write.v(11): compiling module lcd_write. VERI-1018
+INFO - synthesis: e:/idm_download/cal_shou/impl1/source/control.v(11): compiling module control. VERI-1018
+INFO - synthesis: e:/idm_download/cal_shou/impl1/source/lcd_init.v(17): compiling module lcd_init. VERI-1018
+INFO - synthesis: e:/idm_download/cal_shou/impl1/source/lcd_show_char.v(11): compiling module lcd_show_char. VERI-1018
+INFO - synthesis: e:/idm_download/cal_shou/impl1/source/char_ram.v(6): compiling module char_ram. VERI-1018
+INFO - synthesis: e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(1): compiling module show_string_number_ctrl. VERI-1018
+WARNING - synthesis: e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(93): expression size 16 truncated to fit in target size 7. VERI-1209
+WARNING - synthesis: e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(100): expression size 16 truncated to fit in target size 7. VERI-1209
+WARNING - synthesis: e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(102): expression size 16 truncated to fit in target size 7. VERI-1209
+Loading NGL library 'E:/Diamond_3.13/diamond/3.13/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'E:/Diamond_3.13/diamond/3.13/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'E:/Diamond_3.13/diamond/3.13/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'E:/Diamond_3.13/diamond/3.13/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo2c4000.nph' in environment: E:/Diamond_3.13/diamond/3.13/ispfpga.
+Package Status:                     Final          Version 1.44.
+Top-level module name = top.
+INFO - synthesis: Extracted state machine for register '\uart_rx_inst/state' with one-hot encoding
+original encoding -> new encoding (one-hot encoding)
+
+ 00 -> 0001
+
+ 01 -> 0010
+
+ 10 -> 0100
+
+ 11 -> 1000
+
+INFO - synthesis: Extracted state machine for register '\parser_inst/state' with gray encoding
+original encoding -> new encoding (gray encoding)
+
+ 00 -> 00
+
+ 01 -> 01
+
+ 10 -> 11
+
+INFO - synthesis: Extracted state machine for register '\spi_lcd_inst/lcd_write_inst/cnt1' with one-hot encoding
+original encoding -> new encoding (one-hot encoding)
+
+ 0000 -> 0000000000000001
+
+ 0001 -> 0000000000000010
+
+ 0010 -> 0000000000000100
+
+ 0011 -> 0000000000001000
+
+ 0100 -> 0000000000010000
+
+ 0101 -> 0000000000100000
+
+ 0110 -> 0000000001000000
+
+ 0111 -> 0000000010000000
+
+ 1000 -> 0000000100000000
+
+ 1001 -> 0000001000000000
+
+ 1010 -> 0000010000000000
+
+ 1011 -> 0000100000000000
+
+ 1100 -> 0001000000000000
+
+ 1101 -> 0010000000000000
+
+ 1110 -> 0100000000000000
+
+ 1111 -> 1000000000000000
+
+INFO - synthesis: Extracted state machine for register '\spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num' with one-hot encoding
+original encoding -> new encoding (one-hot encoding)
+
+ 00000 -> 00000000000000000000000000000001
+
+ 00001 -> 00000000000000000000000000000010
+
+ 00010 -> 00000000000000000000000000000100
+
+ 00011 -> 00000000000000000000000000001000
+
+ 00100 -> 00000000000000000000000000010000
+
+ 00101 -> 00000000000000000000000000100000
+
+ 00110 -> 00000000000000000000000001000000
+
+ 00111 -> 00000000000000000000000010000000
+
+ 01000 -> 00000000000000000000000100000000
+
+ 01001 -> 00000000000000000000001000000000
+
+ 01010 -> 00000000000000000000010000000000
+
+ 01011 -> 00000000000000000000100000000000
+
+ 01100 -> 00000000000000000001000000000000
+
+ 01101 -> 00000000000000000010000000000000
+
+ 01110 -> 00000000000000000100000000000000
+
+ 01111 -> 00000000000000001000000000000000
+
+ 10000 -> 00000000000000010000000000000000
+
+ 10001 -> 00000000000000100000000000000000
+
+ 10010 -> 00000000000001000000000000000000
+
+ 10011 -> 00000000000010000000000000000000
+
+ 10100 -> 00000000000100000000000000000000
+
+ 10101 -> 00000000001000000000000000000000
+
+ 10110 -> 00000000010000000000000000000000
+
+ 10111 -> 00000000100000000000000000000000
+
+ 11000 -> 00000001000000000000000000000000
+
+ 11001 -> 00000010000000000000000000000000
+
+ 11010 -> 00000100000000000000000000000000
+
+ 11011 -> 00001000000000000000000000000000
+
+ 11100 -> 00010000000000000000000000000000
+
+ 11101 -> 00100000000000000000000000000000
+
+ 11110 -> 01000000000000000000000000000000
+
+ 11111 -> 10000000000000000000000000000000
+
+INFO - synthesis: Extracted state machine for register '\spi_lcd_inst/lcd_show_char_inst/cnt_set_windows' with one-hot encoding
+original encoding -> new encoding (one-hot encoding)
+
+ 0000 -> 0000000000000001
+
+ 0001 -> 0000000000000010
+
+ 0010 -> 0000000000000100
+
+ 0011 -> 0000000000001000
+
+ 0100 -> 0000000000010000
+
+ 0101 -> 0000000000100000
+
+ 0110 -> 0000000001000000
+
+ 0111 -> 0000000010000000
+
+ 1000 -> 0000000100000000
+
+ 1001 -> 0000001000000000
+
+ 1010 -> 0000010000000000
+
+ 1011 -> 0000100000000000
+
+ 1100 -> 0001000000000000
+
+ 1101 -> 0010000000000000
+
+ 1110 -> 0100000000000000
+
+ 1111 -> 1000000000000000
+
+INFO - synthesis: Extracted state machine for register '\spi_lcd_inst/lcd_write_inst/state' with one-hot encoding
+original encoding -> new encoding (one-hot encoding)
+
+ 0001 -> 0001
+
+ 0010 -> 0010
+
+ 0100 -> 0100
+
+ 1000 -> 1000
+
+INFO - synthesis: Extracted state machine for register '\spi_lcd_inst/lcd_init_inst/state' with one-hot encoding
+original encoding -> new encoding (one-hot encoding)
+
+ 000001 -> 000001
+
+ 000010 -> 000010
+
+ 000100 -> 000100
+
+ 001000 -> 001000
+
+ 010000 -> 010000
+
+ 100000 -> 100000
+
+INFO - synthesis: Extracted state machine for register '\spi_lcd_inst/lcd_show_char_inst/state' with one-hot encoding
+original encoding -> new encoding (one-hot encoding)
+
+ 0001 -> 0001
+
+ 0010 -> 0010
+
+ 0100 -> 0100
+
+ 1000 -> 1000
+
+
+
+
+WARNING - synthesis: Bit 8 of Register \spi_lcd_inst/show_string_number_ctrl_inst/start_y is stuck at Zero
+WARNING - synthesis: Bit 7 of Register \spi_lcd_inst/show_string_number_ctrl_inst/start_y is stuck at Zero
+WARNING - synthesis: Bit 6 of Register \spi_lcd_inst/show_string_number_ctrl_inst/start_y is stuck at Zero
+WARNING - synthesis: Bit 4 of Register \spi_lcd_inst/show_string_number_ctrl_inst/start_y is stuck at Zero
+WARNING - synthesis: Bit 3 of Register \spi_lcd_inst/show_string_number_ctrl_inst/start_y is stuck at Zero
+WARNING - synthesis: Bit 2 of Register \spi_lcd_inst/show_string_number_ctrl_inst/start_y is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \spi_lcd_inst/show_string_number_ctrl_inst/start_y is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \spi_lcd_inst/show_string_number_ctrl_inst/start_y is stuck at Zero
+WARNING - synthesis: Bit 8 of Register \spi_lcd_inst/show_string_number_ctrl_inst/start_x_ is stuck at Zero
+WARNING - synthesis: Bit 6 of Register \spi_lcd_inst/show_string_number_ctrl_inst/start_x_ is stuck at Zero
+WARNING - synthesis: Bit 2 of Register \spi_lcd_inst/show_string_number_ctrl_inst/start_x_ is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \spi_lcd_inst/show_string_number_ctrl_inst/start_x_ is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \spi_lcd_inst/show_string_number_ctrl_inst/start_x_ is stuck at Zero
+Analyzing Verilog file E:/Diamond_3.13/diamond/3.13/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Analyzing Verilog file mult_8u_8u.v. VERI-1482
+WARNING - synthesis: e:/idm_download/cal_shou/impl1/source/calculator.v(26): input port a[7] is not connected on this instance. VDB-1013
+WARNING - synthesis: e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(84): Register \spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num_FSM_i9 is stuck at Zero. VDB-5013
+GSR instance connected to net rst_n_c.
+Applying 200.000000 MHz constraint to all clocks
+
+WARNING - synthesis: No user .sdc file.
+Results of NGD DRC are available in top_drc.log.
+Loading NGL library 'E:/Diamond_3.13/diamond/3.13/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'E:/Diamond_3.13/diamond/3.13/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'E:/Diamond_3.13/diamond/3.13/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'E:/Diamond_3.13/diamond/3.13/ispfpga/or5g00/data/orc5glib.ngl'...
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file cal_shou_impl1.ngd.
+
+################### Begin Area Report (top)######################
+Number of register bits => 300 of 4635 (6 % )
+AND2 => 4
+CCU2D => 149
+EHXPLLJ => 1
+FADD2B => 9
+FD1P3AX => 91
+FD1P3AY => 1
+FD1P3IX => 86
+FD1P3JX => 1
+FD1S3AX => 39
+FD1S3AY => 4
+FD1S3IX => 75
+FD1S3JX => 3
+GSR => 1
+IB => 3
+L6MUX21 => 95
+LUT4 => 1439
+MULT2 => 6
+OB => 6
+PFUMX => 299
+ROM128X1A => 4
+################### End Area Report ##################
+
+################### Begin BlackBox Report ######################
+TSALL => 1
+################### End BlackBox Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 2
+  Net : spi_lcd_inst/pll_u1/sys_clk_50MHz, loads : 204
+  Net : clk_c, loads : 98
+Clock Enable Nets
+Number of Clock Enables: 26
+Top 10 highest fanout Clock Enables:
+  Net : uart_rx_inst/clk_c_enable_60, loads : 17
+  Net : spi_lcd_inst/lcd_show_char_inst/cnt_set_windows_3__N_631, loads : 16
+  Net : spi_lcd_inst/lcd_write_inst/sys_clk_50MHz_enable_88, loads : 15
+  Net : spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_12, loads : 12
+  Net : spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_44, loads : 8
+  Net : spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_50, loads : 8
+  Net : uart_rx_inst/clk_c_enable_55, loads : 8
+  Net : uart_rx_inst/clk_c_enable_41, loads : 8
+  Net : parser_inst/clk_c_enable_20, loads : 8
+  Net : spi_lcd_inst/lcd_init_inst/sys_clk_50MHz_enable_34, loads : 6
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_0, loads : 495
+  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_3, loads : 494
+  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_4, loads : 447
+  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_2, loads : 397
+  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_1, loads : 369
+  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_5, loads : 286
+  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_6, loads : 151
+  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_7, loads : 79
+  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_8, loads : 40
+  Net : parser_inst/operand2_0, loads : 33
+################### End Clock Report ##################
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk1 [get_nets                          |             |             |
+\spi_lcd_inst/sys_clk_50MHz]            |  200.000 MHz|   66.993 MHz|    12 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets clk_c]                   |  200.000 MHz|   26.326 MHz|    37 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+2 constraints not met.
+
+
+Peak Memory Usage: 177.957  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 1.672  secs
+--------------------------------------------------------------

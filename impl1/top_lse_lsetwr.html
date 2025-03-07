@@ -1,0 +1,564 @@
+<HTML>
+<HEAD><TITLE>Lattice Synthesis Timing Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Map_Twr"></A><B><U><big>Lattice Synthesis Timing Report</big></U></B>
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Thu Mar 06 18:08:21 2025
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Design:     top
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk0 [get_nets clk_c]
+            4096 items scored, 4096 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error:  The following path violates requirements by 32.985ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3AX    CK             \parser_inst/operand2_i0  (from clk_c +)
+   Destination:    FD1P3AX    D              \alu_inst/result__i1  (to clk_c +)
+
+   Delay:                  37.825ns  (46.3% logic, 53.7% route), 37 logic levels.
+
+ Constraint Details:
+
+     37.825ns data_path \parser_inst/operand2_i0 to \alu_inst/result__i1 violates
+      5.000ns delay constraint less
+      0.160ns L_S requirement (totaling 4.840ns) by 32.985ns
+
+ Path Details: \parser_inst/operand2_i0 to \alu_inst/result__i1
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \parser_inst/operand2_i0 (from clk_c)
+Route        34   e 2.100                                  operand2[0]
+A1_TO_FCO   ---     0.827           A[2] to COUT           \alu_inst/add_515_1
+Route         1   e 0.020                                  \alu_inst/n13011
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_515_3
+Route         1   e 0.020                                  \alu_inst/n13012
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_515_5
+Route         9   e 1.920                                  \alu_inst/n92
+A1_TO_FCO   ---     0.827           B[2] to COUT           \alu_inst/add_37_rep_15_6
+Route         1   e 0.020                                  \alu_inst/n12965
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_37_rep_15_8
+Route         1   e 0.020                                  \alu_inst/n2063
+A1_TO_FCO   ---     0.827           C[2] to COUT           \alu_inst/add_37_rep_16_9
+Route         1   e 0.020                                  \alu_inst/n12961
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_37_rep_16_11
+Route        11   e 1.977                                  \alu_inst/n108
+A1_TO_FCO   ---     0.827           A[2] to COUT           \alu_inst/add_39_rep_14_1
+Route         1   e 0.020                                  \alu_inst/n12970
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_39_rep_14_3
+Route         1   e 0.020                                  \alu_inst/n12971
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_39_rep_14_5
+Route         1   e 0.020                                  \alu_inst/n12972
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_39_rep_14_7
+Route         1   e 0.020                                  \alu_inst/n12973
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_39_rep_14_9
+Route         1   e 0.020                                  \alu_inst/n12974
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_39_rep_14_11
+Route        11   e 1.977                                  \alu_inst/n127
+A1_TO_FCO   ---     0.827           A[2] to COUT           \alu_inst/add_41_rep_6_1
+Route         1   e 0.020                                  \alu_inst/n12914
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_41_rep_6_3
+Route         1   e 0.020                                  \alu_inst/n12915
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_41_rep_6_5
+Route         2   e 1.486                                  \alu_inst/n1974
+A1_TO_FCO   ---     0.827           A[2] to COUT           \alu_inst/add_43_rep_2_4
+Route         1   e 0.020                                  \alu_inst/n12903
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_43_rep_2_6
+Route         1   e 0.020                                  \alu_inst/n12904
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_43_rep_2_8
+Route         1   e 0.020                                  \alu_inst/n12905
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_43_rep_2_10
+Route         1   e 0.941                                  n1928
+LUT4        ---     0.493              B to Z              mux_954_i1_3_lut
+Route        17   e 1.819                                  n165
+A1_TO_FCO   ---     0.827           B[2] to COUT           \alu_inst/add_45_rep_8_2
+Route         1   e 0.020                                  \alu_inst/n13002
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_45_rep_8_4
+Route         1   e 0.020                                  \alu_inst/n13003
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_45_rep_8_6
+Route         1   e 0.020                                  \alu_inst/n13004
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_45_rep_8_8
+Route         1   e 0.020                                  \alu_inst/n13005
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_45_rep_8_10
+Route         2   e 1.486                                  n1987
+LUT4        ---     0.493              B to Z              mux_929_i1_3_lut_rep_146
+Route        16   e 1.815                                  n16843
+LUT4        ---     0.493              C to Z              \alu_inst/mux_46_i1_3_lut
+Route         1   e 0.941                                  \alu_inst/n201
+A1_TO_FCO   ---     0.827           A[2] to COUT           \alu_inst/add_47_rep_12_3
+Route         1   e 0.020                                  \alu_inst/n12984
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_47_rep_12_5
+Route         1   e 0.020                                  \alu_inst/n12985
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_47_rep_12_7
+Route         2   e 1.486                                  \alu_inst/n2037
+A1_TO_FCO   ---     0.827           A[2] to COUT           \alu_inst/add_49_rep_9_6
+Route         1   e 0.020                                  \alu_inst/n12999
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_49_rep_9_8
+Route         1   e 0.020                                  \alu_inst/n13000
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_49_rep_9_10
+Route         1   e 0.941                                  n1997
+LUT4        ---     0.493              A to Z              i8423_3_lut
+Route         1   e 0.020                                  n9867
+MUXL5       ---     0.233           ALUT to Z              \alu_inst/i8
+Route         1   e 0.941                                  \alu_inst/n3900
+                  --------
+                   37.825  (46.3% logic, 53.7% route), 37 logic levels.
+
+
+Error:  The following path violates requirements by 32.985ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3AX    CK             \parser_inst/operand2_i0  (from clk_c +)
+   Destination:    FD1P3AX    D              \alu_inst/result__i1  (to clk_c +)
+
+   Delay:                  37.825ns  (46.3% logic, 53.7% route), 37 logic levels.
+
+ Constraint Details:
+
+     37.825ns data_path \parser_inst/operand2_i0 to \alu_inst/result__i1 violates
+      5.000ns delay constraint less
+      0.160ns L_S requirement (totaling 4.840ns) by 32.985ns
+
+ Path Details: \parser_inst/operand2_i0 to \alu_inst/result__i1
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \parser_inst/operand2_i0 (from clk_c)
+Route        34   e 2.100                                  operand2[0]
+A1_TO_FCO   ---     0.827           A[2] to COUT           \alu_inst/add_515_1
+Route         1   e 0.020                                  \alu_inst/n13011
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_515_3
+Route         1   e 0.020                                  \alu_inst/n13012
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_515_5
+Route         9   e 1.920                                  \alu_inst/n93
+A1_TO_FCO   ---     0.827           B[2] to COUT           \alu_inst/add_37_rep_15_6
+Route         1   e 0.020                                  \alu_inst/n12965
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_37_rep_15_8
+Route         1   e 0.020                                  \alu_inst/n2063
+A1_TO_FCO   ---     0.827           C[2] to COUT           \alu_inst/add_37_rep_16_9
+Route         1   e 0.020                                  \alu_inst/n12961
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_37_rep_16_11
+Route        11   e 1.977                                  \alu_inst/n108
+A1_TO_FCO   ---     0.827           A[2] to COUT           \alu_inst/add_39_rep_14_1
+Route         1   e 0.020                                  \alu_inst/n12970
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_39_rep_14_3
+Route         1   e 0.020                                  \alu_inst/n12971
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_39_rep_14_5
+Route         1   e 0.020                                  \alu_inst/n12972
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_39_rep_14_7
+Route         1   e 0.020                                  \alu_inst/n12973
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_39_rep_14_9
+Route         1   e 0.020                                  \alu_inst/n12974
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_39_rep_14_11
+Route        11   e 1.977                                  \alu_inst/n127
+A1_TO_FCO   ---     0.827           A[2] to COUT           \alu_inst/add_41_rep_6_1
+Route         1   e 0.020                                  \alu_inst/n12914
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_41_rep_6_3
+Route         1   e 0.020                                  \alu_inst/n12915
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_41_rep_6_5
+Route         1   e 0.020                                  \alu_inst/n12916
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_41_rep_6_7
+Route         2   e 1.486                                  \alu_inst/n1972
+A1_TO_FCO   ---     0.827           A[2] to COUT           \alu_inst/add_43_rep_2_6
+Route         1   e 0.020                                  \alu_inst/n12904
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_43_rep_2_8
+Route         1   e 0.020                                  \alu_inst/n12905
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_43_rep_2_10
+Route         1   e 0.941                                  n1928
+LUT4        ---     0.493              B to Z              mux_954_i1_3_lut
+Route        17   e 1.819                                  n165
+A1_TO_FCO   ---     0.827           B[2] to COUT           \alu_inst/add_45_rep_8_2
+Route         1   e 0.020                                  \alu_inst/n13002
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_45_rep_8_4
+Route         1   e 0.020                                  \alu_inst/n13003
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_45_rep_8_6
+Route         1   e 0.020                                  \alu_inst/n13004
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_45_rep_8_8
+Route         1   e 0.020                                  \alu_inst/n13005
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_45_rep_8_10
+Route         2   e 1.486                                  n1987
+LUT4        ---     0.493              B to Z              mux_929_i1_3_lut_rep_146
+Route        16   e 1.815                                  n16843
+LUT4        ---     0.493              C to Z              \alu_inst/mux_46_i1_3_lut
+Route         1   e 0.941                                  \alu_inst/n201
+A1_TO_FCO   ---     0.827           A[2] to COUT           \alu_inst/add_47_rep_12_3
+Route         1   e 0.020                                  \alu_inst/n12984
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_47_rep_12_5
+Route         1   e 0.020                                  \alu_inst/n12985
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_47_rep_12_7
+Route         2   e 1.486                                  \alu_inst/n2037
+A1_TO_FCO   ---     0.827           A[2] to COUT           \alu_inst/add_49_rep_9_6
+Route         1   e 0.020                                  \alu_inst/n12999
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_49_rep_9_8
+Route         1   e 0.020                                  \alu_inst/n13000
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_49_rep_9_10
+Route         1   e 0.941                                  n1997
+LUT4        ---     0.493              A to Z              i8423_3_lut
+Route         1   e 0.020                                  n9867
+MUXL5       ---     0.233           ALUT to Z              \alu_inst/i8
+Route         1   e 0.941                                  \alu_inst/n3900
+                  --------
+                   37.825  (46.3% logic, 53.7% route), 37 logic levels.
+
+
+Error:  The following path violates requirements by 32.985ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3AX    CK             \parser_inst/operand2_i0  (from clk_c +)
+   Destination:    FD1P3AX    D              \alu_inst/result__i1  (to clk_c +)
+
+   Delay:                  37.825ns  (46.3% logic, 53.7% route), 37 logic levels.
+
+ Constraint Details:
+
+     37.825ns data_path \parser_inst/operand2_i0 to \alu_inst/result__i1 violates
+      5.000ns delay constraint less
+      0.160ns L_S requirement (totaling 4.840ns) by 32.985ns
+
+ Path Details: \parser_inst/operand2_i0 to \alu_inst/result__i1
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \parser_inst/operand2_i0 (from clk_c)
+Route        34   e 2.100                                  operand2[0]
+A1_TO_FCO   ---     0.827           A[2] to COUT           \alu_inst/add_515_1
+Route         1   e 0.020                                  \alu_inst/n13011
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_515_3
+Route         9   e 1.920                                  \alu_inst/n95
+A1_TO_FCO   ---     0.827           B[2] to COUT           \alu_inst/add_37_rep_15_4
+Route         1   e 0.020                                  \alu_inst/n12964
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_37_rep_15_6
+Route         1   e 0.020                                  \alu_inst/n2066
+A1_TO_FCO   ---     0.827           C[2] to COUT           \alu_inst/add_37_rep_16_7
+Route         1   e 0.020                                  \alu_inst/n12960
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_37_rep_16_9
+Route         1   e 0.020                                  \alu_inst/n12961
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_37_rep_16_11
+Route        11   e 1.977                                  \alu_inst/n108
+A1_TO_FCO   ---     0.827           A[2] to COUT           \alu_inst/add_39_rep_14_1
+Route         1   e 0.020                                  \alu_inst/n12970
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_39_rep_14_3
+Route         1   e 0.020                                  \alu_inst/n12971
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_39_rep_14_5
+Route         1   e 0.020                                  \alu_inst/n12972
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_39_rep_14_7
+Route         1   e 0.020                                  \alu_inst/n12973
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_39_rep_14_9
+Route         1   e 0.020                                  \alu_inst/n12974
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_39_rep_14_11
+Route        11   e 1.977                                  \alu_inst/n127
+A1_TO_FCO   ---     0.827           A[2] to COUT           \alu_inst/add_41_rep_6_1
+Route         1   e 0.020                                  \alu_inst/n12914
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_41_rep_6_3
+Route         1   e 0.020                                  \alu_inst/n12915
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_41_rep_6_5
+Route         1   e 0.020                                  \alu_inst/n12916
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_41_rep_6_7
+Route         2   e 1.486                                  \alu_inst/n1972
+A1_TO_FCO   ---     0.827           A[2] to COUT           \alu_inst/add_43_rep_2_6
+Route         1   e 0.020                                  \alu_inst/n12904
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_43_rep_2_8
+Route         1   e 0.020                                  \alu_inst/n12905
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_43_rep_2_10
+Route         1   e 0.941                                  n1928
+LUT4        ---     0.493              B to Z              mux_954_i1_3_lut
+Route        17   e 1.819                                  n165
+A1_TO_FCO   ---     0.827           B[2] to COUT           \alu_inst/add_45_rep_7_2
+Route         1   e 0.020                                  \alu_inst/n13007
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_45_rep_7_4
+Route         1   e 0.020                                  \alu_inst/n13008
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_45_rep_7_6
+Route         1   e 0.020                                  \alu_inst/n13009
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_45_rep_7_8
+Route         1   e 0.020                                  \alu_inst/n13010
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_45_rep_7_10
+Route         2   e 1.486                                  n1978
+LUT4        ---     0.493              A to Z              mux_929_i1_3_lut_rep_146
+Route        16   e 1.815                                  n16843
+LUT4        ---     0.493              C to Z              \alu_inst/mux_46_i1_3_lut
+Route         1   e 0.941                                  \alu_inst/n201
+A1_TO_FCO   ---     0.827           A[2] to COUT           \alu_inst/add_47_rep_12_3
+Route         1   e 0.020                                  \alu_inst/n12984
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_47_rep_12_5
+Route         1   e 0.020                                  \alu_inst/n12985
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_47_rep_12_7
+Route         2   e 1.486                                  \alu_inst/n2037
+A1_TO_FCO   ---     0.827           A[2] to COUT           \alu_inst/add_49_rep_9_6
+Route         1   e 0.020                                  \alu_inst/n12999
+FCI_TO_FCO  ---     0.157            CIN to COUT           \alu_inst/add_49_rep_9_8
+Route         1   e 0.020                                  \alu_inst/n13000
+FCI_TO_F    ---     0.598            CIN to S[2]           \alu_inst/add_49_rep_9_10
+Route         1   e 0.941                                  n1997
+LUT4        ---     0.493              A to Z              i8423_3_lut
+Route         1   e 0.020                                  n9867
+MUXL5       ---     0.233           ALUT to Z              \alu_inst/i8
+Route         1   e 0.941                                  \alu_inst/n3900
+                  --------
+                   37.825  (46.3% logic, 53.7% route), 37 logic levels.
+
+Warning: 37.985 ns is the maximum delay for this constraint.
+
+
+<A name="mtw1_rs"></A><B><U><big>Timing Report Summary</big></U></B>
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets clk_c]                   |     5.000 ns|    37.985 ns|    37 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+1 constraints not met.
+
+--------------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+--------------------------------------------------------------------------------
+\alu_inst/n108                          |      11|    4096|     99.00%
+                                        |        |        |
+\alu_inst/n3900                         |       1|    4096|     99.00%
+                                        |        |        |
+\alu_inst/n12961                        |       1|    4096|     99.00%
+                                        |        |        |
+\alu_inst/n12970                        |       1|    4096|     99.00%
+                                        |        |        |
+\alu_inst/n13011                        |       1|    4096|     99.00%
+                                        |        |        |
+n165                                    |      17|    4096|     99.00%
+                                        |        |        |
+n9867                                   |       1|    4096|     99.00%
+                                        |        |        |
+n16843                                  |      16|    4096|     99.00%
+                                        |        |        |
+operand2[0]                             |      34|    4096|     99.00%
+                                        |        |        |
+\alu_inst/n201                          |       1|    3456|     84.38%
+                                        |        |        |
+\alu_inst/n12984                        |       1|    3456|     84.38%
+                                        |        |        |
+\alu_inst/n12965                        |       1|    2766|     67.53%
+                                        |        |        |
+\alu_inst/n12964                        |       1|    2697|     65.84%
+                                        |        |        |
+\alu_inst/n12985                        |       1|    2454|     59.91%
+                                        |        |        |
+\alu_inst/n12971                        |       1|    2368|     57.81%
+                                        |        |        |
+\alu_inst/n12996                        |       1|    2219|     54.17%
+                                        |        |        |
+n2006                                   |       1|    2219|     54.17%
+                                        |        |        |
+\alu_inst/n1970                         |       2|    2199|     53.69%
+                                        |        |        |
+\alu_inst/n12917                        |       1|    2199|     53.69%
+                                        |        |        |
+\alu_inst/n13007                        |       1|    2089|     51.00%
+                                        |        |        |
+\alu_inst/n13008                        |       1|    2089|     51.00%
+                                        |        |        |
+\alu_inst/n13009                        |       1|    2089|     51.00%
+                                        |        |        |
+\alu_inst/n13010                        |       1|    2089|     51.00%
+                                        |        |        |
+n1978                                   |       2|    2089|     51.00%
+                                        |        |        |
+\alu_inst/n12905                        |       1|    2088|     50.98%
+                                        |        |        |
+n1928                                   |       1|    2088|     50.98%
+                                        |        |        |
+\alu_inst/n12916                        |       1|    2061|     50.32%
+                                        |        |        |
+\alu_inst/n12910                        |       1|    2008|     49.02%
+                                        |        |        |
+n1919                                   |       1|    2008|     49.02%
+                                        |        |        |
+\alu_inst/n13002                        |       1|    2007|     49.00%
+                                        |        |        |
+\alu_inst/n13003                        |       1|    2007|     49.00%
+                                        |        |        |
+\alu_inst/n13004                        |       1|    2007|     49.00%
+                                        |        |        |
+\alu_inst/n13005                        |       1|    2007|     49.00%
+                                        |        |        |
+n1987                                   |       2|    2007|     49.00%
+                                        |        |        |
+\alu_inst/n13000                        |       1|    1877|     45.83%
+                                        |        |        |
+n1997                                   |       1|    1877|     45.83%
+                                        |        |        |
+\alu_inst/n127                          |      11|    1792|     43.75%
+                                        |        |        |
+\alu_inst/n2035                         |       2|    1792|     43.75%
+                                        |        |        |
+\alu_inst/n12914                        |       1|    1792|     43.75%
+                                        |        |        |
+\alu_inst/n12972                        |       1|    1792|     43.75%
+                                        |        |        |
+\alu_inst/n12973                        |       1|    1792|     43.75%
+                                        |        |        |
+\alu_inst/n12974                        |       1|    1792|     43.75%
+                                        |        |        |
+\alu_inst/n12986                        |       1|    1792|     43.75%
+                                        |        |        |
+\alu_inst/n2060                         |       2|    1728|     42.19%
+                                        |        |        |
+\alu_inst/n12936                        |       1|    1728|     42.19%
+                                        |        |        |
+\alu_inst/n2064                         |       1|    1399|     34.16%
+                                        |        |        |
+\alu_inst/n13012                        |       1|    1399|     34.16%
+                                        |        |        |
+\alu_inst/n2063                         |       1|    1367|     33.37%
+                                        |        |        |
+\alu_inst/n95                           |       9|    1360|     33.20%
+                                        |        |        |
+\alu_inst/n12915                        |       1|    1348|     32.91%
+                                        |        |        |
+\alu_inst/n94                           |       9|    1337|     32.64%
+                                        |        |        |
+\alu_inst/n12960                        |       1|    1330|     32.47%
+                                        |        |        |
+\alu_inst/n2037                         |       2|    1152|     28.13%
+                                        |        |        |
+\alu_inst/n2039                         |       2|    1152|     28.13%
+                                        |        |        |
+\alu_inst/n12937                        |       1|    1152|     28.13%
+                                        |        |        |
+\alu_inst/n12995                        |       1|    1152|     28.13%
+                                        |        |        |
+\alu_inst/n12999                        |       1|    1152|     28.13%
+                                        |        |        |
+\alu_inst/n1972                         |       2|    1014|     24.76%
+                                        |        |        |
+\alu_inst/n12904                        |       1|     984|     24.02%
+                                        |        |        |
+\alu_inst/n12909                        |       1|     913|     22.29%
+                                        |        |        |
+\alu_inst/n93                           |       9|     704|     17.19%
+                                        |        |        |
+\alu_inst/n92                           |       9|     695|     16.97%
+                                        |        |        |
+\alu_inst/n2066                         |       1|     686|     16.75%
+                                        |        |        |
+\alu_inst/n2065                         |       1|     644|     15.72%
+                                        |        |        |
+\alu_inst/n12989                        |       1|     640|     15.63%
+                                        |        |        |
+\alu_inst/n1962                         |       1|     576|     14.06%
+                                        |        |        |
+\alu_inst/n1963                         |       1|     576|     14.06%
+                                        |        |        |
+\alu_inst/n1964                         |       1|     576|     14.06%
+                                        |        |        |
+\alu_inst/n1965                         |       1|     576|     14.06%
+                                        |        |        |
+\alu_inst/n2058                         |       2|     576|     14.06%
+                                        |        |        |
+\alu_inst/n12994                        |       1|     576|     14.06%
+                                        |        |        |
+\alu_inst/n12998                        |       1|     576|     14.06%
+                                        |        |        |
+\alu_inst/n12990                        |       1|     490|     11.96%
+                                        |        |        |
+\alu_inst/n12903                        |       1|     465|     11.35%
+                                        |        |        |
+\alu_inst/n1976                         |       2|     444|     10.84%
+                                        |        |        |
+\alu_inst/n1974                         |       2|     439|     10.72%
+                                        |        |        |
+\alu_inst/n12908                        |       1|     418|     10.21%
+                                        |        |        |
+--------------------------------------------------------------------------------
+
+
+<A name="mtw1_ts"></A><B><U><big>Timing summary:</big></U></B>
+---------------
+
+Timing errors: 4096  Score: 134810368
+
+Constraints cover >4294967295 paths, 2523 nets, and 7951 connections (99.8% coverage)
+
+
+Peak memory: 186433536 bytes, TRCE: 0 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 0 secs 
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>
