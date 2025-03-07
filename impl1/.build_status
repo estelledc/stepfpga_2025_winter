@@ -6,39 +6,39 @@
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
             <Task name="Bitgen" build_result="0" update_result="3" update_time="0"/>
-            <Task name="Jedecgen" build_result="0" update_result="2" update_time="1741353631"/>
+            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1741353699"/>
         </Milestone>
-        <Milestone name="Map" build_result="0" build_time="1741353632">
-            <Task name="Map" build_result="0" update_result="2" update_time="1741353632"/>
-            <Task name="MapTrace" build_result="0" update_result="2" update_time="1741353632"/>
+        <Milestone name="Map" build_result="2" build_time="1741353678">
+            <Task name="Map" build_result="2" update_result="0" update_time="1741353678"/>
+            <Task name="MapTrace" build_result="2" update_result="0" update_time="1741353679"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="PAR" build_result="0" build_time="1741353631">
-            <Task name="PAR" build_result="0" update_result="2" update_time="1741353632"/>
-            <Task name="PARTrace" build_result="0" update_result="2" update_time="1741353631"/>
+        <Milestone name="PAR" build_result="2" build_time="1741353696">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1741353696"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1741353697"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="1" build_time="1741353632">
-            <Task name="Lattice_Synthesis" build_result="1" update_result="2" update_time="1741353632"/>
-            <Task name="LSE_Compile" build_result="0" update_result="2" update_time="1741353614"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1741353677">
+            <Task name="Lattice_Synthesis" build_result="2" update_result="0" update_time="1741353677"/>
+            <Task name="LSE_Compile" build_result="2" update_result="0" update_time="1741353699"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="2" update_result="0" update_time="1741353614"/>
-            <Task name="BKM" build_result="0" update_result="2" update_time="1741353614"/>
+            <Task name="HDLE" build_result="0" update_result="2" update_time="1741353670"/>
+            <Task name="BKM" build_result="0" update_result="2" update_time="1741353670"/>
             <Task name="SSO" build_result="0" update_result="3" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="3" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Report name=".vdbs/cal_shou_impl1_map.vdb" last_build_time="1741352962" last_build_size="440378"/>
-        <Report name="cal_shou_impl1.bgn" last_build_time="1741352977" last_build_size="4484"/>
-        <Report name="cal_shou_impl1.jed" last_build_time="1741352977" last_build_size="849262"/>
-        <Report name="cal_shou_impl1.lsedata" last_build_time="1741352957" last_build_size="2971371"/>
-        <Report name="cal_shou_impl1.ncd" last_build_time="1741352974" last_build_size="1700252"/>
-        <Report name="cal_shou_impl1.ngd" last_build_time="1741352960" last_build_size="1277465"/>
-        <Report name="cal_shou_impl1.tw1" last_build_time="1741352962" last_build_size="18509"/>
-        <Report name="cal_shou_impl1.twr" last_build_time="1741352975" last_build_size="145801"/>
-        <Report name="cal_shou_impl1_map.ncd" last_build_time="1741352961" last_build_size="1171648"/>
+        <Report name=".vdbs/cal_shou_impl1_map.vdb" last_build_time="1741353678" last_build_size="440378"/>
+        <Report name="cal_shou_impl1.bgn" last_build_time="1741353699" last_build_size="4484"/>
+        <Report name="cal_shou_impl1.jed" last_build_time="1741353699" last_build_size="849262"/>
+        <Report name="cal_shou_impl1.lsedata" last_build_time="1741353673" last_build_size="2971371"/>
+        <Report name="cal_shou_impl1.ncd" last_build_time="1741353696" last_build_size="1700252"/>
+        <Report name="cal_shou_impl1.ngd" last_build_time="1741353677" last_build_size="1277465"/>
+        <Report name="cal_shou_impl1.tw1" last_build_time="1741353679" last_build_size="18509"/>
+        <Report name="cal_shou_impl1.twr" last_build_time="1741353697" last_build_size="145801"/>
+        <Report name="cal_shou_impl1_map.ncd" last_build_time="1741353678" last_build_size="1171648"/>
     </Strategy>
 </BuildStatus>
-                                                                               
+               

@@ -34,24 +34,6 @@
             <Navigation>1</Navigation>
         </Message>
         <Message>
-            <ID>35901209</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>e:/idm_download/cal_shou/impl1/source/top.v(19): </Dynamic>
-            <Dynamic>3</Dynamic>
-            <Dynamic>1</Dynamic>
-            <Navigation>e:/idm_download/cal_shou/impl1/source/top.v</Navigation>
-            <Navigation>19</Navigation>
-        </Message>
-        <Message>
-            <ID>35901209</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>e:/idm_download/cal_shou/impl1/source/top.v(20): </Dynamic>
-            <Dynamic>2</Dynamic>
-            <Dynamic>1</Dynamic>
-            <Navigation>e:/idm_download/cal_shou/impl1/source/top.v</Navigation>
-            <Navigation>20</Navigation>
-        </Message>
-        <Message>
             <ID>35901018</ID>
             <Severity>Info</Severity>
             <Dynamic>e:/idm_download/cal_shou/impl1/source/uart_rx.v(1): </Dynamic>
@@ -68,52 +50,12 @@
             <Navigation>1</Navigation>
         </Message>
         <Message>
-            <ID>35901330</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>e:/idm_download/cal_shou/impl1/source/top.v(41): </Dynamic>
-            <Dynamic>1</Dynamic>
-            <Dynamic>8</Dynamic>
-            <Dynamic>operand1</Dynamic>
-            <Navigation>e:/idm_download/cal_shou/impl1/source/top.v</Navigation>
-            <Navigation>41</Navigation>
-        </Message>
-        <Message>
-            <ID>35901330</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>e:/idm_download/cal_shou/impl1/source/top.v(42): </Dynamic>
-            <Dynamic>1</Dynamic>
-            <Dynamic>8</Dynamic>
-            <Dynamic>operand2</Dynamic>
-            <Navigation>e:/idm_download/cal_shou/impl1/source/top.v</Navigation>
-            <Navigation>42</Navigation>
-        </Message>
-        <Message>
             <ID>35901018</ID>
             <Severity>Info</Severity>
             <Dynamic>e:/idm_download/cal_shou/impl1/source/calculator.v(1): </Dynamic>
             <Dynamic>calculator</Dynamic>
             <Navigation>e:/idm_download/cal_shou/impl1/source/calculator.v</Navigation>
             <Navigation>1</Navigation>
-        </Message>
-        <Message>
-            <ID>35901330</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>e:/idm_download/cal_shou/impl1/source/top.v(51): </Dynamic>
-            <Dynamic>1</Dynamic>
-            <Dynamic>8</Dynamic>
-            <Dynamic>operand1</Dynamic>
-            <Navigation>e:/idm_download/cal_shou/impl1/source/top.v</Navigation>
-            <Navigation>51</Navigation>
-        </Message>
-        <Message>
-            <ID>35901330</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>e:/idm_download/cal_shou/impl1/source/top.v(52): </Dynamic>
-            <Dynamic>1</Dynamic>
-            <Dynamic>8</Dynamic>
-            <Dynamic>operand2</Dynamic>
-            <Navigation>e:/idm_download/cal_shou/impl1/source/top.v</Navigation>
-            <Navigation>52</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
@@ -223,39 +165,150 @@
             <Navigation>102</Navigation>
         </Message>
         <Message>
-            <ID>35901330</ID>
+            <ID>35001774</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\uart_rx_inst/state</Dynamic>
+            <Dynamic>one-hot</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001774</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\parser_inst/state</Dynamic>
+            <Dynamic>gray</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001774</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\spi_lcd_inst/lcd_write_inst/cnt1</Dynamic>
+            <Dynamic>one-hot</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001774</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num</Dynamic>
+            <Dynamic>one-hot</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001774</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\spi_lcd_inst/lcd_show_char_inst/cnt_set_windows</Dynamic>
+            <Dynamic>one-hot</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001774</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\spi_lcd_inst/lcd_write_inst/state</Dynamic>
+            <Dynamic>one-hot</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001774</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\spi_lcd_inst/lcd_init_inst/state</Dynamic>
+            <Dynamic>one-hot</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001774</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\spi_lcd_inst/lcd_show_char_inst/state</Dynamic>
+            <Dynamic>one-hot</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
             <Severity>Warning</Severity>
-            <Dynamic>e:/idm_download/cal_shou/impl1/source/top.v(65): </Dynamic>
-            <Dynamic>1</Dynamic>
             <Dynamic>8</Dynamic>
-            <Dynamic>num1</Dynamic>
-            <Navigation>e:/idm_download/cal_shou/impl1/source/top.v</Navigation>
-            <Navigation>65</Navigation>
+            <Dynamic>\spi_lcd_inst/show_string_number_ctrl_inst/start_y</Dynamic>
         </Message>
         <Message>
-            <ID>35901330</ID>
+            <ID>35001747</ID>
             <Severity>Warning</Severity>
-            <Dynamic>e:/idm_download/cal_shou/impl1/source/top.v(66): </Dynamic>
+            <Dynamic>7</Dynamic>
+            <Dynamic>\spi_lcd_inst/show_string_number_ctrl_inst/start_y</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>6</Dynamic>
+            <Dynamic>\spi_lcd_inst/show_string_number_ctrl_inst/start_y</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>4</Dynamic>
+            <Dynamic>\spi_lcd_inst/show_string_number_ctrl_inst/start_y</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>3</Dynamic>
+            <Dynamic>\spi_lcd_inst/show_string_number_ctrl_inst/start_y</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>2</Dynamic>
+            <Dynamic>\spi_lcd_inst/show_string_number_ctrl_inst/start_y</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
             <Dynamic>1</Dynamic>
-            <Dynamic>8</Dynamic>
-            <Dynamic>num2</Dynamic>
-            <Navigation>e:/idm_download/cal_shou/impl1/source/top.v</Navigation>
-            <Navigation>66</Navigation>
+            <Dynamic>\spi_lcd_inst/show_string_number_ctrl_inst/start_y</Dynamic>
         </Message>
         <Message>
-            <ID>35001714</ID>
+            <ID>35001747</ID>
             <Severity>Warning</Severity>
-            <Dynamic>gnd</Dynamic>
+            <Dynamic>0</Dynamic>
+            <Dynamic>\spi_lcd_inst/show_string_number_ctrl_inst/start_y</Dynamic>
         </Message>
         <Message>
-            <ID>35931000</ID>
-            <Severity>Error</Severity>
-            <Dynamic>e:/idm_download/cal_shou/impl1/source/top.v(45): </Dynamic>
-            <Dynamic>gnd</Dynamic>
-            <Dynamic>parser_inst</Dynamic>
-            <Dynamic>operand2[0]</Dynamic>
-            <Navigation>e:/idm_download/cal_shou/impl1/source/top.v</Navigation>
-            <Navigation>45</Navigation>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>8</Dynamic>
+            <Dynamic>\spi_lcd_inst/show_string_number_ctrl_inst/start_x_</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>6</Dynamic>
+            <Dynamic>\spi_lcd_inst/show_string_number_ctrl_inst/start_x_</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>2</Dynamic>
+            <Dynamic>\spi_lcd_inst/show_string_number_ctrl_inst/start_x_</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+            <Dynamic>\spi_lcd_inst/show_string_number_ctrl_inst/start_x_</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>0</Dynamic>
+            <Dynamic>\spi_lcd_inst/show_string_number_ctrl_inst/start_x_</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/calculator.v(26): </Dynamic>
+            <Dynamic>a[7]</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/calculator.v</Navigation>
+            <Navigation>26</Navigation>
+        </Message>
+        <Message>
+            <ID>35935013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(84): </Dynamic>
+            <Dynamic>\spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num_FSM_i9</Dynamic>
+            <Navigation>e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v</Navigation>
+            <Navigation>84</Navigation>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
         </Message>
     </Task>
     <Task name="PAR">

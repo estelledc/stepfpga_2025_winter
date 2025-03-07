@@ -22,7 +22,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 <A name="Par_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.13.0.56.2</big></U></B>
-Fri Mar 07 21:09:34 2025
+Fri Mar 07 21:21:36 2025
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -663,7 +663,7 @@ Passed: The following path meets requirements by 38.498ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              parser_inst/operand2_i1  (from clk_c +)
+   Source:         FF         Q              parser_inst/operand2_i0  (from clk_c +)
    Destination:    FF         Data in        alu_inst/result__i1  (to clk_c +)
 
    Delay:              44.669ns  (42.8% logic, 57.2% route), 30 logic levels.
@@ -680,9 +680,9 @@ Passed: The following path meets requirements by 38.498ns
       Data path SLICE_852 to alu_inst/SLICE_164:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.452    R16C21D.CLK to     R16C21D.Q1 SLICE_852 (from clk_c)
-ROUTE        22     3.893     R16C21D.Q1 to      R7C27A.B1 operand2_1
-C1TOFCO_DE  ---     0.889      R7C27A.B1 to     R7C27A.FCO alu_inst/SLICE_39
+REG_DEL     ---     0.452    R16C21D.CLK to     R16C21D.Q0 SLICE_852 (from clk_c)
+ROUTE        34     3.893     R16C21D.Q0 to      R7C27A.A1 operand2_0
+C1TOFCO_DE  ---     0.889      R7C27A.A1 to     R7C27A.FCO alu_inst/SLICE_39
 ROUTE         1     0.000     R7C27A.FCO to     R7C27B.FCI alu_inst/n12908
 FCITOFCO_D  ---     0.162     R7C27B.FCI to     R7C27B.FCO alu_inst/SLICE_38
 ROUTE         1     0.000     R7C27B.FCO to     R7C27C.FCI alu_inst/n12909
@@ -764,7 +764,7 @@ Passed: The following path meets requirements by 38.498ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              parser_inst/operand2_i0  (from clk_c +)
+   Source:         FF         Q              parser_inst/operand2_i1  (from clk_c +)
    Destination:    FF         Data in        alu_inst/result__i1  (to clk_c +)
 
    Delay:              44.669ns  (42.8% logic, 57.2% route), 30 logic levels.
@@ -781,9 +781,9 @@ Passed: The following path meets requirements by 38.498ns
       Data path SLICE_852 to alu_inst/SLICE_164:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.452    R16C21D.CLK to     R16C21D.Q0 SLICE_852 (from clk_c)
-ROUTE        34     3.893     R16C21D.Q0 to      R7C27A.A1 operand2_0
-C1TOFCO_DE  ---     0.889      R7C27A.A1 to     R7C27A.FCO alu_inst/SLICE_39
+REG_DEL     ---     0.452    R16C21D.CLK to     R16C21D.Q1 SLICE_852 (from clk_c)
+ROUTE        22     3.893     R16C21D.Q1 to      R7C27A.B1 operand2_1
+C1TOFCO_DE  ---     0.889      R7C27A.B1 to     R7C27A.FCO alu_inst/SLICE_39
 ROUTE         1     0.000     R7C27A.FCO to     R7C27B.FCI alu_inst/n12908
 FCITOFCO_D  ---     0.162     R7C27B.FCI to     R7C27B.FCO alu_inst/SLICE_38
 ROUTE         1     0.000     R7C27B.FCO to     R7C27C.FCI alu_inst/n12909
@@ -1720,7 +1720,7 @@ Constraints cover 2147483647 paths, 2 nets, and 7206 connections (99.90% coverag
 
 --------------------------------------------------------------------------------
 <A name="Par_Twr_hold"></A><B><U><big>Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.13.0.56.2</big></U></B>
-Fri Mar 07 21:09:34 2025
+Fri Mar 07 21:21:36 2025
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
