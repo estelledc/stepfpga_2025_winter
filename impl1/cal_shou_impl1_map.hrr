@@ -3,24 +3,24 @@ Report for cell top
    Instance path: top
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     916.00        100.0
-                                  LUT4	    1490.00        100.0
+                                  SLIC	     908.00        100.0
+                                  LUT4	    1473.00        100.0
                                  IOBUF	          9        100.0
                                 PFUREG	        300        100.0
                                 RIPPLE	        164        100.0
 SUB MODULES
                                   cell	      count    SLC Usage(%)
                                uart_rx	          1         4.9
-                               spi_lcd	          1        78.2
-                            calculator	          1        13.9
+                               spi_lcd	          1        78.0
                         command_parser	          1         1.2
+                            calculator	          1        14.1
 ---------------------------------------------------
 Report for cell calculator
    Instance path: top/alu_inst
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     127.67        13.9
-                                  LUT4	      41.00         2.8
+                                  SLIC	     128.25        14.1
+                                  LUT4	      41.33         2.8
                                 PFUREG	          7         2.3
                                 RIPPLE	        109        66.5
 ---------------------------------------------------
@@ -28,25 +28,25 @@ Report for cell spi_lcd
    Instance path: top/spi_lcd_inst
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     716.58        78.2
-                                  LUT4	    1357.33        91.1
+                                  SLIC	     708.17        78.0
+                                  LUT4	    1340.00        91.0
                                 PFUREG	        203        67.7
                                 RIPPLE	         35        21.3
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-               show_string_number_ctrl	          1         2.9
+               show_string_number_ctrl	          1         2.3
                                    pll	          1         0.0
                              lcd_write	          1         2.5
-                         lcd_show_char	          1        64.4
-                              lcd_init	          1         7.8
+                         lcd_show_char	          1        64.8
+                              lcd_init	          1         7.7
                                control	          1         0.6
 ---------------------------------------------------
 Report for cell show_string_number_ctrl
    Instance path: top/spi_lcd_inst/show_string_number_ctrl_inst
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      26.92         2.9
-                                  LUT4	      50.33         3.4
+                                  SLIC	      21.17         2.3
+                                  LUT4	      40.00         2.7
                                 PFUREG	         24         8.0
 ---------------------------------------------------
 Report for cell pll
@@ -66,27 +66,27 @@ Report for cell lcd_show_char
    Instance path: top/spi_lcd_inst/lcd_show_char_inst
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     590.25        64.4
-                                  LUT4	    1151.00        77.2
+                                  SLIC	     588.67        64.8
+                                  LUT4	    1147.67        77.9
                                 PFUREG	         68        22.7
                                 RIPPLE	         13         7.9
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-                              char_ram	          1        53.0
+                              char_ram	          1        54.5
 ---------------------------------------------------
 Report for cell char_ram
    Instance path: top/spi_lcd_inst/lcd_show_char_inst/char_ram_inst
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     485.67        53.0
-                                  LUT4	     975.00        65.4
+                                  SLIC	     494.75        54.5
+                                  LUT4	     992.00        67.3
 ---------------------------------------------------
 Report for cell lcd_init
    Instance path: top/spi_lcd_inst/lcd_init_inst
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      71.17         7.8
-                                  LUT4	     106.00         7.1
+                                  SLIC	      70.25         7.7
+                                  LUT4	     103.67         7.0
                                 PFUREG	         67        22.3
                                 RIPPLE	         22        13.4
 ---------------------------------------------------
@@ -94,15 +94,15 @@ Report for cell control
    Instance path: top/spi_lcd_inst/control_inst
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	       5.67         0.6
-                                  LUT4	      11.00         0.7
+                                  SLIC	       5.50         0.6
+                                  LUT4	       9.67         0.7
                                 PFUREG	         10         3.3
 ---------------------------------------------------
 Report for cell command_parser
    Instance path: top/parser_inst
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      11.42         1.2
+                                  SLIC	      11.08         1.2
                                   LUT4	      12.00         0.8
                                 PFUREG	         27         9.0
 ---------------------------------------------------
@@ -110,7 +110,7 @@ Report for cell uart_rx
    Instance path: top/uart_rx_inst
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      44.75         4.9
-                                  LUT4	      45.00         3.0
+                                  SLIC	      44.92         4.9
+                                  LUT4	      45.00         3.1
                                 PFUREG	         63        21.0
                                 RIPPLE	         20        12.2

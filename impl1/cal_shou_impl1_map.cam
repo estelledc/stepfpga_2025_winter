@@ -1,15 +1,15 @@
 [ START MERGED ]
-spi_lcd_inst/n1820 state_5
-spi_lcd_inst/show_string_number_ctrl_inst/n8390 spi_lcd_inst/show_string_number_ctrl_inst/n747
+spi_lcd_inst/show_string_number_ctrl_inst/n8295 spi_lcd_inst/show_string_number_ctrl_inst/n747
 spi_lcd_inst/lcd_write_inst/n1 spi_lcd_inst/lcd_write_inst/mosi_N_310
-spi_lcd_inst/n2137 wr_done
-spi_lcd_inst/lcd_show_char_inst/n8367 state_2_adj_1079
-spi_lcd_inst/lcd_show_char_inst/n17161 spi_lcd_inst/lcd_show_char_inst/rom_addr_5
-spi_lcd_inst/lcd_init_inst/n17143 state_4
-spi_lcd_inst/lcd_init_inst/n17148 spi_lcd_inst/state_2_adj_1075
-spi_lcd_inst/lcd_init_inst/n8368 spi_lcd_inst/lcd_init_inst/state_0
-parser_inst/n3868 state_0
+spi_lcd_inst/n2141 wr_done
+spi_lcd_inst/lcd_show_char_inst/n8272 state_2_adj_1060
+spi_lcd_inst/lcd_show_char_inst/n16957 spi_lcd_inst/lcd_show_char_inst/rom_addr_5
+spi_lcd_inst/n1817 state_5
+parser_inst/n3788 state_0
 uart_rx_inst/n100 uart_rx_inst/rx_d1
+spi_lcd_inst/lcd_init_inst/n2147 state_4
+spi_lcd_inst/lcd_init_inst/n16921 spi_lcd_inst/lcd_init_inst/state_2
+spi_lcd_inst/lcd_init_inst/n8273 spi_lcd_inst/lcd_init_inst/state_0
 [ END MERGED ]
 [ START CLIPPED ]
 GND_net
@@ -17,41 +17,33 @@ uart_rx_inst/add_39_1/S0
 uart_rx_inst/add_39_1/CI
 uart_rx_inst/add_39_17/S1
 uart_rx_inst/add_39_17/CO
-uart_rx_inst/timeout_count_839_add_4_1/S0
-uart_rx_inst/timeout_count_839_add_4_1/CI
-uart_rx_inst/timeout_count_839_add_4_21/S1
-uart_rx_inst/timeout_count_839_add_4_21/CO
+uart_rx_inst/timeout_count_843_add_4_1/S0
+uart_rx_inst/timeout_count_843_add_4_1/CI
+uart_rx_inst/timeout_count_843_add_4_21/S1
+uart_rx_inst/timeout_count_843_add_4_21/CO
 spi_lcd_inst/lcd_init_inst/add_153_1/S0
 spi_lcd_inst/lcd_init_inst/add_153_1/CI
 spi_lcd_inst/lcd_init_inst/add_153_19/S1
 spi_lcd_inst/lcd_init_inst/add_153_19/CO
-spi_lcd_inst/lcd_init_inst/cnt_150ms_844_add_4_1/S0
-spi_lcd_inst/lcd_init_inst/cnt_150ms_844_add_4_1/CI
-spi_lcd_inst/lcd_init_inst/cnt_150ms_844_add_4_23/CO
-spi_lcd_inst/lcd_show_char_inst/cnt_length_num_845_add_4_1/S0
-spi_lcd_inst/lcd_show_char_inst/cnt_length_num_845_add_4_1/CI
-spi_lcd_inst/lcd_show_char_inst/add_2423_2/S0
-spi_lcd_inst/lcd_show_char_inst/add_2423_2/CI
-spi_lcd_inst/lcd_show_char_inst/add_2423_8/CO
+spi_lcd_inst/lcd_init_inst/cnt_150ms_848_add_4_1/S0
+spi_lcd_inst/lcd_init_inst/cnt_150ms_848_add_4_1/CI
+spi_lcd_inst/lcd_init_inst/cnt_150ms_848_add_4_23/CO
+spi_lcd_inst/lcd_show_char_inst/cnt_length_num_849_add_4_1/S0
+spi_lcd_inst/lcd_show_char_inst/cnt_length_num_849_add_4_1/CI
+spi_lcd_inst/lcd_show_char_inst/cnt_length_num_849_add_4_7/CO
 spi_lcd_inst/lcd_show_char_inst/mult_30_add_1_add_2_2/S0
 spi_lcd_inst/lcd_show_char_inst/mult_30_add_1_add_2_2/CI
-spi_lcd_inst/lcd_show_char_inst/cnt_length_num_845_add_4_7/CO
 spi_lcd_inst/lcd_show_char_inst/mult_30_add_1_add_2_10/CO
-alu_inst/add_53_rep_9_2/S1
-alu_inst/add_53_rep_9_2/S0
-alu_inst/add_53_rep_9_2/CI
-alu_inst/add_53_rep_9_4/S1
-alu_inst/add_53_rep_9_4/S0
-alu_inst/add_53_rep_9_6/S1
-alu_inst/add_53_rep_9_6/S0
-alu_inst/add_53_rep_9_8/S1
-alu_inst/add_53_rep_9_8/S0
-alu_inst/add_53_rep_9_10/S1
-alu_inst/add_53_rep_9_10/CO
-alu_inst/add_49_rep_8_2/S0
-alu_inst/add_49_rep_8_2/CI
-alu_inst/add_49_rep_8_10/S1
-alu_inst/add_49_rep_8_10/CO
+spi_lcd_inst/lcd_show_char_inst/add_2343_2/S0
+spi_lcd_inst/lcd_show_char_inst/add_2343_2/CI
+spi_lcd_inst/lcd_show_char_inst/add_2343_8/CO
+alu_inst/add_43_rep_14_1/S1
+alu_inst/add_43_rep_14_1/S0
+alu_inst/add_43_rep_14_1/CI
+alu_inst/add_43_rep_14_11/S1
+alu_inst/add_43_rep_14_11/CO
+alu_inst/add_43_rep_13_2/S0
+alu_inst/add_43_rep_13_2/CI
 alu_inst/mult_8u_8u_0_mult_4_0/CO
 alu_inst/mult_8u_8u_0_mult_2_1/CO
 alu_inst/mult_8u_8u_0_mult_0_2/CO
@@ -65,12 +57,55 @@ alu_inst/mult_8u_8u_0_cin_lr_add_4/S1
 alu_inst/mult_8u_8u_0_cin_lr_add_4/S0
 alu_inst/mult_8u_8u_0_cin_lr_add_2/S1
 alu_inst/mult_8u_8u_0_cin_lr_add_2/S0
-alu_inst/add_49_rep_7_2/S0
-alu_inst/add_49_rep_7_2/CI
-alu_inst/add_45_rep_6_11/S1
-alu_inst/add_45_rep_6_11/CO
+alu_inst/add_43_rep_13_10/S1
+alu_inst/add_43_rep_13_10/CO
 alu_inst/add_47_rep_2_2/S0
 alu_inst/add_47_rep_2_2/CI
+alu_inst/add_51_rep_12_1/S1
+alu_inst/add_51_rep_12_1/S0
+alu_inst/add_51_rep_12_1/CI
+alu_inst/add_51_rep_12_11/S1
+alu_inst/add_51_rep_12_11/CO
+alu_inst/add_51_rep_11_2/S0
+alu_inst/add_51_rep_11_2/CI
+alu_inst/add_47_rep_2_10/S1
+alu_inst/add_47_rep_2_10/CO
+alu_inst/add_47_rep_1_2/S0
+alu_inst/add_47_rep_1_2/CI
+alu_inst/add_51_rep_11_10/S1
+alu_inst/add_51_rep_11_10/CO
+alu_inst/add_53_rep_10_2/S1
+alu_inst/add_53_rep_10_2/S0
+alu_inst/add_53_rep_10_2/CI
+alu_inst/add_53_rep_10_4/S1
+alu_inst/add_53_rep_10_4/S0
+alu_inst/add_47_rep_1_10/S1
+alu_inst/add_47_rep_1_10/CO
+alu_inst/add_53_rep_10_6/S1
+alu_inst/add_53_rep_10_6/S0
+alu_inst/add_53_rep_10_8/S1
+alu_inst/add_53_rep_10_8/S0
+alu_inst/add_53_rep_10_10/S1
+alu_inst/add_53_rep_10_10/CO
+alu_inst/add_53_rep_9_2/S1
+alu_inst/add_53_rep_9_2/S0
+alu_inst/add_53_rep_9_2/CI
+alu_inst/add_53_rep_9_4/S1
+alu_inst/add_53_rep_9_4/S0
+alu_inst/add_45_rep_6_11/S1
+alu_inst/add_45_rep_6_11/CO
+alu_inst/add_53_rep_9_6/S1
+alu_inst/add_53_rep_9_6/S0
+alu_inst/add_53_rep_9_8/S1
+alu_inst/add_53_rep_9_8/S0
+alu_inst/add_53_rep_9_10/S1
+alu_inst/add_53_rep_9_10/CO
+alu_inst/add_49_rep_8_2/S0
+alu_inst/add_49_rep_8_2/CI
+alu_inst/add_49_rep_8_10/S1
+alu_inst/add_49_rep_8_10/CO
+alu_inst/add_49_rep_7_2/S0
+alu_inst/add_49_rep_7_2/CI
 alu_inst/add_49_rep_7_10/S1
 alu_inst/add_49_rep_7_10/CO
 alu_inst/add_519_1/S0
@@ -79,73 +114,38 @@ alu_inst/add_519_9/S1
 alu_inst/add_519_9/CO
 alu_inst/sub_7_add_2_1/S0
 alu_inst/sub_7_add_2_1/CI
-alu_inst/add_47_rep_2_10/S1
-alu_inst/add_47_rep_2_10/CO
-alu_inst/add_47_rep_1_2/S0
-alu_inst/add_47_rep_1_2/CI
 alu_inst/sub_7_add_2_9/S0
 alu_inst/sub_7_add_2_9/CO
 alu_inst/add_45_rep_5_2/S0
 alu_inst/add_45_rep_5_2/CI
 alu_inst/add_45_rep_5_10/S1
 alu_inst/add_45_rep_5_10/CO
+alu_inst/add_5_1/S1
+alu_inst/add_5_1/S0
+alu_inst/add_5_1/CI
+alu_inst/add_5_9/S1
+alu_inst/add_5_9/CO
 alu_inst/add_38_1/S0
 alu_inst/add_38_1/CI
 alu_inst/add_38_9/CO
 alu_inst/add_41_rep_16_1/S1
 alu_inst/add_41_rep_16_1/S0
 alu_inst/add_41_rep_16_1/CI
+alu_inst/add_45_rep_6_1/S1
+alu_inst/add_45_rep_6_1/S0
+alu_inst/add_45_rep_6_1/CI
 alu_inst/add_41_rep_16_11/S1
 alu_inst/add_41_rep_16_11/CO
 alu_inst/add_41_rep_15_2/S0
 alu_inst/add_41_rep_15_2/CI
-alu_inst/add_41_rep_15_10/S1
-alu_inst/add_41_rep_15_10/CO
-alu_inst/add_43_rep_14_1/S1
-alu_inst/add_43_rep_14_1/S0
-alu_inst/add_43_rep_14_1/CI
-alu_inst/add_43_rep_14_11/S1
-alu_inst/add_43_rep_14_11/CO
-alu_inst/add_43_rep_13_2/S0
-alu_inst/add_43_rep_13_2/CI
-alu_inst/add_43_rep_13_10/S1
-alu_inst/add_43_rep_13_10/CO
-alu_inst/add_47_rep_1_10/S1
-alu_inst/add_47_rep_1_10/CO
-alu_inst/add_5_1/S1
-alu_inst/add_5_1/S0
-alu_inst/add_5_1/CI
-alu_inst/add_51_rep_12_1/S1
-alu_inst/add_51_rep_12_1/S0
-alu_inst/add_51_rep_12_1/CI
-alu_inst/add_51_rep_12_11/S1
-alu_inst/add_51_rep_12_11/CO
-alu_inst/add_51_rep_11_2/S0
-alu_inst/add_51_rep_11_2/CI
-alu_inst/add_51_rep_11_10/S1
-alu_inst/add_51_rep_11_10/CO
-alu_inst/add_5_9/S1
-alu_inst/add_5_9/CO
-alu_inst/add_45_rep_6_1/S1
-alu_inst/add_45_rep_6_1/S0
-alu_inst/add_45_rep_6_1/CI
-alu_inst/add_53_rep_10_2/S1
-alu_inst/add_53_rep_10_2/S0
-alu_inst/add_53_rep_10_2/CI
 alu_inst/mult_8u_8u_0_cin_lr_add_0/S1
 alu_inst/mult_8u_8u_0_cin_lr_add_0/S0
-alu_inst/add_53_rep_10_4/S1
-alu_inst/add_53_rep_10_4/S0
-alu_inst/add_53_rep_10_6/S1
-alu_inst/add_53_rep_10_6/S0
-alu_inst/add_53_rep_10_8/S1
-alu_inst/add_53_rep_10_8/S0
-alu_inst/add_53_rep_10_10/S1
-alu_inst/add_53_rep_10_10/CO
+alu_inst/add_41_rep_15_10/S1
+alu_inst/add_41_rep_15_10/CO
 [ END CLIPPED ]
 [ START DESIGN PREFS ]
 SCHEMATIC START ;
-# map:  version Diamond (64-bit) 3.13.0.56.2 -- WARNING: Map write only section -- Fri Mar 07 21:25:44 2025
+# map:  version Diamond (64-bit) 3.13.0.56.2 -- WARNING: Map write only section -- Fri Mar 07 21:57:03 2025
 
 SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF INBUF=ON ;
 LOCATE COMP "lcd_rst" SITE "N8" ;

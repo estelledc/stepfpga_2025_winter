@@ -90,16 +90,16 @@ always@(posedge sys_clk or negedge sys_rst_n)
         ascii_num <= 'd0;
     else if(init_done)
         case(cnt_ascii_num)
-            0 : ascii_num <= num1 + ASCII_0 + 7;  // 第一个数字
+            0 : ascii_num <= num1 + ASCII_0;  // 第一个数字
             1 : case(op_sel)
                     2'b00: ascii_num <= ASCII_PLUS;  // '+'
                     2'b01: ascii_num <= ASCII_MINUS; // '-'
                     2'b10: ascii_num <= ASCII_MULT;  // '*'
                     2'b11: ascii_num <= ASCII_DIV;   // '/'
                 endcase
-            2 : ascii_num <= num2 + ASCII_0 + 2;  // 第二个数字
+            2 : ascii_num <= num2 + ASCII_0;  // 第二个数字
             3 : ascii_num <= ASCII_EQUAL;     // '='
-            4 : ascii_num <= result + ASCII_0 + 10;// 运算结果
+            4 : ascii_num <= result + ASCII_0;// 运算结果
             default: ascii_num <= 'd0;
         endcase
 

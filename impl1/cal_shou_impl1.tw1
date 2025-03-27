@@ -13,7 +13,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.13.0.56.2
-Fri Mar 07 21:25:45 2025
+Fri Mar 07 21:32:34 2025
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -46,82 +46,82 @@ Passed: The following path meets requirements by 45.930ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              parser_inst/operand2_i0  (from clk_c +)
+   Source:         FF         Q              parser_inst/operand2_i1  (from clk_c +)
    Destination:    FF         Data in        alu_inst/result__i1  (to clk_c +)
 
    Delay:              37.237ns  (53.6% logic, 46.4% route), 30 logic levels.
 
  Constraint Details:
 
-     37.237ns physical path delay SLICE_894 to alu_inst/SLICE_164 meets
+     37.237ns physical path delay SLICE_776 to alu_inst/SLICE_164 meets
      83.333ns delay constraint less
       0.166ns DIN_SET requirement (totaling 83.167ns) by 45.930ns
 
  Physical Path Details:
 
-      Data path SLICE_894 to alu_inst/SLICE_164:
+      Data path SLICE_776 to alu_inst/SLICE_164:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.452  SLICE_894.CLK to   SLICE_894.Q0 SLICE_894 (from clk_c)
-ROUTE        34   e 1.234   SLICE_894.Q0 to *t/SLICE_74.A1 operand2_0
-C1TOFCO_DE  ---     0.889 *t/SLICE_74.A1 to */SLICE_74.FCO alu_inst/SLICE_74
-ROUTE         1   e 0.001 */SLICE_74.FCO to */SLICE_73.FCI alu_inst/n13093
-FCITOFCO_D  ---     0.162 */SLICE_73.FCI to */SLICE_73.FCO alu_inst/SLICE_73
-ROUTE         1   e 0.001 */SLICE_73.FCO to */SLICE_72.FCI alu_inst/n13094
-FCITOF0_DE  ---     0.585 */SLICE_72.FCI to *t/SLICE_72.F0 alu_inst/SLICE_72
-ROUTE         9   e 1.234 *t/SLICE_72.F0 to *t/SLICE_39.B0 alu_inst/n99
-C0TOFCO_DE  ---     1.023 *t/SLICE_39.B0 to */SLICE_39.FCO alu_inst/SLICE_39
-ROUTE         1   e 0.001 */SLICE_39.FCO to */SLICE_38.FCI alu_inst/n13047
-FCITOF0_DE  ---     0.585 */SLICE_38.FCI to *t/SLICE_38.F0 alu_inst/SLICE_38
-ROUTE         1   e 1.234 *t/SLICE_38.F0 to *t/SLICE_43.C0 alu_inst/n2077
+REG_DEL     ---     0.452  SLICE_776.CLK to   SLICE_776.Q1 SLICE_776 (from clk_c)
+ROUTE        26   e 1.234   SLICE_776.Q1 to *t/SLICE_67.B1 operand2_1
+C1TOFCO_DE  ---     0.889 *t/SLICE_67.B1 to */SLICE_67.FCO alu_inst/SLICE_67
+ROUTE         1   e 0.001 */SLICE_67.FCO to */SLICE_62.FCI alu_inst/n12791
+FCITOFCO_D  ---     0.162 */SLICE_62.FCI to */SLICE_62.FCO alu_inst/SLICE_62
+ROUTE         1   e 0.001 */SLICE_62.FCO to */SLICE_60.FCI alu_inst/n12792
+FCITOF0_DE  ---     0.585 */SLICE_60.FCI to *t/SLICE_60.F0 alu_inst/SLICE_60
+ROUTE         9   e 1.234 *t/SLICE_60.F0 to *t/SLICE_36.B0 alu_inst/n99
+C0TOFCO_DE  ---     1.023 *t/SLICE_36.B0 to */SLICE_36.FCO alu_inst/SLICE_36
+ROUTE         1   e 0.001 */SLICE_36.FCO to *SLICE_143.FCI alu_inst/n12740
+FCITOF0_DE  ---     0.585 *SLICE_143.FCI to */SLICE_143.F0 alu_inst/SLICE_143
+ROUTE         1   e 1.234 */SLICE_143.F0 to *t/SLICE_43.C0 alu_inst/n2089
 C0TOFCO_DE  ---     1.023 *t/SLICE_43.C0 to */SLICE_43.FCO alu_inst/SLICE_43
-ROUTE         1   e 0.001 */SLICE_43.FCO to */SLICE_42.FCI alu_inst/n13043
+ROUTE         1   e 0.001 */SLICE_43.FCO to */SLICE_42.FCI alu_inst/n12736
 FCITOF0_DE  ---     0.585 */SLICE_42.FCI to *t/SLICE_42.F0 alu_inst/SLICE_42
-ROUTE        11   e 1.234 *t/SLICE_42.F0 to *t/SLICE_36.A1 alu_inst/n114
-C1TOFCO_DE  ---     0.889 *t/SLICE_36.A1 to */SLICE_36.FCO alu_inst/SLICE_36
-ROUTE         1   e 0.001 */SLICE_36.FCO to */SLICE_35.FCI alu_inst/n13052
-FCITOF0_DE  ---     0.585 */SLICE_35.FCI to *t/SLICE_35.F0 alu_inst/SLICE_35
-ROUTE         2   e 1.234 *t/SLICE_35.F0 to *t/SLICE_57.A1 alu_inst/n2073
-C1TOFCO_DE  ---     0.889 *t/SLICE_57.A1 to */SLICE_57.FCO alu_inst/SLICE_57
-ROUTE         1   e 0.001 */SLICE_57.FCO to */SLICE_56.FCI alu_inst/n13018
-FCITOF0_DE  ---     0.585 */SLICE_56.FCI to *t/SLICE_56.F0 alu_inst/SLICE_56
-ROUTE         1   e 1.234 *t/SLICE_56.F0 to *st/SLICE_6.C0 alu_inst/n1978
-C0TOFCO_DE  ---     1.023 *st/SLICE_6.C0 to *t/SLICE_6.FCO alu_inst/SLICE_6
-ROUTE         1   e 0.001 *t/SLICE_6.FCO to */SLICE_83.FCI alu_inst/n13005
-FCITOF1_DE  ---     0.643 */SLICE_83.FCI to *t/SLICE_83.F1 alu_inst/SLICE_83
-ROUTE         2   e 1.234 *t/SLICE_83.F1 to *t/SLICE_66.A0 alu_inst/n1984
-C0TOFCO_DE  ---     1.023 *t/SLICE_66.A0 to */SLICE_66.FCO alu_inst/SLICE_66
-ROUTE         1   e 0.001 */SLICE_66.FCO to */SLICE_65.FCI alu_inst/n12987
-FCITOF0_DE  ---     0.585 */SLICE_65.FCI to *t/SLICE_65.F0 alu_inst/SLICE_65
-ROUTE         1   e 1.234 *t/SLICE_65.F0 to   SLICE_930.B1 n1941
-CTOF_DEL    ---     0.495   SLICE_930.B1 to   SLICE_930.F1 SLICE_930
-ROUTE        17   e 1.234   SLICE_930.F1 to */SLICE_103.B1 n171
-C1TOFCO_DE  ---     0.889 */SLICE_103.B1 to *SLICE_103.FCO alu_inst/SLICE_103
-ROUTE         1   e 0.001 *SLICE_103.FCO to *SLICE_102.FCI alu_inst/n13084
-FCITOFCO_D  ---     0.162 *SLICE_102.FCI to *SLICE_102.FCO alu_inst/SLICE_102
-ROUTE         1   e 0.001 *SLICE_102.FCO to *SLICE_101.FCI alu_inst/n13085
-FCITOFCO_D  ---     0.162 *SLICE_101.FCI to *SLICE_101.FCO alu_inst/SLICE_101
-ROUTE         1   e 0.001 *SLICE_101.FCO to *SLICE_100.FCI alu_inst/n13086
-FCITOFCO_D  ---     0.162 *SLICE_100.FCI to *SLICE_100.FCO alu_inst/SLICE_100
-ROUTE         1   e 0.001 *SLICE_100.FCO to */SLICE_99.FCI alu_inst/n13087
-FCITOF0_DE  ---     0.585 */SLICE_99.FCI to *t/SLICE_99.F0 alu_inst/SLICE_99
-ROUTE         2   e 1.234 *t/SLICE_99.F0 to   SLICE_676.B0 n2000
-CTOF_DEL    ---     0.495   SLICE_676.B0 to   SLICE_676.F0 SLICE_676
-ROUTE        16   e 1.234   SLICE_676.F0 to *t/SLICE_14.B1 n16968
-C1TOFCO_DE  ---     0.889 *t/SLICE_14.B1 to */SLICE_14.FCO alu_inst/SLICE_14
-ROUTE         1   e 0.001 */SLICE_14.FCO to */SLICE_13.FCI alu_inst/n13071
-FCITOF0_DE  ---     0.585 */SLICE_13.FCI to *t/SLICE_13.F0 alu_inst/SLICE_13
-ROUTE         1   e 1.234 *t/SLICE_13.F0 to *t/SLICE_18.C0 alu_inst/n2043
-C0TOFCO_DE  ---     1.023 *t/SLICE_18.C0 to */SLICE_18.FCO alu_inst/SLICE_18
-ROUTE         1   e 0.001 */SLICE_18.FCO to */SLICE_17.FCI alu_inst/n13067
-FCITOF1_DE  ---     0.643 */SLICE_17.FCI to *t/SLICE_17.F1 alu_inst/SLICE_17
-ROUTE         2   e 1.234 *t/SLICE_17.F1 to *st/SLICE_1.A0 alu_inst/n2049
-C0TOFCO_DE  ---     1.023 *st/SLICE_1.A0 to *t/SLICE_1.FCO alu_inst/SLICE_1
-ROUTE         1   e 0.001 *t/SLICE_1.FCO to *t/SLICE_0.FCI alu_inst/n13078
-FCITOF0_DE  ---     0.585 *t/SLICE_0.FCI to *st/SLICE_0.F0 alu_inst/SLICE_0
-ROUTE         1   e 1.234 *st/SLICE_0.F0 to */SLICE_164.B1 n2019
+ROUTE        11   e 1.234 *t/SLICE_42.F0 to */SLICE_141.A1 alu_inst/n114
+C1TOFCO_DE  ---     0.889 */SLICE_141.A1 to *SLICE_141.FCO alu_inst/SLICE_141
+ROUTE         1   e 0.001 *SLICE_141.FCO to *SLICE_126.FCI alu_inst/n12745
+FCITOF0_DE  ---     0.585 *SLICE_126.FCI to */SLICE_126.F0 alu_inst/SLICE_126
+ROUTE         2   e 1.234 */SLICE_126.F0 to *t/SLICE_72.A1 alu_inst/n2085
+C1TOFCO_DE  ---     0.889 *t/SLICE_72.A1 to */SLICE_72.FCO alu_inst/SLICE_72
+ROUTE         1   e 0.001 */SLICE_72.FCO to */SLICE_71.FCI alu_inst/n12716
+FCITOF0_DE  ---     0.585 */SLICE_71.FCI to *t/SLICE_71.F0 alu_inst/SLICE_71
+ROUTE         1   e 1.234 *t/SLICE_71.F0 to *t/SLICE_53.C0 alu_inst/n1990
+C0TOFCO_DE  ---     1.023 *t/SLICE_53.C0 to */SLICE_53.FCO alu_inst/SLICE_53
+ROUTE         1   e 0.001 */SLICE_53.FCO to */SLICE_52.FCI alu_inst/n12696
+FCITOF1_DE  ---     0.643 */SLICE_52.FCI to *t/SLICE_52.F1 alu_inst/SLICE_52
+ROUTE         2   e 1.234 *t/SLICE_52.F1 to */SLICE_106.A0 alu_inst/n1996
+C0TOFCO_DE  ---     1.023 */SLICE_106.A0 to *SLICE_106.FCO alu_inst/SLICE_106
+ROUTE         1   e 0.001 *SLICE_106.FCO to *SLICE_105.FCI alu_inst/n12685
+FCITOF0_DE  ---     0.585 *SLICE_105.FCI to */SLICE_105.F0 alu_inst/SLICE_105
+ROUTE         1   e 1.234 */SLICE_105.F0 to   SLICE_933.B0 n1953
+CTOF_DEL    ---     0.495   SLICE_933.B0 to   SLICE_933.F0 SLICE_933
+ROUTE        17   e 1.234   SLICE_933.F0 to *t/SLICE_83.B1 n16868
+C1TOFCO_DE  ---     0.889 *t/SLICE_83.B1 to */SLICE_83.FCO alu_inst/SLICE_83
+ROUTE         1   e 0.001 */SLICE_83.FCO to */SLICE_82.FCI alu_inst/n12777
+FCITOFCO_D  ---     0.162 */SLICE_82.FCI to */SLICE_82.FCO alu_inst/SLICE_82
+ROUTE         1   e 0.001 */SLICE_82.FCO to */SLICE_80.FCI alu_inst/n12778
+FCITOFCO_D  ---     0.162 */SLICE_80.FCI to */SLICE_80.FCO alu_inst/SLICE_80
+ROUTE         1   e 0.001 */SLICE_80.FCO to */SLICE_79.FCI alu_inst/n12779
+FCITOFCO_D  ---     0.162 */SLICE_79.FCI to */SLICE_79.FCO alu_inst/SLICE_79
+ROUTE         1   e 0.001 */SLICE_79.FCO to */SLICE_78.FCI alu_inst/n12780
+FCITOF0_DE  ---     0.585 */SLICE_78.FCI to *t/SLICE_78.F0 alu_inst/SLICE_78
+ROUTE         2   e 1.234 *t/SLICE_78.F0 to   SLICE_675.B0 n2012
+CTOF_DEL    ---     0.495   SLICE_675.B0 to   SLICE_675.F0 SLICE_675
+ROUTE        16   e 1.234   SLICE_675.F0 to */SLICE_108.B1 n16867
+C1TOFCO_DE  ---     0.889 */SLICE_108.B1 to *SLICE_108.FCO alu_inst/SLICE_108
+ROUTE         1   e 0.001 *SLICE_108.FCO to *SLICE_100.FCI alu_inst/n12764
+FCITOF0_DE  ---     0.585 *SLICE_100.FCI to */SLICE_100.F0 alu_inst/SLICE_100
+ROUTE         1   e 1.234 */SLICE_100.F0 to */SLICE_112.C0 alu_inst/n2055
+C0TOFCO_DE  ---     1.023 */SLICE_112.C0 to *SLICE_112.FCO alu_inst/SLICE_112
+ROUTE         1   e 0.001 *SLICE_112.FCO to *SLICE_111.FCI alu_inst/n12760
+FCITOF1_DE  ---     0.643 *SLICE_111.FCI to */SLICE_111.F1 alu_inst/SLICE_111
+ROUTE         2   e 1.234 */SLICE_111.F1 to *t/SLICE_93.A0 alu_inst/n2061
+C0TOFCO_DE  ---     1.023 *t/SLICE_93.A0 to */SLICE_93.FCO alu_inst/SLICE_93
+ROUTE         1   e 0.001 */SLICE_93.FCO to */SLICE_91.FCI alu_inst/n12771
+FCITOF0_DE  ---     0.585 */SLICE_91.FCI to *t/SLICE_91.F0 alu_inst/SLICE_91
+ROUTE         1   e 1.234 *t/SLICE_91.F0 to */SLICE_164.B1 alu_inst/n2031
 CTOOFX_DEL  ---     0.721 */SLICE_164.B1 to *LICE_164.OFX0 alu_inst/SLICE_164
-ROUTE         1   e 0.001 *LICE_164.OFX0 to *SLICE_164.DI0 alu_inst/n4021 (to clk_c)
+ROUTE         1   e 0.001 *LICE_164.OFX0 to *SLICE_164.DI0 alu_inst/n15678 (to clk_c)
                   --------
                    37.237   (53.6% logic, 46.4% route), 30 logic levels.
 
@@ -134,50 +134,50 @@ Preference: FREQUENCY NET "spi_lcd_inst/sys_clk_50MHz" 48.000000 MHz ;
 --------------------------------------------------------------------------------
 
 
-Passed: The following path meets requirements by 5.688ns
+Passed: The following path meets requirements by 5.181ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
    Source:         FF         Q              spi_lcd_inst/lcd_show_char_inst/rom_addr_i0_i1  (from spi_lcd_inst/sys_clk_50MHz +)
    Destination:    FF         Data in        spi_lcd_inst/lcd_show_char_inst/temp_i3  (to spi_lcd_inst/sys_clk_50MHz +)
 
-   Delay:              14.979ns  (34.1% logic, 65.9% route), 10 logic levels.
+   Delay:              15.486ns  (33.1% logic, 66.9% route), 10 logic levels.
 
  Constraint Details:
 
-     14.979ns physical path delay spi_lcd_inst/lcd_show_char_inst/SLICE_114 to spi_lcd_inst/lcd_show_char_inst/SLICE_247 meets
+     15.486ns physical path delay spi_lcd_inst/lcd_show_char_inst/SLICE_12 to spi_lcd_inst/lcd_show_char_inst/SLICE_246 meets
      20.833ns delay constraint less
-      0.166ns DIN_SET requirement (totaling 20.667ns) by 5.688ns
+      0.166ns DIN_SET requirement (totaling 20.667ns) by 5.181ns
 
  Physical Path Details:
 
-      Data path spi_lcd_inst/lcd_show_char_inst/SLICE_114 to spi_lcd_inst/lcd_show_char_inst/SLICE_247:
+      Data path spi_lcd_inst/lcd_show_char_inst/SLICE_12 to spi_lcd_inst/lcd_show_char_inst/SLICE_246:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.452 *SLICE_114.CLK to */SLICE_114.Q0 spi_lcd_inst/lcd_show_char_inst/SLICE_114 (from spi_lcd_inst/sys_clk_50MHz)
-ROUTE       382   e 1.234 */SLICE_114.Q0 to */SLICE_744.B1 spi_lcd_inst/lcd_show_char_inst/rom_addr_1
-CTOF_DEL    ---     0.495 */SLICE_744.B1 to */SLICE_744.F1 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/SLICE_744
-ROUTE        12   e 1.234 */SLICE_744.F1 to */SLICE_665.B0 spi_lcd_inst/lcd_show_char_inst/n17049
-CTOF_DEL    ---     0.495 */SLICE_665.B0 to */SLICE_665.F0 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/SLICE_665
-ROUTE         5   e 1.234 */SLICE_665.F0 to */SLICE_749.B1 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/n684
-CTOF_DEL    ---     0.495 */SLICE_749.B1 to */SLICE_749.F1 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/SLICE_749
-ROUTE         2   e 1.234 */SLICE_749.F1 to */SLICE_481.B0 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/n444_adj_946
-CTOOFX_DEL  ---     0.721 */SLICE_481.B0 to *LICE_481.OFX0 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/i13827/SLICE_481
-ROUTE         1   e 1.234 *LICE_481.OFX0 to */SLICE_950.B1 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/n15177
-CTOF_DEL    ---     0.495 */SLICE_950.B1 to */SLICE_950.F1 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/SLICE_950
-ROUTE         1   e 1.234 */SLICE_950.F1 to */SLICE_411.B0 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/n15191
-CTOOFX_DEL  ---     0.721 */SLICE_411.B0 to *LICE_411.OFX0 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/i13852/SLICE_411
-ROUTE         1   e 0.001 *LICE_411.OFX0 to *SLICE_396.FXA spi_lcd_inst/lcd_show_char_inst/char_ram_inst/n15202
-FXTOOFX_DE  ---     0.241 *SLICE_396.FXA to *LICE_396.OFX1 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/i13853/SLICE_396
-ROUTE         1   e 1.234 *LICE_396.OFX1 to */SLICE_606.D1 spi_lcd_inst/lcd_show_char_inst/n15204
-CTOF_DEL    ---     0.495 */SLICE_606.D1 to */SLICE_606.F1 spi_lcd_inst/lcd_show_char_inst/SLICE_606
-ROUTE         1   e 1.234 */SLICE_606.F1 to */SLICE_247.D1 spi_lcd_inst/lcd_show_char_inst/rom_q_3
-CTOF_DEL    ---     0.495 */SLICE_247.D1 to */SLICE_247.F1 spi_lcd_inst/lcd_show_char_inst/SLICE_247
-ROUTE         1   e 0.001 */SLICE_247.F1 to *SLICE_247.DI1 spi_lcd_inst/lcd_show_char_inst/temp_7_N_590_3 (to spi_lcd_inst/sys_clk_50MHz)
+REG_DEL     ---     0.452 */SLICE_12.CLK to *t/SLICE_12.Q0 spi_lcd_inst/lcd_show_char_inst/SLICE_12 (from spi_lcd_inst/sys_clk_50MHz)
+ROUTE       386   e 1.234 *t/SLICE_12.Q0 to */SLICE_754.B0 spi_lcd_inst/lcd_show_char_inst/rom_addr_1
+CTOF_DEL    ---     0.495 */SLICE_754.B0 to */SLICE_754.F0 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/SLICE_754
+ROUTE         6   e 1.234 */SLICE_754.F0 to */SLICE_673.D1 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/n17036
+CTOF_DEL    ---     0.495 */SLICE_673.D1 to */SLICE_673.F1 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/SLICE_673
+ROUTE         3   e 1.234 */SLICE_673.F1 to */SLICE_719.B1 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/n2298
+CTOF_DEL    ---     0.495 */SLICE_719.B1 to */SLICE_719.F1 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/SLICE_719
+ROUTE         1   e 1.234 */SLICE_719.F1 to */SLICE_721.B0 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/n16559
+CTOF_DEL    ---     0.495 */SLICE_721.B0 to */SLICE_721.F0 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/SLICE_721
+ROUTE         1   e 0.480 */SLICE_721.F0 to */SLICE_721.B1 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/n16563
+CTOF_DEL    ---     0.495 */SLICE_721.B1 to */SLICE_721.F1 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/SLICE_721
+ROUTE         1   e 1.234 */SLICE_721.F1 to */SLICE_948.B1 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/n16564
+CTOF_DEL    ---     0.495 */SLICE_948.B1 to */SLICE_948.F1 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/SLICE_948
+ROUTE         1   e 1.234 */SLICE_948.F1 to */SLICE_416.A0 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/n14810
+CTOOFX_DEL  ---     0.721 */SLICE_416.A0 to *LICE_416.OFX0 spi_lcd_inst/lcd_show_char_inst/char_ram_inst/address_11__I_0_Mux_3_i3070/SLICE_416
+ROUTE         1   e 1.234 *LICE_416.OFX0 to */SLICE_898.C0 spi_lcd_inst/lcd_show_char_inst/n3070_adj_1045
+CTOF_DEL    ---     0.495 */SLICE_898.C0 to */SLICE_898.F0 spi_lcd_inst/lcd_show_char_inst/SLICE_898
+ROUTE         1   e 1.234 */SLICE_898.F0 to */SLICE_246.D1 spi_lcd_inst/lcd_show_char_inst/rom_q_3
+CTOF_DEL    ---     0.495 */SLICE_246.D1 to */SLICE_246.F1 spi_lcd_inst/lcd_show_char_inst/SLICE_246
+ROUTE         1   e 0.001 */SLICE_246.F1 to *SLICE_246.DI1 spi_lcd_inst/lcd_show_char_inst/temp_7_N_590_3 (to spi_lcd_inst/sys_clk_50MHz)
                   --------
-                   14.979   (34.1% logic, 65.9% route), 10 logic levels.
+                   15.486   (33.1% logic, 66.9% route), 10 logic levels.
 
-Report:   66.028MHz is the maximum frequency for this preference.
+Report:   63.890MHz is the maximum frequency for this preference.
 
 Report Summary
 --------------
@@ -189,7 +189,7 @@ FREQUENCY NET "clk_c" 12.000000 MHz ;   |   12.000 MHz|   26.736 MHz|  30
                                         |             |             |
 FREQUENCY NET                           |             |             |
 "spi_lcd_inst/sys_clk_50MHz" 48.000000  |             |             |
-MHz ;                                   |   48.000 MHz|   66.028 MHz|  10  
+MHz ;                                   |   48.000 MHz|   63.890 MHz|  10  
                                         |             |             |
 ----------------------------------------------------------------------------
 
@@ -202,7 +202,7 @@ Clock Domains Analysis
 
 Found 2 clocks:
 
-Clock Domain: spi_lcd_inst/sys_clk_50MHz   Source: spi_lcd_inst/pll_u1/PLLInst_0.CLKOP   Loads: 134
+Clock Domain: spi_lcd_inst/sys_clk_50MHz   Source: spi_lcd_inst/pll_u1/PLLInst_0.CLKOP   Loads: 133
    Covered under: FREQUENCY NET "spi_lcd_inst/sys_clk_50MHz" 48.000000 MHz ;
 
    Data transfers from:
@@ -219,11 +219,11 @@ Timing summary (Setup):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 2147483647 paths, 2 nets, and 7144 connections (97.88% coverage)
+Constraints cover 2147483647 paths, 2 nets, and 7141 connections (97.74% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.13.0.56.2
-Fri Mar 07 21:25:45 2025
+Fri Mar 07 21:32:34 2025
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -256,24 +256,24 @@ Passed: The following path meets requirements by 0.351ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              uart_rx_inst/rx_data_i0_i5  (from clk_c +)
-   Destination:    FF         Data in        uart_rx_inst/rx_data_i0_i4  (to clk_c +)
+   Source:         FF         Q              uart_rx_inst/rx_data_i0_i1  (from clk_c +)
+   Destination:    FF         Data in        uart_rx_inst/rx_data_i0_i0  (to clk_c +)
 
    Delay:               0.332ns  (40.1% logic, 59.9% route), 1 logic levels.
 
  Constraint Details:
 
-      0.332ns physical path delay SLICE_303 to SLICE_303 meets
+      0.332ns physical path delay SLICE_129 to SLICE_129 meets
      -0.019ns M_HLD and
       0.000ns delay constraint requirement (totaling -0.019ns) by 0.351ns
 
  Physical Path Details:
 
-      Data path SLICE_303 to SLICE_303:
+      Data path SLICE_129 to SLICE_129:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.133  SLICE_303.CLK to   SLICE_303.Q0 SLICE_303 (from clk_c)
-ROUTE         2   e 0.199   SLICE_303.Q0 to   SLICE_303.M1 uart_rx_inst/rx_data_5_adj_801 (to clk_c)
+REG_DEL     ---     0.133  SLICE_129.CLK to   SLICE_129.Q1 SLICE_129 (from clk_c)
+ROUTE         2   e 0.199   SLICE_129.Q1 to   SLICE_129.M0 uart_rx_inst/rx_data_1_adj_798 (to clk_c)
                   --------
                     0.332   (40.1% logic, 59.9% route), 1 logic levels.
 
@@ -288,24 +288,24 @@ Passed: The following path meets requirements by 0.351ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              spi_lcd_inst/lcd_write_inst/cnt1_FSM_i13  (from spi_lcd_inst/sys_clk_50MHz +)
-   Destination:    FF         Data in        spi_lcd_inst/lcd_write_inst/cnt1_FSM_i14  (to spi_lcd_inst/sys_clk_50MHz +)
+   Source:         FF         Q              spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num_FSM_i6  (from spi_lcd_inst/sys_clk_50MHz +)
+   Destination:    FF         Data in        spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num_FSM_i7  (to spi_lcd_inst/sys_clk_50MHz +)
 
    Delay:               0.332ns  (40.1% logic, 59.9% route), 1 logic levels.
 
  Constraint Details:
 
-      0.332ns physical path delay spi_lcd_inst/lcd_write_inst/SLICE_691 to spi_lcd_inst/lcd_write_inst/SLICE_691 meets
+      0.332ns physical path delay SLICE_677 to SLICE_677 meets
      -0.019ns M_HLD and
       0.000ns delay constraint requirement (totaling -0.019ns) by 0.351ns
 
  Physical Path Details:
 
-      Data path spi_lcd_inst/lcd_write_inst/SLICE_691 to spi_lcd_inst/lcd_write_inst/SLICE_691:
+      Data path SLICE_677 to SLICE_677:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.133 *SLICE_691.CLK to */SLICE_691.Q0 spi_lcd_inst/lcd_write_inst/SLICE_691 (from spi_lcd_inst/sys_clk_50MHz)
-ROUTE         3   e 0.199 */SLICE_691.Q0 to */SLICE_691.M1 spi_lcd_inst/lcd_write_inst/mosi_N_309 (to spi_lcd_inst/sys_clk_50MHz)
+REG_DEL     ---     0.133  SLICE_677.CLK to   SLICE_677.Q0 SLICE_677 (from spi_lcd_inst/sys_clk_50MHz)
+ROUTE         1   e 0.199   SLICE_677.Q0 to   SLICE_677.M1 spi_lcd_inst/show_string_number_ctrl_inst/n746 (to spi_lcd_inst/sys_clk_50MHz)
                   --------
                     0.332   (40.1% logic, 59.9% route), 1 logic levels.
 
@@ -332,7 +332,7 @@ Clock Domains Analysis
 
 Found 2 clocks:
 
-Clock Domain: spi_lcd_inst/sys_clk_50MHz   Source: spi_lcd_inst/pll_u1/PLLInst_0.CLKOP   Loads: 134
+Clock Domain: spi_lcd_inst/sys_clk_50MHz   Source: spi_lcd_inst/pll_u1/PLLInst_0.CLKOP   Loads: 133
    Covered under: FREQUENCY NET "spi_lcd_inst/sys_clk_50MHz" 48.000000 MHz ;
 
    Data transfers from:
@@ -349,7 +349,7 @@ Timing summary (Hold):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 2147483647 paths, 2 nets, and 7292 connections (99.90% coverage)
+Constraints cover 2147483647 paths, 2 nets, and 7299 connections (99.90% coverage)
 
 
 

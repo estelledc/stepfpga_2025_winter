@@ -18,11 +18,11 @@ I/O cells:      9
                             FD1S3JX         3          100.0
                                 GSR         1          100.0
                                  IB         3          100.0
-                            L6MUX21       100          100.0
-                               LUT4      1451          100.0
+                            L6MUX21        95          100.0
+                               LUT4      1439          100.0
                               MULT2         6          100.0
                                  OB         6          100.0
-                              PFUMX       313          100.0
+                              PFUMX       299          100.0
                           ROM128X1A         4          100.0
 SUB MODULES
                          calculator         1
@@ -36,7 +36,7 @@ SUB MODULES
             show_string_number_ctrl         1
                             spi_lcd         1
                             uart_rx         1
-                              TOTAL      2358
+                              TOTAL      2327
 ----------------------------------------------------------------------
 Report for cell calculator.v1
 Instance Path : alu_inst
@@ -46,7 +46,7 @@ Instance Path : alu_inst
                               CCU2D        94           63.1
                              FADD2B         9          100.0
                             FD1P3AX         7            7.7
-                               LUT4        37            2.5
+                               LUT4        37            2.6
                               MULT2         6          100.0
                               PFUMX         1            0.3
                               TOTAL       158
@@ -65,9 +65,9 @@ Instance Path : spi_lcd_inst
                             FD1S3AY         1           25.0
                             FD1S3IX        52           69.3
                             FD1S3JX         3          100.0
-                            L6MUX21       100          100.0
-                               LUT4      1342           92.5
-                              PFUMX       312           99.7
+                            L6MUX21        95          100.0
+                               LUT4      1330           92.4
+                              PFUMX       298           99.7
 SUB MODULES
                            char_ram         1
                             control         1
@@ -76,7 +76,7 @@ SUB MODULES
                           lcd_write         1
                                 pll         1
             show_string_number_ctrl         1
-                              TOTAL      2000
+                              TOTAL      1969
 ----------------------------------------------------------------------
 Report for cell show_string_number_ctrl.v1
 Instance Path : spi_lcd_inst.show_string_number_ctrl_inst
@@ -86,9 +86,9 @@ Instance Path : spi_lcd_inst.show_string_number_ctrl_inst
                             FD1S3AX         3            7.7
                             FD1S3IX         6            8.0
                             FD1S3JX         1           33.3
-                               LUT4        51            3.5
-                              PFUMX         7            2.2
-                              TOTAL        82
+                               LUT4        41            2.8
+                              PFUMX         5            1.7
+                              TOTAL        70
 ----------------------------------------------------------------------
 Report for cell pll.v1
 Instance Path : spi_lcd_inst.pll_u1
@@ -122,21 +122,21 @@ Instance Path : spi_lcd_inst.lcd_show_char_inst
                             FD1S3AX         5           12.8
                             FD1S3IX        10           13.3
                             FD1S3JX         1           33.3
-                            L6MUX21        97           97.0
-                               LUT4      1129           77.8
-                              PFUMX       288           92.0
+                            L6MUX21        94           98.9
+                               LUT4      1131           78.6
+                              PFUMX       276           92.3
 SUB MODULES
                            char_ram         1
-                              TOTAL      1596
+                              TOTAL      1583
 ----------------------------------------------------------------------
 Report for cell char_ram.v1
 Instance Path : spi_lcd_inst.lcd_show_char_inst.char_ram_inst
                                   Cell usage:
                                cell     count   Res Usage(%)
-                            L6MUX21        97           97.0
-                               LUT4       934           64.4
-                              PFUMX       282           90.1
-                              TOTAL      1313
+                            L6MUX21        94           98.9
+                               LUT4       958           66.6
+                              PFUMX       271           90.6
+                              TOTAL      1323
 ----------------------------------------------------------------------
 Report for cell lcd_init.v1
 Instance Path : spi_lcd_inst.lcd_init_inst
@@ -148,19 +148,19 @@ Instance Path : spi_lcd_inst.lcd_init_inst
                             FD1S3AX        13           33.3
                             FD1S3AY         1           25.0
                             FD1S3IX        27           36.0
-                            L6MUX21         3            3.0
-                               LUT4       110            7.6
-                              PFUMX        15            4.8
-                              TOTAL       217
+                            L6MUX21         1            1.1
+                               LUT4       108            7.5
+                              PFUMX        15            5.0
+                              TOTAL       213
 ----------------------------------------------------------------------
 Report for cell control.v1
 Instance Path : spi_lcd_inst.control_inst
                                   Cell usage:
                                cell     count   Res Usage(%)
                             FD1S3AX        10           25.6
-                               LUT4        11            0.8
+                               LUT4         9            0.6
                               PFUMX         1            0.3
-                              TOTAL        22
+                              TOTAL        20
 ----------------------------------------------------------------------
 Report for cell command_parser.v1
 Instance Path : parser_inst

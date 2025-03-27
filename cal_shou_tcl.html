@@ -1,0 +1,149 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn250307221027"></A><B><U><big>pn250307221027</big></U></B>
+#Start recording tcl command: 3/6/2025 17:10:46
+#Project Location: E:/IDM_download/cal_shou; Project name: cal_shou
+prj_project new -name "cal_shou" -impl "impl1" -dev LCMXO2-4000HC-4MG132C -synthesis "lse"
+file copy -force -- "E:/IDM_download/spl_lcd/source/char_ram.v" "E:/IDM_download/spl_lcd/source/char_ram_16x32.v" "E:/IDM_download/spl_lcd/source/control.v" "E:/IDM_download/spl_lcd/source/lcd_init.v" "E:/IDM_download/spl_lcd/source/lcd_show_char.v" "E:/IDM_download/cal_shou/impl1/source"
+file copy -force -- "E:/IDM_download/spl_lcd/source/lcd_write.v" "E:/IDM_download/spl_lcd/source/show_string_number_ctrl.v" "E:/IDM_download/spl_lcd/source/spi_lcd.v" "E:/IDM_download/uart/calculator.v" "E:/IDM_download/uart/command_parser.v" "E:/IDM_download/cal_shou/impl1/source"
+file copy -force -- "E:/IDM_download/uart/top.v" "E:/IDM_download/uart/uart_rx.v" "E:/IDM_download/cal_shou/impl1/source"
+prj_src add "E:/IDM_download/cal_shou/impl1/source/char_ram.v" "E:/IDM_download/cal_shou/impl1/source/char_ram_16x32.v" "E:/IDM_download/cal_shou/impl1/source/control.v" "E:/IDM_download/cal_shou/impl1/source/lcd_init.v" "E:/IDM_download/cal_shou/impl1/source/lcd_show_char.v" "E:/IDM_download/cal_shou/impl1/source/lcd_write.v" "E:/IDM_download/cal_shou/impl1/source/show_string_number_ctrl.v" "E:/IDM_download/cal_shou/impl1/source/spi_lcd.v" "E:/IDM_download/cal_shou/impl1/source/calculator.v" "E:/IDM_download/cal_shou/impl1/source/command_parser.v" "E:/IDM_download/cal_shou/impl1/source/top.v" "E:/IDM_download/cal_shou/impl1/source/uart_rx.v"
+prj_project save
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run PAR -impl impl1 -task PARTrace
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+file copy -force -- "E:/IDM_download/spl_lcd-main/pll/_math_real.vhd" "E:/IDM_download/spl_lcd-main/pll/pll.edn" "E:/IDM_download/spl_lcd-main/pll/pll.ipx" "E:/IDM_download/spl_lcd-main/pll/pll.lpc" "E:/IDM_download/spl_lcd-main/pll/pll.v" "E:/IDM_download/cal_shou/impl1/source"
+file copy -force -- "E:/IDM_download/spl_lcd-main/pll/pll_tmpl.v" "E:/IDM_download/spl_lcd-main/pll/pll.lpc" "E:/IDM_download/spl_lcd-main/pll/pll.v" "E:/IDM_download/spl_lcd-main/pll/pll.v" "E:/IDM_download/spl_lcd-main/pll/pll_tmpl.v" "E:/IDM_download/cal_shou/impl1/source"
+prj_src add "E:/IDM_download/cal_shou/impl1/source/_math_real.vhd" "E:/IDM_download/cal_shou/impl1/source/pll.edn" "E:/IDM_download/cal_shou/impl1/source/pll.ipx" "E:/IDM_download/cal_shou/impl1/source/pll.lpc" "E:/IDM_download/cal_shou/impl1/source/pll.v" "E:/IDM_download/cal_shou/impl1/source/pll_tmpl.v"
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_src remove "E:/IDM_download/cal_shou/impl1/source/pll.lpc"
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_src remove "E:/IDM_download/cal_shou/impl1/source/_math_real.vhd"
+prj_src remove "E:/IDM_download/cal_shou/impl1/source/pll.edn"
+prj_src remove "E:/IDM_download/cal_shou/impl1/source/pll.ipx"
+prj_src remove "E:/IDM_download/cal_shou/impl1/source/pll.v"
+prj_src remove "E:/IDM_download/cal_shou/impl1/source/pll_tmpl.v"
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_src add "E:/IDM_download/cal_shou/pll.v"
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Export -impl impl1 -task Jedecgen
+prj_src remove "E:/IDM_download/cal_shou/pll.v"
+prj_src add "E:/IDM_download/spl_lcd-main/pll/_math_real.vhd" "E:/IDM_download/spl_lcd-main/pll/pll.edn" "E:/IDM_download/spl_lcd-main/pll/pll.ipx" "E:/IDM_download/spl_lcd-main/pll/pll.lpc" "E:/IDM_download/spl_lcd-main/pll/pll.v" "E:/IDM_download/spl_lcd-main/pll/pll_tmpl.v"
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_src remove "E:/IDM_download/spl_lcd-main/pll/_math_real.vhd"
+prj_src remove "E:/IDM_download/spl_lcd-main/pll/pll.edn"
+prj_src remove "E:/IDM_download/spl_lcd-main/pll/pll.ipx"
+prj_src remove "E:/IDM_download/spl_lcd-main/pll/pll.lpc"
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_src remove "E:/IDM_download/spl_lcd-main/pll/pll_tmpl.v"
+prj_src remove "E:/IDM_download/spl_lcd-main/pll/pll.v"
+prj_src add "E:/IDM_download/cal_shou/pll.v"
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Map -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Map -impl impl1 -task MapTrace
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+#Stop recording: 3/7/2025 22:10:27
+
+
+
+<A name="pn250307221253"></A><B><U><big>pn250307221253</big></U></B>
+#Start recording tcl command: 3/7/2025 22:12:26
+#Project Location: E:/IDM_download/cal_shou; Project name: cal_shou
+prj_project open "E:/IDM_download/cal_shou/cal_shou.ldf"
+#Stop recording: 3/7/2025 22:12:53
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

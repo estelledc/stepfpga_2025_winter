@@ -36,7 +36,7 @@
     </pins>
 
     <!--
-        Instances in netlist: 458
+        Instances in netlist: 455
     -->
 
     <instance  name = "uart_rx_inst/state_1__I_0_70"  library = "work"  arch = ""  type = "comb">
@@ -17523,7 +17523,7 @@
         </nets>
     </instance>
 
-    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/operator_7__I_0_80"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/operator_7__I_0_77"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "b[7]"  direction = "in"  />
         <pitem  name = "b[6]"  direction = "in"  />
@@ -17559,7 +17559,7 @@
         </nets>
     </instance>
 
-    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/operator_7__I_0_81"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/operator_7__I_0_78"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "b[7]"  direction = "in"  />
         <pitem  name = "b[6]"  direction = "in"  />
@@ -17595,7 +17595,7 @@
         </nets>
     </instance>
 
-    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/operator_7__I_0_82"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/operator_7__I_0_79"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "b[7]"  direction = "in"  />
         <pitem  name = "b[6]"  direction = "in"  />
@@ -17819,7 +17819,7 @@
         </nets>
     </instance>
 
-    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt1_1__I_0_84"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt1_1__I_0_81"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d1[1]"  direction = "in"  />
         <pitem  name = "d1[0]"  direction = "in"  />
@@ -17840,7 +17840,7 @@
         </nets>
     </instance>
 
-    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/show_char_flag_75"  library = "work"  arch = ""  type = "reg">
+    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/show_char_flag_72"  library = "work"  arch = ""  type = "reg">
         <pins>
         <pitem  name = "s"  direction = "in"  />
         <pitem  name = "clk"  direction = "in"  />
@@ -18161,7 +18161,7 @@
         </nets>
     </instance>
 
-    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num_4__I_0_83"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num_4__I_0_80"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d1[4]"  direction = "in"  />
         <pitem  name = "d1[3]"  direction = "in"  />
@@ -18254,22 +18254,6 @@
     <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/add_34"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "cin"  direction = "in"  />
-        <pitem  name = "a[31]"  direction = "in"  />
-        <pitem  name = "a[30]"  direction = "in"  />
-        <pitem  name = "a[29]"  direction = "in"  />
-        <pitem  name = "a[28]"  direction = "in"  />
-        <pitem  name = "a[27]"  direction = "in"  />
-        <pitem  name = "a[26]"  direction = "in"  />
-        <pitem  name = "a[25]"  direction = "in"  />
-        <pitem  name = "a[24]"  direction = "in"  />
-        <pitem  name = "a[23]"  direction = "in"  />
-        <pitem  name = "a[22]"  direction = "in"  />
-        <pitem  name = "a[21]"  direction = "in"  />
-        <pitem  name = "a[20]"  direction = "in"  />
-        <pitem  name = "a[19]"  direction = "in"  />
-        <pitem  name = "a[18]"  direction = "in"  />
-        <pitem  name = "a[17]"  direction = "in"  />
-        <pitem  name = "a[16]"  direction = "in"  />
         <pitem  name = "a[15]"  direction = "in"  />
         <pitem  name = "a[14]"  direction = "in"  />
         <pitem  name = "a[13]"  direction = "in"  />
@@ -18278,22 +18262,6 @@
         <pitem  name = "a[10]"  direction = "in"  />
         <pitem  name = "a[9]"  direction = "in"  />
         <pitem  name = "a[8]"  direction = "in"  />
-        <pitem  name = "b[31]"  direction = "in"  />
-        <pitem  name = "b[30]"  direction = "in"  />
-        <pitem  name = "b[29]"  direction = "in"  />
-        <pitem  name = "b[28]"  direction = "in"  />
-        <pitem  name = "b[27]"  direction = "in"  />
-        <pitem  name = "b[26]"  direction = "in"  />
-        <pitem  name = "b[25]"  direction = "in"  />
-        <pitem  name = "b[24]"  direction = "in"  />
-        <pitem  name = "b[23]"  direction = "in"  />
-        <pitem  name = "b[22]"  direction = "in"  />
-        <pitem  name = "b[21]"  direction = "in"  />
-        <pitem  name = "b[20]"  direction = "in"  />
-        <pitem  name = "b[19]"  direction = "in"  />
-        <pitem  name = "b[18]"  direction = "in"  />
-        <pitem  name = "b[17]"  direction = "in"  />
-        <pitem  name = "b[16]"  direction = "in"  />
         <pitem  name = "b[15]"  direction = "in"  />
         <pitem  name = "b[14]"  direction = "in"  />
         <pitem  name = "b[13]"  direction = "in"  />
@@ -18318,31 +18286,6 @@
         <pitem  name = "a[2]"  direction = "in"  />
         <pitem  name = "a[1]"  direction = "in"  />
         <pitem  name = "a[0]"  direction = "in"  />
-        <pitem  name = "o[31]"  direction = "out"  />
-        <pitem  name = "o[30]"  direction = "out"  />
-        <pitem  name = "o[29]"  direction = "out"  />
-        <pitem  name = "o[28]"  direction = "out"  />
-        <pitem  name = "o[27]"  direction = "out"  />
-        <pitem  name = "o[26]"  direction = "out"  />
-        <pitem  name = "o[25]"  direction = "out"  />
-        <pitem  name = "o[24]"  direction = "out"  />
-        <pitem  name = "o[23]"  direction = "out"  />
-        <pitem  name = "o[22]"  direction = "out"  />
-        <pitem  name = "o[21]"  direction = "out"  />
-        <pitem  name = "o[20]"  direction = "out"  />
-        <pitem  name = "o[19]"  direction = "out"  />
-        <pitem  name = "o[18]"  direction = "out"  />
-        <pitem  name = "o[17]"  direction = "out"  />
-        <pitem  name = "o[16]"  direction = "out"  />
-        <pitem  name = "o[15]"  direction = "out"  />
-        <pitem  name = "o[14]"  direction = "out"  />
-        <pitem  name = "o[13]"  direction = "out"  />
-        <pitem  name = "o[12]"  direction = "out"  />
-        <pitem  name = "o[11]"  direction = "out"  />
-        <pitem  name = "o[10]"  direction = "out"  />
-        <pitem  name = "o[9]"  direction = "out"  />
-        <pitem  name = "o[8]"  direction = "out"  />
-        <pitem  name = "o[7]"  direction = "out"  />
         <pitem  name = "o[6]"  direction = "out"  />
         <pitem  name = "o[5]"  direction = "out"  />
         <pitem  name = "o[4]"  direction = "out"  />
@@ -18363,15 +18306,6 @@
         <nitem  name = "operand1[2]"  />
         <nitem  name = "operand1[1]"  />
         <nitem  name = "operand1[0]"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n69"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n70"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n71"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n72"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n73"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n74"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n75"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n76"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n77"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n78"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n79"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n80"  />
@@ -18379,147 +18313,10 @@
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n82"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n83"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n84"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n85"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n86"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n87"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n88"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n89"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n90"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n91"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n92"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n93"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n94"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n95"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n96"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n97"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n98"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n99"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n100"  />
         </nets>
     </instance>
 
-    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/add_35"  library = "work"  arch = ""  type = "comb">
-        <pins>
-        <pitem  name = "cin"  direction = "in"  />
-        <pitem  name = "b[31]"  direction = "in"  />
-        <pitem  name = "b[30]"  direction = "in"  />
-        <pitem  name = "b[29]"  direction = "in"  />
-        <pitem  name = "b[28]"  direction = "in"  />
-        <pitem  name = "b[27]"  direction = "in"  />
-        <pitem  name = "b[26]"  direction = "in"  />
-        <pitem  name = "b[25]"  direction = "in"  />
-        <pitem  name = "b[24]"  direction = "in"  />
-        <pitem  name = "b[23]"  direction = "in"  />
-        <pitem  name = "b[22]"  direction = "in"  />
-        <pitem  name = "b[21]"  direction = "in"  />
-        <pitem  name = "b[20]"  direction = "in"  />
-        <pitem  name = "b[19]"  direction = "in"  />
-        <pitem  name = "b[18]"  direction = "in"  />
-        <pitem  name = "b[17]"  direction = "in"  />
-        <pitem  name = "b[16]"  direction = "in"  />
-        <pitem  name = "b[15]"  direction = "in"  />
-        <pitem  name = "b[14]"  direction = "in"  />
-        <pitem  name = "b[13]"  direction = "in"  />
-        <pitem  name = "b[12]"  direction = "in"  />
-        <pitem  name = "b[11]"  direction = "in"  />
-        <pitem  name = "b[10]"  direction = "in"  />
-        <pitem  name = "b[9]"  direction = "in"  />
-        <pitem  name = "b[8]"  direction = "in"  />
-        <pitem  name = "b[7]"  direction = "in"  />
-        <pitem  name = "b[6]"  direction = "in"  />
-        <pitem  name = "b[5]"  direction = "in"  />
-        <pitem  name = "b[4]"  direction = "in"  />
-        <pitem  name = "b[3]"  direction = "in"  />
-        <pitem  name = "b[2]"  direction = "in"  />
-        <pitem  name = "b[1]"  direction = "in"  />
-        <pitem  name = "b[0]"  direction = "in"  />
-        <pitem  name = "a[31]"  direction = "in"  />
-        <pitem  name = "a[30]"  direction = "in"  />
-        <pitem  name = "a[29]"  direction = "in"  />
-        <pitem  name = "a[28]"  direction = "in"  />
-        <pitem  name = "a[27]"  direction = "in"  />
-        <pitem  name = "a[26]"  direction = "in"  />
-        <pitem  name = "a[25]"  direction = "in"  />
-        <pitem  name = "a[24]"  direction = "in"  />
-        <pitem  name = "a[23]"  direction = "in"  />
-        <pitem  name = "a[22]"  direction = "in"  />
-        <pitem  name = "a[21]"  direction = "in"  />
-        <pitem  name = "a[20]"  direction = "in"  />
-        <pitem  name = "a[19]"  direction = "in"  />
-        <pitem  name = "a[18]"  direction = "in"  />
-        <pitem  name = "a[17]"  direction = "in"  />
-        <pitem  name = "a[16]"  direction = "in"  />
-        <pitem  name = "a[15]"  direction = "in"  />
-        <pitem  name = "a[14]"  direction = "in"  />
-        <pitem  name = "a[13]"  direction = "in"  />
-        <pitem  name = "a[12]"  direction = "in"  />
-        <pitem  name = "a[11]"  direction = "in"  />
-        <pitem  name = "a[10]"  direction = "in"  />
-        <pitem  name = "a[9]"  direction = "in"  />
-        <pitem  name = "a[8]"  direction = "in"  />
-        <pitem  name = "a[7]"  direction = "in"  />
-        <pitem  name = "a[6]"  direction = "in"  />
-        <pitem  name = "a[5]"  direction = "in"  />
-        <pitem  name = "a[4]"  direction = "in"  />
-        <pitem  name = "a[3]"  direction = "in"  />
-        <pitem  name = "a[2]"  direction = "in"  />
-        <pitem  name = "a[1]"  direction = "in"  />
-        <pitem  name = "a[0]"  direction = "in"  />
-        <pitem  name = "o[6]"  direction = "out"  />
-        <pitem  name = "o[5]"  direction = "out"  />
-        <pitem  name = "o[4]"  direction = "out"  />
-        <pitem  name = "o[3]"  direction = "out"  />
-        <pitem  name = "o[2]"  direction = "out"  />
-        <pitem  name = "o[1]"  direction = "out"  />
-        <pitem  name = "o[0]"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "spi_lcd_inst/en_size"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/pwr"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n69"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n70"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n71"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n72"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n73"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n74"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n75"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n76"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n77"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n78"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n79"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n80"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n81"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n82"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n83"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n84"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n85"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n86"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n87"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n88"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n89"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n90"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n91"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n92"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n93"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n94"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n95"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n96"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n97"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n98"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n99"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n100"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n128"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n129"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n130"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n131"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n132"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n133"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n134"  />
-        </nets>
-    </instance>
-
-    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/mux_36"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/mux_35"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "data[27]"  direction = "in"  />
         <pitem  name = "data[26]"  direction = "in"  />
@@ -18565,35 +18362,19 @@
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/pwr"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/op_sel[1]"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/op_sel[0]"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n136"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n137"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n138"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n139"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n140"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n141"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n142"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n86"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n87"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n88"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n89"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n90"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n91"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n92"  />
         </nets>
     </instance>
 
-    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/add_37"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/add_36"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "cin"  direction = "in"  />
-        <pitem  name = "a[31]"  direction = "in"  />
-        <pitem  name = "a[30]"  direction = "in"  />
-        <pitem  name = "a[29]"  direction = "in"  />
-        <pitem  name = "a[28]"  direction = "in"  />
-        <pitem  name = "a[27]"  direction = "in"  />
-        <pitem  name = "a[26]"  direction = "in"  />
-        <pitem  name = "a[25]"  direction = "in"  />
-        <pitem  name = "a[24]"  direction = "in"  />
-        <pitem  name = "a[23]"  direction = "in"  />
-        <pitem  name = "a[22]"  direction = "in"  />
-        <pitem  name = "a[21]"  direction = "in"  />
-        <pitem  name = "a[20]"  direction = "in"  />
-        <pitem  name = "a[19]"  direction = "in"  />
-        <pitem  name = "a[18]"  direction = "in"  />
-        <pitem  name = "a[17]"  direction = "in"  />
-        <pitem  name = "a[16]"  direction = "in"  />
         <pitem  name = "a[15]"  direction = "in"  />
         <pitem  name = "a[14]"  direction = "in"  />
         <pitem  name = "a[13]"  direction = "in"  />
@@ -18602,22 +18383,6 @@
         <pitem  name = "a[10]"  direction = "in"  />
         <pitem  name = "a[9]"  direction = "in"  />
         <pitem  name = "a[8]"  direction = "in"  />
-        <pitem  name = "b[31]"  direction = "in"  />
-        <pitem  name = "b[30]"  direction = "in"  />
-        <pitem  name = "b[29]"  direction = "in"  />
-        <pitem  name = "b[28]"  direction = "in"  />
-        <pitem  name = "b[27]"  direction = "in"  />
-        <pitem  name = "b[26]"  direction = "in"  />
-        <pitem  name = "b[25]"  direction = "in"  />
-        <pitem  name = "b[24]"  direction = "in"  />
-        <pitem  name = "b[23]"  direction = "in"  />
-        <pitem  name = "b[22]"  direction = "in"  />
-        <pitem  name = "b[21]"  direction = "in"  />
-        <pitem  name = "b[20]"  direction = "in"  />
-        <pitem  name = "b[19]"  direction = "in"  />
-        <pitem  name = "b[18]"  direction = "in"  />
-        <pitem  name = "b[17]"  direction = "in"  />
-        <pitem  name = "b[16]"  direction = "in"  />
         <pitem  name = "b[15]"  direction = "in"  />
         <pitem  name = "b[14]"  direction = "in"  />
         <pitem  name = "b[13]"  direction = "in"  />
@@ -18642,31 +18407,6 @@
         <pitem  name = "a[2]"  direction = "in"  />
         <pitem  name = "a[1]"  direction = "in"  />
         <pitem  name = "a[0]"  direction = "in"  />
-        <pitem  name = "o[31]"  direction = "out"  />
-        <pitem  name = "o[30]"  direction = "out"  />
-        <pitem  name = "o[29]"  direction = "out"  />
-        <pitem  name = "o[28]"  direction = "out"  />
-        <pitem  name = "o[27]"  direction = "out"  />
-        <pitem  name = "o[26]"  direction = "out"  />
-        <pitem  name = "o[25]"  direction = "out"  />
-        <pitem  name = "o[24]"  direction = "out"  />
-        <pitem  name = "o[23]"  direction = "out"  />
-        <pitem  name = "o[22]"  direction = "out"  />
-        <pitem  name = "o[21]"  direction = "out"  />
-        <pitem  name = "o[20]"  direction = "out"  />
-        <pitem  name = "o[19]"  direction = "out"  />
-        <pitem  name = "o[18]"  direction = "out"  />
-        <pitem  name = "o[17]"  direction = "out"  />
-        <pitem  name = "o[16]"  direction = "out"  />
-        <pitem  name = "o[15]"  direction = "out"  />
-        <pitem  name = "o[14]"  direction = "out"  />
-        <pitem  name = "o[13]"  direction = "out"  />
-        <pitem  name = "o[12]"  direction = "out"  />
-        <pitem  name = "o[11]"  direction = "out"  />
-        <pitem  name = "o[10]"  direction = "out"  />
-        <pitem  name = "o[9]"  direction = "out"  />
-        <pitem  name = "o[8]"  direction = "out"  />
-        <pitem  name = "o[7]"  direction = "out"  />
         <pitem  name = "o[6]"  direction = "out"  />
         <pitem  name = "o[5]"  direction = "out"  />
         <pitem  name = "o[4]"  direction = "out"  />
@@ -18687,92 +18427,19 @@
         <nitem  name = "operand2[2]"  />
         <nitem  name = "operand2[1]"  />
         <nitem  name = "operand2[0]"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n145"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n146"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n147"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n148"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n149"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n150"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n151"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n152"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n153"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n154"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n155"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n156"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n157"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n158"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n159"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n160"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n161"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n162"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n163"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n164"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n165"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n166"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n167"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n168"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n169"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n170"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n171"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n172"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n173"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n174"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n175"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n176"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n104"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n105"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n106"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n107"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n108"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n109"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n110"  />
         </nets>
     </instance>
 
-    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/add_38"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/add_37"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "cin"  direction = "in"  />
-        <pitem  name = "b[31]"  direction = "in"  />
-        <pitem  name = "b[30]"  direction = "in"  />
-        <pitem  name = "b[29]"  direction = "in"  />
-        <pitem  name = "b[28]"  direction = "in"  />
-        <pitem  name = "b[27]"  direction = "in"  />
-        <pitem  name = "b[26]"  direction = "in"  />
-        <pitem  name = "b[25]"  direction = "in"  />
-        <pitem  name = "b[24]"  direction = "in"  />
-        <pitem  name = "b[23]"  direction = "in"  />
-        <pitem  name = "b[22]"  direction = "in"  />
-        <pitem  name = "b[21]"  direction = "in"  />
-        <pitem  name = "b[20]"  direction = "in"  />
-        <pitem  name = "b[19]"  direction = "in"  />
-        <pitem  name = "b[18]"  direction = "in"  />
-        <pitem  name = "b[17]"  direction = "in"  />
-        <pitem  name = "b[16]"  direction = "in"  />
-        <pitem  name = "b[15]"  direction = "in"  />
-        <pitem  name = "b[14]"  direction = "in"  />
-        <pitem  name = "b[13]"  direction = "in"  />
-        <pitem  name = "b[12]"  direction = "in"  />
-        <pitem  name = "b[11]"  direction = "in"  />
-        <pitem  name = "b[10]"  direction = "in"  />
-        <pitem  name = "b[9]"  direction = "in"  />
-        <pitem  name = "b[8]"  direction = "in"  />
-        <pitem  name = "b[7]"  direction = "in"  />
-        <pitem  name = "b[6]"  direction = "in"  />
-        <pitem  name = "b[5]"  direction = "in"  />
-        <pitem  name = "b[4]"  direction = "in"  />
-        <pitem  name = "b[3]"  direction = "in"  />
-        <pitem  name = "b[2]"  direction = "in"  />
-        <pitem  name = "b[0]"  direction = "in"  />
-        <pitem  name = "b[1]"  direction = "in"  />
-        <pitem  name = "a[31]"  direction = "in"  />
-        <pitem  name = "a[30]"  direction = "in"  />
-        <pitem  name = "a[29]"  direction = "in"  />
-        <pitem  name = "a[28]"  direction = "in"  />
-        <pitem  name = "a[27]"  direction = "in"  />
-        <pitem  name = "a[26]"  direction = "in"  />
-        <pitem  name = "a[25]"  direction = "in"  />
-        <pitem  name = "a[24]"  direction = "in"  />
-        <pitem  name = "a[23]"  direction = "in"  />
-        <pitem  name = "a[22]"  direction = "in"  />
-        <pitem  name = "a[21]"  direction = "in"  />
-        <pitem  name = "a[20]"  direction = "in"  />
-        <pitem  name = "a[19]"  direction = "in"  />
-        <pitem  name = "a[18]"  direction = "in"  />
-        <pitem  name = "a[17]"  direction = "in"  />
-        <pitem  name = "a[16]"  direction = "in"  />
         <pitem  name = "a[15]"  direction = "in"  />
         <pitem  name = "a[14]"  direction = "in"  />
         <pitem  name = "a[13]"  direction = "in"  />
@@ -18781,111 +18448,6 @@
         <pitem  name = "a[10]"  direction = "in"  />
         <pitem  name = "a[9]"  direction = "in"  />
         <pitem  name = "a[8]"  direction = "in"  />
-        <pitem  name = "a[7]"  direction = "in"  />
-        <pitem  name = "a[6]"  direction = "in"  />
-        <pitem  name = "a[5]"  direction = "in"  />
-        <pitem  name = "a[4]"  direction = "in"  />
-        <pitem  name = "a[3]"  direction = "in"  />
-        <pitem  name = "a[2]"  direction = "in"  />
-        <pitem  name = "a[1]"  direction = "in"  />
-        <pitem  name = "a[0]"  direction = "in"  />
-        <pitem  name = "o[6]"  direction = "out"  />
-        <pitem  name = "o[5]"  direction = "out"  />
-        <pitem  name = "o[4]"  direction = "out"  />
-        <pitem  name = "o[3]"  direction = "out"  />
-        <pitem  name = "o[2]"  direction = "out"  />
-        <pitem  name = "o[1]"  direction = "out"  />
-        <pitem  name = "o[0]"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "spi_lcd_inst/en_size"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/pwr"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n145"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n146"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n147"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n148"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n149"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n150"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n151"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n152"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n153"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n154"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n155"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n156"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n157"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n158"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n159"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n160"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n161"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n162"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n163"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n164"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n165"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n166"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n167"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n168"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n169"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n170"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n171"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n172"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n173"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n174"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n175"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n176"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n204"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n205"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n206"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n207"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n208"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n209"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n210"  />
-        </nets>
-    </instance>
-
-    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/add_39"  library = "work"  arch = ""  type = "comb">
-        <pins>
-        <pitem  name = "cin"  direction = "in"  />
-        <pitem  name = "a[31]"  direction = "in"  />
-        <pitem  name = "a[30]"  direction = "in"  />
-        <pitem  name = "a[29]"  direction = "in"  />
-        <pitem  name = "a[28]"  direction = "in"  />
-        <pitem  name = "a[27]"  direction = "in"  />
-        <pitem  name = "a[26]"  direction = "in"  />
-        <pitem  name = "a[25]"  direction = "in"  />
-        <pitem  name = "a[24]"  direction = "in"  />
-        <pitem  name = "a[23]"  direction = "in"  />
-        <pitem  name = "a[22]"  direction = "in"  />
-        <pitem  name = "a[21]"  direction = "in"  />
-        <pitem  name = "a[20]"  direction = "in"  />
-        <pitem  name = "a[19]"  direction = "in"  />
-        <pitem  name = "a[18]"  direction = "in"  />
-        <pitem  name = "a[17]"  direction = "in"  />
-        <pitem  name = "a[16]"  direction = "in"  />
-        <pitem  name = "a[15]"  direction = "in"  />
-        <pitem  name = "a[14]"  direction = "in"  />
-        <pitem  name = "a[13]"  direction = "in"  />
-        <pitem  name = "a[12]"  direction = "in"  />
-        <pitem  name = "a[11]"  direction = "in"  />
-        <pitem  name = "a[10]"  direction = "in"  />
-        <pitem  name = "a[9]"  direction = "in"  />
-        <pitem  name = "a[8]"  direction = "in"  />
-        <pitem  name = "b[31]"  direction = "in"  />
-        <pitem  name = "b[30]"  direction = "in"  />
-        <pitem  name = "b[29]"  direction = "in"  />
-        <pitem  name = "b[28]"  direction = "in"  />
-        <pitem  name = "b[27]"  direction = "in"  />
-        <pitem  name = "b[26]"  direction = "in"  />
-        <pitem  name = "b[25]"  direction = "in"  />
-        <pitem  name = "b[24]"  direction = "in"  />
-        <pitem  name = "b[23]"  direction = "in"  />
-        <pitem  name = "b[22]"  direction = "in"  />
-        <pitem  name = "b[21]"  direction = "in"  />
-        <pitem  name = "b[20]"  direction = "in"  />
-        <pitem  name = "b[19]"  direction = "in"  />
-        <pitem  name = "b[18]"  direction = "in"  />
-        <pitem  name = "b[17]"  direction = "in"  />
-        <pitem  name = "b[16]"  direction = "in"  />
         <pitem  name = "b[15]"  direction = "in"  />
         <pitem  name = "b[14]"  direction = "in"  />
         <pitem  name = "b[13]"  direction = "in"  />
@@ -18910,31 +18472,6 @@
         <pitem  name = "a[2]"  direction = "in"  />
         <pitem  name = "a[1]"  direction = "in"  />
         <pitem  name = "a[0]"  direction = "in"  />
-        <pitem  name = "o[31]"  direction = "out"  />
-        <pitem  name = "o[30]"  direction = "out"  />
-        <pitem  name = "o[29]"  direction = "out"  />
-        <pitem  name = "o[28]"  direction = "out"  />
-        <pitem  name = "o[27]"  direction = "out"  />
-        <pitem  name = "o[26]"  direction = "out"  />
-        <pitem  name = "o[25]"  direction = "out"  />
-        <pitem  name = "o[24]"  direction = "out"  />
-        <pitem  name = "o[23]"  direction = "out"  />
-        <pitem  name = "o[22]"  direction = "out"  />
-        <pitem  name = "o[21]"  direction = "out"  />
-        <pitem  name = "o[20]"  direction = "out"  />
-        <pitem  name = "o[19]"  direction = "out"  />
-        <pitem  name = "o[18]"  direction = "out"  />
-        <pitem  name = "o[17]"  direction = "out"  />
-        <pitem  name = "o[16]"  direction = "out"  />
-        <pitem  name = "o[15]"  direction = "out"  />
-        <pitem  name = "o[14]"  direction = "out"  />
-        <pitem  name = "o[13]"  direction = "out"  />
-        <pitem  name = "o[12]"  direction = "out"  />
-        <pitem  name = "o[11]"  direction = "out"  />
-        <pitem  name = "o[10]"  direction = "out"  />
-        <pitem  name = "o[9]"  direction = "out"  />
-        <pitem  name = "o[8]"  direction = "out"  />
-        <pitem  name = "o[7]"  direction = "out"  />
         <pitem  name = "o[6]"  direction = "out"  />
         <pitem  name = "o[5]"  direction = "out"  />
         <pitem  name = "o[4]"  direction = "out"  />
@@ -18955,159 +18492,93 @@
         <nitem  name = "calc_result[2]"  />
         <nitem  name = "calc_result[1]"  />
         <nitem  name = "calc_result[0]"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n213"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n214"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n215"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n216"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n217"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n218"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n219"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n220"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n221"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n222"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n223"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n224"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n225"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n226"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n227"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n228"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n229"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n230"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n231"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n232"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n233"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n234"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n235"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n236"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n237"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n238"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n239"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n240"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n241"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n242"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n243"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n244"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n122"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n123"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n124"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n125"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n126"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n127"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n128"  />
         </nets>
     </instance>
 
-    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/add_40"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/equal_38"  library = "work"  arch = ""  type = "comb">
         <pins>
-        <pitem  name = "cin"  direction = "in"  />
-        <pitem  name = "b[31]"  direction = "in"  />
-        <pitem  name = "b[30]"  direction = "in"  />
-        <pitem  name = "b[29]"  direction = "in"  />
-        <pitem  name = "b[28]"  direction = "in"  />
-        <pitem  name = "b[27]"  direction = "in"  />
-        <pitem  name = "b[26]"  direction = "in"  />
-        <pitem  name = "b[25]"  direction = "in"  />
-        <pitem  name = "b[24]"  direction = "in"  />
-        <pitem  name = "b[23]"  direction = "in"  />
-        <pitem  name = "b[22]"  direction = "in"  />
-        <pitem  name = "b[21]"  direction = "in"  />
-        <pitem  name = "b[20]"  direction = "in"  />
-        <pitem  name = "b[19]"  direction = "in"  />
-        <pitem  name = "b[18]"  direction = "in"  />
-        <pitem  name = "b[17]"  direction = "in"  />
-        <pitem  name = "b[16]"  direction = "in"  />
-        <pitem  name = "b[15]"  direction = "in"  />
-        <pitem  name = "b[14]"  direction = "in"  />
-        <pitem  name = "b[13]"  direction = "in"  />
-        <pitem  name = "b[12]"  direction = "in"  />
-        <pitem  name = "b[11]"  direction = "in"  />
-        <pitem  name = "b[10]"  direction = "in"  />
-        <pitem  name = "b[9]"  direction = "in"  />
-        <pitem  name = "b[8]"  direction = "in"  />
-        <pitem  name = "b[7]"  direction = "in"  />
-        <pitem  name = "b[6]"  direction = "in"  />
-        <pitem  name = "b[5]"  direction = "in"  />
         <pitem  name = "b[4]"  direction = "in"  />
-        <pitem  name = "b[2]"  direction = "in"  />
-        <pitem  name = "b[0]"  direction = "in"  />
         <pitem  name = "b[3]"  direction = "in"  />
+        <pitem  name = "b[2]"  direction = "in"  />
         <pitem  name = "b[1]"  direction = "in"  />
-        <pitem  name = "a[31]"  direction = "in"  />
-        <pitem  name = "a[30]"  direction = "in"  />
-        <pitem  name = "a[29]"  direction = "in"  />
-        <pitem  name = "a[28]"  direction = "in"  />
-        <pitem  name = "a[27]"  direction = "in"  />
-        <pitem  name = "a[26]"  direction = "in"  />
-        <pitem  name = "a[25]"  direction = "in"  />
-        <pitem  name = "a[24]"  direction = "in"  />
-        <pitem  name = "a[23]"  direction = "in"  />
-        <pitem  name = "a[22]"  direction = "in"  />
-        <pitem  name = "a[21]"  direction = "in"  />
-        <pitem  name = "a[20]"  direction = "in"  />
-        <pitem  name = "a[19]"  direction = "in"  />
-        <pitem  name = "a[18]"  direction = "in"  />
-        <pitem  name = "a[17]"  direction = "in"  />
-        <pitem  name = "a[16]"  direction = "in"  />
-        <pitem  name = "a[15]"  direction = "in"  />
-        <pitem  name = "a[14]"  direction = "in"  />
-        <pitem  name = "a[13]"  direction = "in"  />
-        <pitem  name = "a[12]"  direction = "in"  />
-        <pitem  name = "a[11]"  direction = "in"  />
-        <pitem  name = "a[10]"  direction = "in"  />
-        <pitem  name = "a[9]"  direction = "in"  />
-        <pitem  name = "a[8]"  direction = "in"  />
-        <pitem  name = "a[7]"  direction = "in"  />
-        <pitem  name = "a[6]"  direction = "in"  />
-        <pitem  name = "a[5]"  direction = "in"  />
+        <pitem  name = "b[0]"  direction = "in"  />
         <pitem  name = "a[4]"  direction = "in"  />
         <pitem  name = "a[3]"  direction = "in"  />
         <pitem  name = "a[2]"  direction = "in"  />
         <pitem  name = "a[1]"  direction = "in"  />
         <pitem  name = "a[0]"  direction = "in"  />
-        <pitem  name = "o[6]"  direction = "out"  />
-        <pitem  name = "o[5]"  direction = "out"  />
-        <pitem  name = "o[4]"  direction = "out"  />
-        <pitem  name = "o[3]"  direction = "out"  />
-        <pitem  name = "o[2]"  direction = "out"  />
-        <pitem  name = "o[1]"  direction = "out"  />
-        <pitem  name = "o[0]"  direction = "out"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "spi_lcd_inst/en_size"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[4]"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[3]"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[2]"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[1]"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[0]"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n129"  />
+        </nets>
+    </instance>
+
+    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/equal_39"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "b[4]"  direction = "in"  />
+        <pitem  name = "b[3]"  direction = "in"  />
+        <pitem  name = "b[2]"  direction = "in"  />
+        <pitem  name = "b[1]"  direction = "in"  />
+        <pitem  name = "b[0]"  direction = "in"  />
+        <pitem  name = "a[4]"  direction = "in"  />
+        <pitem  name = "a[3]"  direction = "in"  />
+        <pitem  name = "a[2]"  direction = "in"  />
+        <pitem  name = "a[1]"  direction = "in"  />
+        <pitem  name = "a[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
         </pins>
 
         <nets>
         <nitem  name = "spi_lcd_inst/en_size"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/pwr"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n213"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n214"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n215"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n216"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n217"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n218"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n219"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n220"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n221"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n222"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n223"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n224"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n225"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n226"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n227"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n228"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n229"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n230"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n231"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n232"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n233"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n234"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n235"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n236"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n237"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n238"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n239"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n240"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n241"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n242"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n243"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n244"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n272"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n273"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n274"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n275"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n276"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n277"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n278"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[4]"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[3]"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[2]"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[1]"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[0]"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n130"  />
+        </nets>
+    </instance>
+
+    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/equal_40"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "b[4]"  direction = "in"  />
+        <pitem  name = "b[3]"  direction = "in"  />
+        <pitem  name = "b[2]"  direction = "in"  />
+        <pitem  name = "b[0]"  direction = "in"  />
+        <pitem  name = "b[1]"  direction = "in"  />
+        <pitem  name = "a[4]"  direction = "in"  />
+        <pitem  name = "a[3]"  direction = "in"  />
+        <pitem  name = "a[2]"  direction = "in"  />
+        <pitem  name = "a[1]"  direction = "in"  />
+        <pitem  name = "a[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "spi_lcd_inst/en_size"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/pwr"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[4]"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[3]"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[2]"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[1]"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[0]"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n131"  />
         </nets>
     </instance>
 
@@ -19128,12 +18599,13 @@
 
         <nets>
         <nitem  name = "spi_lcd_inst/en_size"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/pwr"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[4]"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[3]"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[2]"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[1]"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[0]"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n279"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n132"  />
         </nets>
     </instance>
 
@@ -19141,87 +18613,6 @@
         <pins>
         <pitem  name = "b[4]"  direction = "in"  />
         <pitem  name = "b[3]"  direction = "in"  />
-        <pitem  name = "b[2]"  direction = "in"  />
-        <pitem  name = "b[1]"  direction = "in"  />
-        <pitem  name = "b[0]"  direction = "in"  />
-        <pitem  name = "a[4]"  direction = "in"  />
-        <pitem  name = "a[3]"  direction = "in"  />
-        <pitem  name = "a[2]"  direction = "in"  />
-        <pitem  name = "a[1]"  direction = "in"  />
-        <pitem  name = "a[0]"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "spi_lcd_inst/en_size"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/pwr"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[4]"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[3]"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[2]"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[1]"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[0]"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n280"  />
-        </nets>
-    </instance>
-
-    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/equal_43"  library = "work"  arch = ""  type = "comb">
-        <pins>
-        <pitem  name = "b[4]"  direction = "in"  />
-        <pitem  name = "b[3]"  direction = "in"  />
-        <pitem  name = "b[2]"  direction = "in"  />
-        <pitem  name = "b[0]"  direction = "in"  />
-        <pitem  name = "b[1]"  direction = "in"  />
-        <pitem  name = "a[4]"  direction = "in"  />
-        <pitem  name = "a[3]"  direction = "in"  />
-        <pitem  name = "a[2]"  direction = "in"  />
-        <pitem  name = "a[1]"  direction = "in"  />
-        <pitem  name = "a[0]"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "spi_lcd_inst/en_size"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/pwr"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[4]"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[3]"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[2]"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[1]"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[0]"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n281"  />
-        </nets>
-    </instance>
-
-    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/equal_44"  library = "work"  arch = ""  type = "comb">
-        <pins>
-        <pitem  name = "b[4]"  direction = "in"  />
-        <pitem  name = "b[3]"  direction = "in"  />
-        <pitem  name = "b[2]"  direction = "in"  />
-        <pitem  name = "b[1]"  direction = "in"  />
-        <pitem  name = "b[0]"  direction = "in"  />
-        <pitem  name = "a[4]"  direction = "in"  />
-        <pitem  name = "a[3]"  direction = "in"  />
-        <pitem  name = "a[2]"  direction = "in"  />
-        <pitem  name = "a[1]"  direction = "in"  />
-        <pitem  name = "a[0]"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "spi_lcd_inst/en_size"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/pwr"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[4]"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[3]"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[2]"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[1]"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[0]"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n282"  />
-        </nets>
-    </instance>
-
-    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/equal_45"  library = "work"  arch = ""  type = "comb">
-        <pins>
-        <pitem  name = "b[4]"  direction = "in"  />
-        <pitem  name = "b[3]"  direction = "in"  />
         <pitem  name = "b[1]"  direction = "in"  />
         <pitem  name = "b[0]"  direction = "in"  />
         <pitem  name = "b[2]"  direction = "in"  />
@@ -19241,11 +18632,11 @@
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[2]"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[1]"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num[0]"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n283"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n133"  />
         </nets>
     </instance>
 
-    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/reduce_nor_46"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/reduce_nor_43"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a[4]"  direction = "in"  />
         <pitem  name = "a[3]"  direction = "in"  />
@@ -19256,16 +18647,16 @@
         </pins>
 
         <nets>
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n279"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n280"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n281"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n282"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n283"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n284"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n129"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n130"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n131"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n132"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n133"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n134"  />
         </nets>
     </instance>
 
-    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/select_47"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/select_44"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "data[20]"  direction = "in"  />
         <pitem  name = "data[19]"  direction = "in"  />
@@ -19327,6 +18718,33 @@
         <nets>
         <nitem  name = "spi_lcd_inst/en_size"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/pwr"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n78"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n79"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n80"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n81"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n82"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n83"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n84"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n86"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n87"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n88"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n89"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n90"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n91"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n92"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n104"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n105"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n106"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n107"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n108"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n109"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n110"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n122"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n123"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n124"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n125"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n126"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n127"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n128"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n129"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n130"  />
@@ -19334,33 +18752,6 @@
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n132"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n133"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n134"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n136"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n137"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n138"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n139"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n140"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n141"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n142"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n204"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n205"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n206"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n207"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n208"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n209"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n210"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n272"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n273"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n274"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n275"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n276"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n277"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n278"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n279"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n280"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n281"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n282"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n283"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n284"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/ascii_num_6__N_771[6]"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/ascii_num_6__N_771[5]"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/ascii_num_6__N_771[4]"  />
@@ -19489,7 +18880,7 @@
         </nets>
     </instance>
 
-    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/select_58"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/select_55"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "data[53]"  direction = "in"  />
         <pitem  name = "data[51]"  direction = "in"  />
@@ -19565,12 +18956,12 @@
         <nets>
         <nitem  name = "spi_lcd_inst/en_size"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/pwr"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n279"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n280"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n281"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n282"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n283"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n284"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n129"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n130"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n131"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n132"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n133"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n134"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/start_x_8__N_778[8]"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/start_x_8__N_778[7]"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/start_x_8__N_778[6]"  />
@@ -19705,7 +19096,7 @@
         </nets>
     </instance>
 
-    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/select_69"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "spi_lcd_inst/show_string_number_ctrl_inst/select_66"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "data[53]"  direction = "in"  />
         <pitem  name = "data[52]"  direction = "in"  />
@@ -19781,12 +19172,12 @@
         <nets>
         <nitem  name = "spi_lcd_inst/en_size"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/pwr"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n279"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n280"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n281"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n282"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n283"  />
-        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n284"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n129"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n130"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n131"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n132"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n133"  />
+        <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/n134"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/start_y_8__N_787[8]"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/start_y_8__N_787[7]"  />
         <nitem  name = "spi_lcd_inst/show_string_number_ctrl_inst/start_y_8__N_787[6]"  />
@@ -52772,7 +52163,7 @@
         <reg  name = "spi_lcd_inst/lcd_show_char_inst/data"  />
         <reg  name = "spi_lcd_inst/lcd_show_char_inst/state"  />
         <reg  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt1"  />
-        <reg  name = "spi_lcd_inst/show_string_number_ctrl_inst/show_char_flag_75"  />
+        <reg  name = "spi_lcd_inst/show_string_number_ctrl_inst/show_char_flag_72"  />
         <reg  name = "spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num"  />
         <reg  name = "spi_lcd_inst/show_string_number_ctrl_inst/ascii_num"  />
         <reg  name = "spi_lcd_inst/show_string_number_ctrl_inst/start_x"  />

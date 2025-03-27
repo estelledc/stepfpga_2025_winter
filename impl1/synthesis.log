@@ -5,7 +5,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
-Fri Mar 07 21:25:39 2025
+Fri Mar 07 21:56:58 2025
 
 
 Command Line:  synthesis -f cal_shou_impl1_lattice.synproj -gui 
@@ -119,9 +119,9 @@ INFO - synthesis: e:/idm_download/cal_shou/impl1/source/lcd_init.v(17): compilin
 INFO - synthesis: e:/idm_download/cal_shou/impl1/source/lcd_show_char.v(11): compiling module lcd_show_char. VERI-1018
 INFO - synthesis: e:/idm_download/cal_shou/impl1/source/char_ram.v(6): compiling module char_ram. VERI-1018
 INFO - synthesis: e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(1): compiling module show_string_number_ctrl. VERI-1018
-WARNING - synthesis: e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(93): expression size 32 truncated to fit in target size 7. VERI-1209
-WARNING - synthesis: e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(100): expression size 32 truncated to fit in target size 7. VERI-1209
-WARNING - synthesis: e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(102): expression size 32 truncated to fit in target size 7. VERI-1209
+WARNING - synthesis: e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(93): expression size 16 truncated to fit in target size 7. VERI-1209
+WARNING - synthesis: e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(100): expression size 16 truncated to fit in target size 7. VERI-1209
+WARNING - synthesis: e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(102): expression size 16 truncated to fit in target size 7. VERI-1209
 Loading NGL library 'E:/Diamond_3.13/diamond/3.13/ispfpga/xo2c00a/data/xo2alib.ngl'...
 Loading NGL library 'E:/Diamond_3.13/diamond/3.13/ispfpga/xo2c00/data/xo2clib.ngl'...
 Loading NGL library 'E:/Diamond_3.13/diamond/3.13/ispfpga/mg5g00/data/mg5glib.ngl'...
@@ -371,11 +371,11 @@ FD1S3IX => 75
 FD1S3JX => 3
 GSR => 1
 IB => 3
-L6MUX21 => 100
-LUT4 => 1451
+L6MUX21 => 95
+LUT4 => 1439
 MULT2 => 6
 OB => 6
-PFUMX => 313
+PFUMX => 299
 ROM128X1A => 4
 ################### End Area Report ##################
 
@@ -393,23 +393,23 @@ Number of Clock Enables: 26
 Top 10 highest fanout Clock Enables:
   Net : uart_rx_inst/clk_c_enable_60, loads : 17
   Net : spi_lcd_inst/lcd_show_char_inst/cnt_set_windows_3__N_631, loads : 16
-  Net : spi_lcd_inst/lcd_write_inst/sys_clk_50MHz_enable_77, loads : 15
-  Net : spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_88, loads : 12
-  Net : spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_33, loads : 8
-  Net : spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_39, loads : 8
-  Net : uart_rx_inst/clk_c_enable_52, loads : 8
+  Net : spi_lcd_inst/lcd_write_inst/sys_clk_50MHz_enable_88, loads : 15
+  Net : spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_12, loads : 12
+  Net : spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_44, loads : 8
+  Net : spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_50, loads : 8
+  Net : uart_rx_inst/clk_c_enable_55, loads : 8
   Net : uart_rx_inst/clk_c_enable_41, loads : 8
-  Net : parser_inst/clk_c_enable_42, loads : 8
-  Net : spi_lcd_inst/lcd_init_inst/sys_clk_50MHz_enable_23, loads : 6
+  Net : parser_inst/clk_c_enable_20, loads : 8
+  Net : spi_lcd_inst/lcd_init_inst/sys_clk_50MHz_enable_34, loads : 6
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_3, loads : 504
-  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_0, loads : 497
+  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_0, loads : 495
+  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_3, loads : 494
   Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_4, loads : 447
-  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_2, loads : 407
-  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_1, loads : 382
-  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_5, loads : 284
-  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_6, loads : 150
+  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_2, loads : 397
+  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_1, loads : 369
+  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_5, loads : 286
+  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_6, loads : 151
   Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_7, loads : 79
   Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_8, loads : 40
   Net : parser_inst/operand2_0, loads : 33
@@ -423,7 +423,7 @@ Constraint                              |   Constraint|       Actual|Levels
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
 clk1 [get_nets                          |             |             |
-\spi_lcd_inst/sys_clk_50MHz]            |  200.000 MHz|   67.508 MHz|    11 *
+\spi_lcd_inst/sys_clk_50MHz]            |  200.000 MHz|   66.993 MHz|    12 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
 clk0 [get_nets clk_c]                   |  200.000 MHz|   26.326 MHz|    37 *
@@ -434,8 +434,8 @@ clk0 [get_nets clk_c]                   |  200.000 MHz|   26.326 MHz|    37 *
 2 constraints not met.
 
 
-Peak Memory Usage: 178.207  MB
+Peak Memory Usage: 177.551  MB
 
 --------------------------------------------------------------
-Elapsed CPU time for LSE flow : 2.016  secs
+Elapsed CPU time for LSE flow : 1.547  secs
 --------------------------------------------------------------

@@ -2,12 +2,12 @@
 <BaliProject version="3.2" title="cal_shou" device="LCMXO2-4000HC-4MG132C" default_implementation="impl1">
     <Options/>
     <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="Strategy1">
-        <Options def_top="calculator_top"/>
+        <Options def_top="top"/>
         <Source name="impl1/source/char_ram.v" type="Verilog" type_short="Verilog">
             <Options/>
         </Source>
         <Source name="impl1/source/char_ram_16x32.v" type="Verilog" type_short="Verilog">
-            <Options/>
+            <Options top_module="char_ram_16x32"/>
         </Source>
         <Source name="impl1/source/control.v" type="Verilog" type_short="Verilog">
             <Options/>
@@ -34,9 +34,12 @@
             <Options/>
         </Source>
         <Source name="impl1/source/top.v" type="Verilog" type_short="Verilog">
-            <Options/>
+            <Options top_module="top"/>
         </Source>
         <Source name="impl1/source/uart_rx.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="pll.v" type="Verilog" type_short="Verilog">
             <Options/>
         </Source>
         <Source name="cal_shou.lpf" type="Logic Preference" type_short="LPF">

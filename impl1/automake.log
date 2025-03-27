@@ -7,7 +7,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
-Fri Mar 07 21:25:39 2025
+Fri Mar 07 21:56:58 2025
 
 
 Command Line:  synthesis -f cal_shou_impl1_lattice.synproj -gui 
@@ -122,9 +122,9 @@ Top module name (Verilog): top
     <postMsg mid="35901018" type="Info"    dynamic="2" navigation="2" arg0="e:/idm_download/cal_shou/impl1/source/lcd_show_char.v(11): " arg1="lcd_show_char" arg2="e:/idm_download/cal_shou/impl1/source/lcd_show_char.v" arg3="11"  />
     <postMsg mid="35901018" type="Info"    dynamic="2" navigation="2" arg0="e:/idm_download/cal_shou/impl1/source/char_ram.v(6): " arg1="char_ram" arg2="e:/idm_download/cal_shou/impl1/source/char_ram.v" arg3="6"  />
     <postMsg mid="35901018" type="Info"    dynamic="2" navigation="2" arg0="e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(1): " arg1="show_string_number_ctrl" arg2="e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v" arg3="1"  />
-    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(93): " arg1="32" arg2="7" arg3="e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v" arg4="93"  />
-    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(100): " arg1="32" arg2="7" arg3="e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v" arg4="100"  />
-    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(102): " arg1="32" arg2="7" arg3="e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v" arg4="102"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(93): " arg1="16" arg2="7" arg3="e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v" arg4="93"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(100): " arg1="16" arg2="7" arg3="e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v" arg4="100"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(102): " arg1="16" arg2="7" arg3="e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v" arg4="102"  />
 Last elaborated design is top()
 Loading NGL library 'E:/Diamond_3.13/diamond/3.13/ispfpga/xo2c00a/data/xo2alib.ngl'...
 Loading NGL library 'E:/Diamond_3.13/diamond/3.13/ispfpga/xo2c00/data/xo2clib.ngl'...
@@ -344,7 +344,7 @@ original encoding -> new encoding (one-hot encoding)
     <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="1" arg1="\spi_lcd_inst/show_string_number_ctrl_inst/start_x_"  />
     <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="0" arg1="\spi_lcd_inst/show_string_number_ctrl_inst/start_x_"  />
 SCUBA, Version Diamond (64-bit) 3.13.0.56.2
-Fri Mar 07 21:25:40 2025
+Fri Mar 07 21:57:00 2025
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -393,7 +393,7 @@ Running DRC...
 DRC complete with no errors or warnings
 
 Design Results:
-   2350 blocks expanded
+   2319 blocks expanded
 completed the first expansion
 All blocks are expanded and NGD expansion is successful.
 Writing NGD file cal_shou_impl1.ngd.
@@ -414,11 +414,11 @@ FD1S3IX => 75
 FD1S3JX => 3
 GSR => 1
 IB => 3
-L6MUX21 => 100
-LUT4 => 1451
+L6MUX21 => 95
+LUT4 => 1439
 MULT2 => 6
 OB => 6
-PFUMX => 313
+PFUMX => 299
 ROM128X1A => 4
 ################### End Area Report ##################
 
@@ -436,23 +436,23 @@ Number of Clock Enables: 26
 Top 10 highest fanout Clock Enables:
   Net : uart_rx_inst/clk_c_enable_60, loads : 17
   Net : spi_lcd_inst/lcd_show_char_inst/cnt_set_windows_3__N_631, loads : 16
-  Net : spi_lcd_inst/lcd_write_inst/sys_clk_50MHz_enable_77, loads : 15
-  Net : spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_88, loads : 12
-  Net : spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_33, loads : 8
-  Net : spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_39, loads : 8
-  Net : uart_rx_inst/clk_c_enable_52, loads : 8
+  Net : spi_lcd_inst/lcd_write_inst/sys_clk_50MHz_enable_88, loads : 15
+  Net : spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_12, loads : 12
+  Net : spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_44, loads : 8
+  Net : spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_50, loads : 8
+  Net : uart_rx_inst/clk_c_enable_55, loads : 8
   Net : uart_rx_inst/clk_c_enable_41, loads : 8
-  Net : parser_inst/clk_c_enable_42, loads : 8
-  Net : spi_lcd_inst/lcd_init_inst/sys_clk_50MHz_enable_23, loads : 6
+  Net : parser_inst/clk_c_enable_20, loads : 8
+  Net : spi_lcd_inst/lcd_init_inst/sys_clk_50MHz_enable_34, loads : 6
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_3, loads : 504
-  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_0, loads : 497
+  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_0, loads : 495
+  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_3, loads : 494
   Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_4, loads : 447
-  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_2, loads : 407
-  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_1, loads : 382
-  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_5, loads : 284
-  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_6, loads : 150
+  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_2, loads : 397
+  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_1, loads : 369
+  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_5, loads : 286
+  Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_6, loads : 151
   Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_7, loads : 79
   Net : spi_lcd_inst/lcd_show_char_inst/rom_addr_8, loads : 40
   Net : parser_inst/operand2_0, loads : 33
@@ -466,7 +466,7 @@ Constraint                              |   Constraint|       Actual|Levels
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
 clk1 [get_nets                          |             |             |
-\spi_lcd_inst/sys_clk_50MHz]            |  200.000 MHz|   67.508 MHz|    11 *
+\spi_lcd_inst/sys_clk_50MHz]            |  200.000 MHz|   66.993 MHz|    12 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
 clk0 [get_nets clk_c]                   |  200.000 MHz|   26.326 MHz|    37 *
@@ -477,10 +477,10 @@ clk0 [get_nets clk_c]                   |  200.000 MHz|   26.326 MHz|    37 *
 2 constraints not met.
 
 
-Peak Memory Usage: 178.207  MB
+Peak Memory Usage: 177.551  MB
 
 --------------------------------------------------------------
-Elapsed CPU time for LSE flow : 2.016  secs
+Elapsed CPU time for LSE flow : 1.547  secs
 --------------------------------------------------------------
 
 map -a "MachXO2" -p LCMXO2-4000HC -t CSBGA132 -s 4 -oc Commercial   "cal_shou_impl1.ngd" -o "cal_shou_impl1_map.ncd" -pr "cal_shou_impl1.prf" -mp "cal_shou_impl1.mrp" -lpf "E:/IDM_download/cal_shou/impl1/cal_shou_impl1.lpf" -lpf "E:/IDM_download/cal_shou/cal_shou.lpf"  -c 0           
@@ -520,12 +520,12 @@ Design Summary:
    Number of registers:    300 out of  4635 (6%)
       PFU registers:          300 out of  4320 (7%)
       PIO registers:            0 out of   315 (0%)
-   Number of SLICEs:       916 out of  2160 (42%)
-      SLICEs as Logic/ROM:    916 out of  2160 (42%)
+   Number of SLICEs:       908 out of  2160 (42%)
+      SLICEs as Logic/ROM:    908 out of  2160 (42%)
       SLICEs as RAM:            0 out of  1620 (0%)
       SLICEs as Carry:        164 out of  2160 (8%)
-   Number of LUT4s:        1818 out of  4320 (42%)
-      Number used as logic LUTs:        1490
+   Number of LUT4s:        1801 out of  4320 (42%)
+      Number used as logic LUTs:        1473
       Number used as distributed RAM:     0
       Number used as ripple logic:      328
       Number used as shift registers:     0
@@ -553,81 +553,81 @@ Design Summary:
       1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
       2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
    Number of clocks:  2
-     Net clk_c: 55 loads, 55 rising, 0 falling (Driver: PIO clk )
-     Net spi_lcd_inst/sys_clk_50MHz: 134 loads, 134 rising, 0 falling (Driver: spi_lcd_inst/pll_u1/PLLInst_0 )
+     Net clk_c: 54 loads, 54 rising, 0 falling (Driver: PIO clk )
+     Net spi_lcd_inst/sys_clk_50MHz: 131 loads, 131 rising, 0 falling (Driver: spi_lcd_inst/pll_u1/PLLInst_0 )
    Number of Clock Enables:  26
-     Net clk_c_enable_13: 4 loads, 4 LSLICEs
-     Net sys_clk_50MHz_enable_6: 2 loads, 2 LSLICEs
-     Net sys_clk_50MHz_enable_26: 2 loads, 2 LSLICEs
-     Net clk_c_enable_20: 5 loads, 5 LSLICEs
-     Net sys_clk_50MHz_enable_56: 10 loads, 10 LSLICEs
+     Net clk_c_enable_31: 4 loads, 4 LSLICEs
+     Net sys_clk_50MHz_enable_17: 2 loads, 2 LSLICEs
+     Net state_5: 5 loads, 5 LSLICEs
+     Net sys_clk_50MHz_enable_73: 1 loads, 1 LSLICEs
+     Net sys_clk_50MHz_enable_67: 10 loads, 10 LSLICEs
+     Net sys_clk_50MHz_enable_37: 2 loads, 2 LSLICEs
      Net cmd_valid: 4 loads, 4 LSLICEs
-     Net state_5: 6 loads, 6 LSLICEs
-     Net sys_clk_50MHz_enable_62: 1 loads, 1 LSLICEs
-     Net spi_lcd_inst/show_string_number_ctrl_inst/sys_clk_50MHz_enable_17: 4 loads, 4 LSLICEs
-     Net spi_lcd_inst/lcd_write_inst/sys_clk_50MHz_enable_77: 8 loads, 8 LSLICEs
-     Net spi_lcd_inst/lcd_write_inst/sys_clk_50MHz_enable_8: 1 loads, 1 LSLICEs
-     Net spi_lcd_inst/lcd_write_inst/sys_clk_50MHz_enable_11: 1 loads, 1 LSLICEs
-     Net spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_88: 6 loads, 6 LSLICEs
-     Net spi_lcd_inst/lcd_show_char_inst/cnt_set_windows_3__N_631: 8 loads, 8 LSLICEs
-     Net spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_39: 5 loads, 5 LSLICEs
-     Net spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_33: 5 loads, 5 LSLICEs
-     Net spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_61: 3 loads, 3 LSLICEs
-     Net spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_29: 1 loads, 1 LSLICEs
-     Net spi_lcd_inst/lcd_init_inst/sys_clk_50MHz_enable_2: 1 loads, 1 LSLICEs
+     Net clk_c_enable_42: 4 loads, 4 LSLICEs
+     Net spi_lcd_inst/show_string_number_ctrl_inst/sys_clk_50MHz_enable_28: 3 loads, 3 LSLICEs
+     Net spi_lcd_inst/lcd_write_inst/sys_clk_50MHz_enable_88: 8 loads, 8 LSLICEs
+     Net spi_lcd_inst/lcd_write_inst/sys_clk_50MHz_enable_19: 1 loads, 1 LSLICEs
+     Net spi_lcd_inst/lcd_write_inst/sys_clk_50MHz_enable_22: 1 loads, 1 LSLICEs
+     Net spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_12: 6 loads, 6 LSLICEs
+     Net spi_lcd_inst/lcd_show_char_inst/cnt_set_windows_3__N_631: 9 loads, 9 LSLICEs
+     Net spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_50: 5 loads, 5 LSLICEs
+     Net spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_72: 3 loads, 3 LSLICEs
+     Net spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_44: 5 loads, 5 LSLICEs
+     Net spi_lcd_inst/lcd_show_char_inst/sys_clk_50MHz_enable_40: 1 loads, 1 LSLICEs
+     Net spi_lcd_inst/lcd_init_inst/sys_clk_50MHz_enable_13: 1 loads, 1 LSLICEs
      Net spi_lcd_inst/lcd_init_inst/lcd_rst_high_flag: 1 loads, 1 LSLICEs
-     Net spi_lcd_inst/lcd_init_inst/sys_clk_50MHz_enable_23: 3 loads, 3 LSLICEs
-     Net parser_inst/clk_c_enable_42: 4 loads, 4 LSLICEs
+     Net spi_lcd_inst/lcd_init_inst/sys_clk_50MHz_enable_34: 3 loads, 3 LSLICEs
+     Net parser_inst/clk_c_enable_20: 4 loads, 4 LSLICEs
      Net uart_rx_inst/clk_c_enable_41: 4 loads, 4 LSLICEs
-     Net uart_rx_inst/clk_c_enable_52: 4 loads, 4 LSLICEs
+     Net uart_rx_inst/clk_c_enable_55: 4 loads, 4 LSLICEs
      Net uart_rx_inst/clk_c_enable_60: 9 loads, 9 LSLICEs
      Net uart_rx_inst/clk_c_enable_59: 2 loads, 2 LSLICEs
    Number of LSRs:  33
      Net state_0: 1 loads, 1 LSLICEs
-     Net state_2_adj_1079: 1 loads, 1 LSLICEs
+     Net state_2_adj_1060: 1 loads, 1 LSLICEs
      Net length_num_flag: 3 loads, 3 LSLICEs
-     Net state_2: 1 loads, 1 LSLICEs
-     Net n14501: 1 loads, 1 LSLICEs
-     Net wr_done: 2 loads, 2 LSLICEs
-     Net state_4: 10 loads, 10 LSLICEs
      Net state_5: 1 loads, 1 LSLICEs
      Net state_3_N_615_1: 2 loads, 2 LSLICEs
-     Net spi_lcd_inst/show_string_number_ctrl_inst/n16993: 2 loads, 2 LSLICEs
-     Net spi_lcd_inst/show_string_number_ctrl_inst/n2147: 6 loads, 6 LSLICEs
-     Net spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num_4__N_770: 5 loads, 5 LSLICEs
+     Net wr_done: 2 loads, 2 LSLICEs
+     Net state_4: 10 loads, 10 LSLICEs
+     Net state_2: 1 loads, 1 LSLICEs
+     Net n14290: 1 loads, 1 LSLICEs
+     Net spi_lcd_inst/show_string_number_ctrl_inst/n16783: 2 loads, 2 LSLICEs
+     Net spi_lcd_inst/show_string_number_ctrl_inst/n2151: 5 loads, 5 LSLICEs
+     Net spi_lcd_inst/show_string_number_ctrl_inst/cnt_ascii_num_4__N_770: 4 loads, 4 LSLICEs
      Net spi_lcd_inst/show_string_number_ctrl_inst/n747: 1 loads, 1 LSLICEs
-     Net spi_lcd_inst/show_string_number_ctrl_inst/n7085: 1 loads, 1 LSLICEs
+     Net spi_lcd_inst/show_string_number_ctrl_inst/n7012: 1 loads, 1 LSLICEs
      Net spi_lcd_inst/state_3: 1 loads, 1 LSLICEs
      Net spi_lcd_inst/lcd_write_inst/state_0: 1 loads, 1 LSLICEs
      Net spi_lcd_inst/lcd_write_inst/state_3: 1 loads, 1 LSLICEs
-     Net spi_lcd_inst/lcd_write_inst/n17064: 3 loads, 3 LSLICEs
-     Net spi_lcd_inst/lcd_write_inst/state_1: 9 loads, 9 LSLICEs
+     Net spi_lcd_inst/lcd_write_inst/n16839: 3 loads, 3 LSLICEs
      Net spi_lcd_inst/lcd_write_inst/mosi_N_310: 1 loads, 1 LSLICEs
-     Net spi_lcd_inst/lcd_write_inst/n8387: 3 loads, 3 LSLICEs
+     Net spi_lcd_inst/lcd_write_inst/state_1: 9 loads, 9 LSLICEs
+     Net spi_lcd_inst/lcd_write_inst/n8292: 3 loads, 3 LSLICEs
      Net spi_lcd_inst/lcd_show_char_inst/cnt_wr_color_data_5__N_688: 4 loads, 4 LSLICEs
-     Net spi_lcd_inst/lcd_show_char_inst/n8393: 1 loads, 1 LSLICEs
-     Net spi_lcd_inst/lcd_show_char_inst/n8365: 1 loads, 1 LSLICEs
      Net spi_lcd_inst/lcd_show_char_inst/cnt_length_num_6__N_679: 4 loads, 4 LSLICEs
-     Net spi_lcd_inst/lcd_show_char_inst/n7098: 1 loads, 1 LSLICEs
-     Net spi_lcd_inst/state_2_adj_1075: 4 loads, 4 LSLICEs
+     Net spi_lcd_inst/lcd_show_char_inst/n8298: 1 loads, 1 LSLICEs
+     Net spi_lcd_inst/lcd_show_char_inst/n8270: 1 loads, 1 LSLICEs
+     Net spi_lcd_inst/lcd_show_char_inst/n7023: 1 loads, 1 LSLICEs
+     Net spi_lcd_inst/lcd_init_inst/state_2: 4 loads, 4 LSLICEs
      Net spi_lcd_inst/lcd_init_inst/state_0: 1 loads, 1 LSLICEs
      Net spi_lcd_inst/lcd_init_inst/cnt_150ms_22__N_466: 12 loads, 12 LSLICEs
      Net uart_rx_inst/rx_d1: 1 loads, 1 LSLICEs
-     Net uart_rx_inst/n8371: 8 loads, 8 LSLICEs
-     Net uart_rx_inst/n8384: 2 loads, 2 LSLICEs
+     Net uart_rx_inst/n8276: 8 loads, 8 LSLICEs
+     Net uart_rx_inst/n8289: 2 loads, 2 LSLICEs
      Net uart_rx_inst/n1080: 11 loads, 11 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net spi_lcd_inst/lcd_show_char_inst/rom_addr_3: 505 loads
-     Net spi_lcd_inst/lcd_show_char_inst/rom_addr_0: 497 loads
-     Net spi_lcd_inst/lcd_show_char_inst/rom_addr_4: 448 loads
-     Net spi_lcd_inst/lcd_show_char_inst/rom_addr_2: 407 loads
-     Net spi_lcd_inst/lcd_show_char_inst/rom_addr_1: 382 loads
-     Net spi_lcd_inst/lcd_show_char_inst/rom_addr_5: 284 loads
-     Net spi_lcd_inst/lcd_show_char_inst/rom_addr_6: 150 loads
+     Net spi_lcd_inst/lcd_show_char_inst/rom_addr_0: 495 loads
+     Net spi_lcd_inst/lcd_show_char_inst/rom_addr_3: 494 loads
+     Net spi_lcd_inst/lcd_show_char_inst/rom_addr_4: 447 loads
+     Net spi_lcd_inst/lcd_show_char_inst/rom_addr_2: 398 loads
+     Net spi_lcd_inst/lcd_show_char_inst/rom_addr_1: 370 loads
+     Net spi_lcd_inst/lcd_show_char_inst/rom_addr_5: 286 loads
+     Net spi_lcd_inst/lcd_show_char_inst/rom_addr_6: 151 loads
      Net spi_lcd_inst/lcd_show_char_inst/rom_addr_7: 79 loads
      Net spi_lcd_inst/lcd_show_char_inst/rom_addr_8: 40 loads
-     Net cnt_s2_num_2: 39 loads
+     Net cnt_s2_num_1: 39 loads
  
 
    Number of warnings:  0
@@ -637,117 +637,13 @@ Design Summary:
 
 Total CPU Time: 0 secs  
 Total REAL Time: 0 secs  
-Peak Memory Usage: 67 MB
+Peak Memory Usage: 68 MB
 
 Dumping design to file cal_shou_impl1_map.ncd.
 
 ncd2vdb "cal_shou_impl1_map.ncd" ".vdbs/cal_shou_impl1_map.vdb"
 
 Loading device for application ncd2vdb from file 'xo2c4000.nph' in environment: E:/Diamond_3.13/diamond/3.13/ispfpga.
-
-trce -f "cal_shou_impl1.mt" -o "cal_shou_impl1.tw1" "cal_shou_impl1_map.ncd" "cal_shou_impl1.prf"
-trce:  version Diamond (64-bit) 3.13.0.56.2
-
-Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
-Copyright (c) 1995 AT&T Corp.   All rights reserved.
-Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
-Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
-
-Loading design for application trce from file cal_shou_impl1_map.ncd.
-Design name: top
-NCD version: 3.3
-Vendor:      LATTICE
-Device:      LCMXO2-4000HC
-Package:     CSBGA132
-Performance: 4
-Loading device for application trce from file 'xo2c4000.nph' in environment: E:/Diamond_3.13/diamond/3.13/ispfpga.
-Package Status:                     Final          Version 1.44.
-Performance Hardware Data Status:   Final          Version 34.4.
-Setup and Hold Report
-
---------------------------------------------------------------------------------
-Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.13.0.56.2
-Fri Mar 07 21:25:45 2025
-
-Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
-Copyright (c) 1995 AT&T Corp.   All rights reserved.
-Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
-Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
-
-Report Information
-------------------
-Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o cal_shou_impl1.tw1 -gui cal_shou_impl1_map.ncd cal_shou_impl1.prf 
-Design file:     cal_shou_impl1_map.ncd
-Preference file: cal_shou_impl1.prf
-Device,speed:    LCMXO2-4000HC,4
-Report level:    verbose report, limited to 1 item per preference
---------------------------------------------------------------------------------
-
-BLOCK ASYNCPATHS
-BLOCK RESETPATHS
---------------------------------------------------------------------------------
-
-
-
-Timing summary (Setup):
----------------
-
-Timing errors: 0  Score: 0
-Cumulative negative slack: 0
-
-Constraints cover 2147483647 paths, 2 nets, and 7144 connections (97.88% coverage)
-
---------------------------------------------------------------------------------
-Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.13.0.56.2
-Fri Mar 07 21:25:45 2025
-
-Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
-Copyright (c) 1995 AT&T Corp.   All rights reserved.
-Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
-Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
-
-Report Information
-------------------
-Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o cal_shou_impl1.tw1 -gui cal_shou_impl1_map.ncd cal_shou_impl1.prf 
-Design file:     cal_shou_impl1_map.ncd
-Preference file: cal_shou_impl1.prf
-Device,speed:    LCMXO2-4000HC,M
-Report level:    verbose report, limited to 1 item per preference
---------------------------------------------------------------------------------
-
-BLOCK ASYNCPATHS
-BLOCK RESETPATHS
---------------------------------------------------------------------------------
-
-
-
-Timing summary (Hold):
----------------
-
-Timing errors: 0  Score: 0
-Cumulative negative slack: 0
-
-Constraints cover 2147483647 paths, 2 nets, and 7292 connections (99.90% coverage)
-
-
-
-Timing summary (Setup and Hold):
----------------
-
-Timing errors: 0 (setup), 0 (hold)
-Score: 0 (setup), 0 (hold)
-Cumulative negative slack: 0 (0+0)
---------------------------------------------------------------------------------
-
---------------------------------------------------------------------------------
-
-Total CPU Time: 0 secs 
-Total REAL Time: 0 secs 
-Peak Memory Usage: 73 MB
-
 
 mpartrce -p "cal_shou_impl1.p2t" -f "cal_shou_impl1.p3t" -tf "cal_shou_impl1.pt" "cal_shou_impl1_map.ncd" "cal_shou_impl1.ncd"
 
@@ -756,7 +652,7 @@ Removing old design directory at request of -rem command line option to this pro
 Running par. Please wait . . .
 
 Lattice Place and Route Report for Design "cal_shou_impl1_map.ncd"
-Fri Mar 07 21:25:45 2025
+Fri Mar 07 21:57:04 2025
 
 PAR: Place And Route Diamond (64-bit) 3.13.0.56.2.
 Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF:parASE=1 cal_shou_impl1_map.ncd cal_shou_impl1.dir/5_1.ncd cal_shou_impl1.prf
@@ -783,15 +679,407 @@ Device utilization summary:
    PIO (prelim)    9+4(JTAG)/280     5% used
                    9+4(JTAG)/105     12% bonded
 
-   SLICE            916/2160         42% used
+   SLICE            908/2160         42% used
 
    GSR                1/1           100% used
    PLL                1/2            50% used
 
 
-Number of Signals: 1997
-Number of Connections: 7299
+Number of Signals: 1984
+Number of Connections: 7213
 
 Pin Constraint Summary:
    9 out of 9 pins locked (100% locked).
 
+The following 2 signals are selected to use the primary clock routing resources:
+    spi_lcd_inst/sys_clk_50MHz (driver: spi_lcd_inst/pll_u1/PLLInst_0, clk load #: 130)
+    clk_c (driver: clk, clk load #: 54)
+
+    <postMsg mid="61061008" type="Warning" dynamic="5" navigation="0" arg0="clk_c" arg1="Primary" arg2="clk" arg3="C1" arg4="Primary"  />
+
+The following 4 signals are selected to use the secondary clock routing resources:
+    spi_lcd_inst/lcd_init_inst/cnt_150ms_22__N_466 (driver: spi_lcd_inst/SLICE_303, clk load #: 0, sr load #: 12, ce load #: 0)
+    uart_rx_inst/n1080 (driver: uart_rx_inst/SLICE_915, clk load #: 0, sr load #: 11, ce load #: 0)
+    state_4 (driver: spi_lcd_inst/SLICE_285, clk load #: 0, sr load #: 10, ce load #: 0)
+    sys_clk_50MHz_enable_67 (driver: SLICE_918, clk load #: 0, sr load #: 0, ce load #: 10)
+
+Signal rst_n_c is selected as Global Set/Reset.
+Starting Placer Phase 0.
+..........
+Finished Placer Phase 0.  REAL time: 2 secs 
+
+Starting Placer Phase 1.
+.......................
+Placer score = 357366.
+Finished Placer Phase 1.  REAL time: 6 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  353385
+Finished Placer Phase 2.  REAL time: 6 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  General PIO: 1 out of 280 (0%)
+  PLL        : 1 out of 2 (50%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Global Clocks:
+  PRIMARY "spi_lcd_inst/sys_clk_50MHz" from CLKOP on comp "spi_lcd_inst/pll_u1/PLLInst_0" on PLL site "LPLL", clk load = 130
+  PRIMARY "clk_c" from comp "clk" on PIO site "C1 (PL4A)", clk load = 54
+  SECONDARY "spi_lcd_inst/lcd_init_inst/cnt_150ms_22__N_466" from F0 on comp "spi_lcd_inst/SLICE_303" on site "R12C17C", clk load = 0, ce load = 0, sr load = 12
+  SECONDARY "uart_rx_inst/n1080" from F1 on comp "uart_rx_inst/SLICE_915" on site "R12C17A", clk load = 0, ce load = 0, sr load = 11
+  SECONDARY "state_4" from Q1 on comp "spi_lcd_inst/SLICE_285" on site "R12C17B", clk load = 0, ce load = 0, sr load = 10
+  SECONDARY "sys_clk_50MHz_enable_67" from F0 on comp "SLICE_918" on site "R12C17D", clk load = 0, ce load = 10, sr load = 0
+
+  PRIMARY  : 2 out of 8 (25%)
+  SECONDARY: 4 out of 8 (50%)
+
+Edge Clocks:
+  No edge clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   9 + 4(JTAG) out of 280 (4.6%) PIO sites used.
+   9 + 4(JTAG) out of 105 (12.4%) bonded PIO sites used.
+   Number of PIO comps: 9; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+---------------+------------+-----------+
+| I/O Bank | Usage         | Bank Vccio | Bank Vref |
++----------+---------------+------------+-----------+
+| 0        | 1 / 26 (  3%) | 3.3V       | -         |
+| 1        | 2 / 26 (  7%) | 3.3V       | -         |
+| 2        | 5 / 28 ( 17%) | 3.3V       | -         |
+| 3        | 0 / 7 (  0%)  | -          | -         |
+| 4        | 0 / 8 (  0%)  | -          | -         |
+| 5        | 1 / 10 ( 10%) | 3.3V       | -         |
++----------+---------------+------------+-----------+
+
+Total placer CPU time: 4 secs 
+
+Dumping design to file cal_shou_impl1.dir/5_1.ncd.
+
+0 connections routed; 7213 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 8 secs 
+
+Start NBR router at 21:57:12 03/07/25
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 21:57:12 03/07/25
+
+Start NBR section for initial routing at 21:57:13 03/07/25
+Level 1, iteration 1
+1(0.00%) conflict; 6417(88.96%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.808ns/0.000ns; real time: 9 secs 
+Level 2, iteration 1
+1(0.00%) conflict; 6399(88.71%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 2.246ns/0.000ns; real time: 9 secs 
+Level 3, iteration 1
+1(0.00%) conflict; 6083(84.33%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 4.239ns/0.000ns; real time: 10 secs 
+Level 4, iteration 1
+265(0.11%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 4.114ns/0.000ns; real time: 11 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 21:57:15 03/07/25
+Level 1, iteration 1
+0(0.00%) conflict; 351(4.87%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 4.114ns/0.000ns; real time: 11 secs 
+Level 1, iteration 2
+1(0.00%) conflict; 350(4.85%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 4.114ns/0.000ns; real time: 12 secs 
+Level 4, iteration 1
+94(0.04%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 4.106ns/0.000ns; real time: 12 secs 
+Level 4, iteration 2
+37(0.02%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 4.106ns/0.000ns; real time: 12 secs 
+Level 4, iteration 3
+7(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 4.106ns/0.000ns; real time: 13 secs 
+Level 4, iteration 4
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 4.106ns/0.000ns; real time: 13 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 21:57:17 03/07/25
+
+Start NBR section for re-routing at 21:57:17 03/07/25
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 4.106ns/0.000ns; real time: 13 secs 
+
+Start NBR section for post-routing at 21:57:17 03/07/25
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 4.106ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 7 secs 
+Total REAL time: 15 secs 
+Completely routed.
+End of route.  7213 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file cal_shou_impl1.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = Completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 4.106
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.304
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 7 secs 
+Total REAL time to completion: 16 secs 
+
+par done!
+
+Note: user must run 'Trace' for timing closure signoff.
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+trce -f "cal_shou_impl1.pt" -o "cal_shou_impl1.twr" "cal_shou_impl1.ncd" "cal_shou_impl1.prf"
+trce:  version Diamond (64-bit) 3.13.0.56.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+Loading design for application trce from file cal_shou_impl1.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: 4
+Loading device for application trce from file 'xo2c4000.nph' in environment: E:/Diamond_3.13/diamond/3.13/ispfpga.
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.13.0.56.2
+Fri Mar 07 21:57:20 2025
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 4 -sphld m -o cal_shou_impl1.twr -gui cal_shou_impl1.ncd cal_shou_impl1.prf 
+Design file:     cal_shou_impl1.ncd
+Preference file: cal_shou_impl1.prf
+Device,speed:    LCMXO2-4000HC,4
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 2147483647 paths, 2 nets, and 7206 connections (99.90% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.13.0.56.2
+Fri Mar 07 21:57:20 2025
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 4 -sphld m -o cal_shou_impl1.twr -gui cal_shou_impl1.ncd cal_shou_impl1.prf 
+Design file:     cal_shou_impl1.ncd
+Preference file: cal_shou_impl1.prf
+Device,speed:    LCMXO2-4000HC,m
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 2147483647 paths, 2 nets, and 7206 connections (99.90% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Total CPU Time: 0 secs 
+Total REAL Time: 0 secs 
+Peak Memory Usage: 75 MB
+
+
+tmcheck -par "cal_shou_impl1.par" 
+
+bitgen -f "cal_shou_impl1.t2b" -w "cal_shou_impl1.ncd"  -jedec "cal_shou_impl1.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.13.0.56.2
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file cal_shou_impl1.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: 4
+Loading device for application Bitgen from file 'xo2c4000.nph' in environment: E:/Diamond_3.13/diamond/3.13/ispfpga.
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from cal_shou_impl1.prf.
+    <postMsg mid="1009992" type="Info"    dynamic="1" navigation="0" arg0=" SW_XO3D_SECURITY_ENCRYPTION *NOT* controlled by xo2c00.acd ###"  />
+    <postMsg mid="1009992" type="Info"    dynamic="1" navigation="0" arg0=" SW_XO3D_SECURITY_ENCRYPTION license_securityIP OK"  />
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                         2.08**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                           ON**  |
++---------------------------------+---------------------------------+
+|                      JTAG_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                       SDM_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                       I2C_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|        MUX_CONFIGURATION_PORTS  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  CONFIGURATION  |                          CFG**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                           ON**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 ENABLE_TRANSFR  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  SHAREDEBRINIT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 1.95.
+ 
+Saving bit stream in "cal_shou_impl1.jed".
+ 
+===========
+UFM Summary.
+===========
+UFM Size:        767 Pages (128*767 Bits).
+UFM Utilization: General Purpose Flash Memory.
+ 
+Available General Purpose Flash Memory:  767 Pages (Page 0 to Page 766).
+Initialized UFM Pages:                     0 Page.
+ 
+=========
+Padding summary
+=========
+Padded 562048 bits for this design
+
+
+Total CPU Time: 0 secs 
+Total REAL Time: 0 secs 
+Peak Memory Usage: 285 MB
