@@ -141,7 +141,7 @@
             <ID>35901209</ID>
             <Severity>Warning</Severity>
             <Dynamic>e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(93): </Dynamic>
-            <Dynamic>16</Dynamic>
+            <Dynamic>32</Dynamic>
             <Dynamic>7</Dynamic>
             <Navigation>e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v</Navigation>
             <Navigation>93</Navigation>
@@ -150,7 +150,7 @@
             <ID>35901209</ID>
             <Severity>Warning</Severity>
             <Dynamic>e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v(100): </Dynamic>
-            <Dynamic>16</Dynamic>
+            <Dynamic>32</Dynamic>
             <Dynamic>7</Dynamic>
             <Navigation>e:/idm_download/cal_shou/impl1/source/show_string_number_ctrl.v</Navigation>
             <Navigation>100</Navigation>
